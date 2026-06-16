@@ -1,0 +1,9 @@
+# Local KiCad history and recovery files
+.history/
+_restore_backup_*/
+
+# KiCad lock files
+*.lck
+
+# Local caches
+fp-info-cache
