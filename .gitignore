@@ -7,3 +7,7 @@ _restore_backup_*/
 
 # Local caches
 fp-info-cache
+
+# Local tool config and generated fabrication output
+.claude/
+jlcpcb/

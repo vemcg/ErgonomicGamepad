@@ -41,17 +41,47 @@ ErgonomicGamepad/
 
 ## Current Status
 
-✅ **Schematic**: Complete with electrical rule check (ERC) passing  
-✅ **Footprints**: All components assigned production-grade footprints  
+🟨 **Schematic**: Component-complete. RESET net fixed (see below); MISO/SCK/MOSI on the ISP header still need a deliberate pass. See "Known Issues" below  
+🟦 **Vendor**: JLCPCB selected for fabrication/assembly, sourcing parts via its LCSC catalog  
+✅ **Footprints**: 82 of 83 components assigned. SW1–SW24 → `Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u` (Kailh CPG151101S11 / LCSC C2803348, via the [kiswitch](https://github.com/kiswitch/kiswitch) footprint library). J1 → `Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12` (HRO TYPE-C-31-M-12 / LCSC C165948, stock KiCad footprint). R1–R7 → `Resistor_SMD:R_0603_1608Metric`. C1–C5 → `Capacitor_SMD:C_0603_1608Metric`. D25/D26 → `LED_SMD:LED_0603_1608Metric`. TP1–TP7 → `TestPoint:TestPoint_Pad_D1.5mm`. J2/J3/J4/J6 → `PinHeader_1x08_P2.54mm_Vertical`. J7 → `PinHeader_1x02_P2.54mm_Vertical`. J5 → `PinHeader_2x03_P2.54mm_Vertical` (matches the ANAVI Macro Pad 8 reference design). JP1 → `SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm`. Y1 → `Crystal_SMD_3225-4Pin_3.2x2.5mm` (also matches ANAVI reference). Only SWR1 (reset switch) remains — target part is TS24CA (SHOU HAN, LCSC/JLCPCB C393942), footprint still needs sourcing from the datasheet or KiCad's JLCPCB Tools plugin  
 🟨 **PCB Layout**: Scaffold created, ready for board layout  
 🟨 **Firmware**: Not yet started (placeholder for future development)  
+
+### Known Issues
+
+- **RESET net — fixed.** SWR1, J5 pin 5 (physical `~RST`), and U1 pin 13 (`~RESET`) now all share one "RESET" net. J5 pin 4 (physical MOSI, previously mislabeled "RESET") is now explicitly `no_connect` rather than silently wrong.
+- **ISP MISO/SCK/MOSI still not wired to U1's real SPI pins.** Full current matrix/SPI pin map, verified directly against the schematic:
+
+  | Signal | Pin | Port |
+  |---|---|---|
+  | ROW1–ROW4 | PB6, PB5, PB4, PB3 | B |
+  | COL1–COL3 | PF4, PF1, PF0 | F |
+  | COL4–COL6 | PD2, PD1, PD0 | D |
+  | Nets literally named "SCK"/"MOSI"/"MISO" | PF7, PF6, PF5 | F |
+  | **PB1, PB2 (the chip's actual hardware SPI pins)** | — | **unused, `no_connect`** |
+
+  The nets named "SCK"/"MOSI"/"MISO" are **not** on the ATmega32U4's real hardware SPI pins (fixed in silicon as PB1/PB2/PB3) — they're a red herring on PF5–7 that can't make ISP programming work regardless of how J5 is wired. The pins ISP actually needs (PB1/PB2/PB3) are currently free of any matrix duty.
+- **Reset switch (TS24CA/SWR1) is a side-actuated part meant for a board-edge cutout near J1**, so it's reachable without opening the case — footprint still pending real pad dimensions.
+
+### Next Step (planned, not yet done)
+
+Re-layout the matrix pin assignments to resolve the ISP wiring issue above, consolidating each signal group onto one port for simpler firmware (single-port scan instead of bits scattered across three ports):
+
+| Signal | Planned pin | Port |
+|---|---|---|
+| ROW1–4 | 4 of PF0/PF1/PF4/PF5/PF6/PF7 | F (moved off Port B) |
+| COL1–6 | PD0–PD7 (6 of 8) | D (consolidated from split PF/PD) |
+| ISP SCK/MOSI/MISO | PB1/PB2/PB3 | B (already free — just needs wiring to J5) |
+
+This touches all 10 row/column nets across the 24-switch matrix — a bigger change than the RESET fix, so it's being done as its own deliberate pass rather than folded into this commit. The stray "SCK"/"MOSI"/"MISO" labels currently on PF5–7 will be removed as part of this work since they don't reflect real hardware SPI wiring.
 
 ### Latest Changes
 
 - Initial project commit with verified USB power path
 - ATmega32U4 microcontroller integration
 - 24-switch matrix with anti-ghosting support
-- All connector and component footprints assigned
+- 82 of 83 component footprints assigned (JLCPCB/LCSC-sourced parts); SWR1 pending
+- Discovered and documented ISP header wiring defect (see Known Issues)
 - Project-wide `.gitignore` rules for KiCad local history
 
 ## Getting Started
