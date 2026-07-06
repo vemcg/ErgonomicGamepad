@@ -4428,10 +4428,6 @@
 		(uuid "78578cf2-faa4-4677-a99f-0349366e8818")
 	)
 	(no_connect
-		(at 109.22 43.18)
-		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
-	)
-	(no_connect
 		(at 114.3 127)
 		(uuid "9e5604f1-286d-4c0a-a4c9-fbcbc072ba50")
 	)
@@ -5241,6 +5237,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6f8b03-735c-4ae5-8c88-32ffb5b4e49f")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 109.22 48.26)
 		)
 		(stroke
@@ -5653,7 +5659,7 @@
 		)
 		(uuid "2e788407-32c2-4ddb-a950-d027555db25d")
 	)
-	(label "RESET"
+	(label "MOSI"
 		(at 106.68 48.26 180)
 		(effects
 			(font
@@ -5662,6 +5668,16 @@
 			(justify right bottom)
 		)
 		(uuid "333fcc7f-7ad0-481d-907d-476535d7cf4d")
+	)
+	(label "RESET"
+		(at 106.68 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
 	)
 	(label "COL1"
 		(at 114.3 147.32 0)
