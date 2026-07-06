@@ -63,6 +63,31 @@ ErgonomicGamepad/
   The nets named "SCK"/"MOSI"/"MISO" are **not** on the ATmega32U4's real hardware SPI pins (fixed in silicon as PB1/PB2/PB3) — they're a red herring on PF5–7 that can't make ISP programming work regardless of how J5 is wired. The pins ISP actually needs (PB1/PB2/PB3) are currently free of any matrix duty.
 - **Reset switch (TS24CA/SWR1) is a side-actuated part meant for a board-edge cutout near J1**, so it's reachable without opening the case — footprint still pending real pad dimensions.
 
+### Verification Checklist
+
+A simple, repeatable walkthrough to confirm nothing's silently broken or unmapped. Run this top to bottom any time you've lost track of where things stand — each step should turn up only the *known* issues listed above; anything new is a regression to chase down.
+
+1. **Open the project**
+   - [ ] KiCad → File → Open Project → `ErgonomicGamepad.kicad_pro`
+
+2. **Schematic check**
+   - [ ] Open `ErgonomicGamepad.kicad_sch`
+   - [ ] Run **Inspect → Electrical Rules Checker (ERC)**
+   - [ ] Confirm the only flagged items are the known ones (ISP SCK/MOSI/MISO on PF5–7 not on real SPI pins; SWR1 footprint not yet assigned). Anything else = new problem.
+
+3. **Sync schematic → PCB**
+   - [ ] Tools → Update PCB from Schematic
+   - [ ] Confirm it completes with no unexpected footprint mismatches. SWR1 should be the *only* component still missing a footprint.
+
+4. **PCB layout check**
+   - [ ] Open `ErgonomicGamepad.kicad_pcb`
+   - [ ] Run **Inspect → Design Rules Checker (DRC)**
+   - [ ] Unrouted nets are expected right now (layout hasn't started) — just confirm the count matches what you'd expect (all nets, since nothing's routed yet), not something smaller/larger that hints at a missing connection.
+
+5. **Sanity-check the pin map**
+   - [ ] Compare real net/pin names in the schematic against the tables in "Known Issues" and "Next Step" above.
+   - [ ] If they've diverged, update this README first before trusting it for the next step.
+
 ### Next Step (planned, not yet done)
 
 Re-layout the matrix pin assignments to resolve the ISP wiring issue above, consolidating each signal group onto one port for simpler firmware (single-port scan instead of bits scattered across three ports):
