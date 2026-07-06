@@ -4393,14 +4393,8 @@
 		(at 40.64 167.64)
 		(uuid "15c480dd-6092-4498-93ed-22d2e7a7a766")
 	)
-	(label "ROW1"
-		(at 114.3 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
+	(no_connect
+		(at 114.3 119.38)
 		(uuid "1d3c717b-55e2-4123-812d-e1b5ed0a2feb")
 	)
 	(no_connect
@@ -4419,7 +4413,7 @@
 		(at 114.3 157.48)
 		(uuid "58ccd18e-76c1-4df4-ad7a-9a838f3a450d")
 	)
-	(label "ROW3"
+	(label "ROW4"
 		(at 114.3 114.3 0)
 		(effects
 			(font
@@ -4434,12 +4428,8 @@
 		(uuid "78578cf2-faa4-4677-a99f-0349366e8818")
 	)
 	(no_connect
-		(at 109.22 48.26)
+		(at 109.22 43.18)
 		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
-	)
-	(no_connect
-		(at 114.3 109.22)
-		(uuid "d4f8a6e1-6b2c-4a9d-8f3e-1a2b3c4d5e6f")
 	)
 	(no_connect
 		(at 114.3 127)
@@ -4453,14 +4443,8 @@
 		(at 40.64 194.31)
 		(uuid "c86abe7a-db36-4763-95b8-58b33cadcb7a")
 	)
-	(label "ROW2"
-		(at 114.3 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
+	(no_connect
+		(at 114.3 116.84)
 		(uuid "e50f3a3b-d387-450d-a12e-12d0ef29eb3d")
 	)
 	(no_connect
@@ -5257,7 +5241,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 43.18) (xy 109.22 43.18)
+			(xy 106.68 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5654,7 @@
 		(uuid "2e788407-32c2-4ddb-a950-d027555db25d")
 	)
 	(label "RESET"
-		(at 106.68 43.18 180)
+		(at 106.68 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5993,6 +5977,16 @@
 		)
 		(uuid "9c7ee6f5-92c6-4283-81a2-77432b6ba281")
 	)
+	(label "ROW2"
+		(at 114.3 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1147d12-5a30-433b-b3bd-9dc8253319eb")
+	)
 	(no_connect
 		(at 114.3 170.18)
 		(uuid "a4a96ea2-750b-4b23-a5e0-0610eec35997")
@@ -6007,8 +6001,14 @@
 		)
 		(uuid "a676888b-e56b-420b-83db-2d76a872449a")
 	)
-	(no_connect
-		(at 114.3 106.68)
+	(label "ROW1"
+		(at 114.3 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "a7dd0396-ecca-495f-8c63-622deddbf45a")
 	)
 	(label "ROW1"
@@ -6051,7 +6051,7 @@
 		)
 		(uuid "aa11bb22-cc33-4dd4-8e55-9f66aa77bb88")
 	)
-	(label "ROW4"
+	(label "ROW3"
 		(at 114.3 111.76 0)
 		(effects
 			(font
@@ -6071,14 +6071,8 @@
 		)
 		(uuid "ae740aaa-922a-4c02-9fc9-1ca94a5ba027")
 	)
-	(label "COL6"
-		(at 328.93 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
+	(no_connect
+		(at 114.3 172.72)
 		(uuid "aed386e4-c590-42fb-a352-917574c0d9d3")
 	)
 	(no_connect
