@@ -10,4 +10,5 @@ fp-info-cache
 
 # Local tool config and generated fabrication output
 .claude/
-jlcpcb/
+jlcpcb/gerber/
+jlcpcb/project.db
