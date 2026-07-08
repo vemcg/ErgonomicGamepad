@@ -1402,7 +1402,7 @@
 		(at 60.36 140.075)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW7"
+		(property "Reference" "SW07"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "247ef91a-8f7c-434b-a551-1552eb2309c5")
@@ -2107,7 +2107,7 @@
 		(at 60.36 46.775)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW1"
+		(property "Reference" "SW01"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "332616ad-847d-4d26-ac64-a2544ba005d2")
@@ -6209,7 +6209,7 @@
 		(at 60.36 62.325)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW2"
+		(property "Reference" "SW02"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "434811ef-6485-4459-8ca2-0a8dc78eb3d5")
@@ -8954,7 +8954,7 @@
 		(at 60.36 124.525)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW6"
+		(property "Reference" "SW06"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "575a4b55-2056-4e5f-989c-81f775b13a98")
@@ -14476,7 +14476,7 @@
 		(at 60.36 108.975)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW5"
+		(property "Reference" "SW05"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "d3fd29e4-d8bb-4442-bc33-080e09292ec0")
@@ -17410,7 +17410,7 @@
 		(at 76.995 46.775)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW8"
+		(property "Reference" "SW08"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "d5ae9b17-7af9-43b5-aa4a-8dd7220b3139")
@@ -19424,7 +19424,7 @@
 		(at 60.36 93.425)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW4"
+		(property "Reference" "SW04"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "344d4704-1de9-4aa8-bb10-44510b32ec0b")
@@ -22049,7 +22049,7 @@
 		(at 60.36 77.875)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-		(property "Reference" "SW3"
+		(property "Reference" "SW03"
 			(at 0 -8 0)
 			(layer "F.SilkS")
 			(uuid "4ab828ad-a6d9-45a6-8b90-2db87669ffff")
@@ -31361,3 +31361,4 @@
 	)
 	(embedded_fonts no)
 )
+

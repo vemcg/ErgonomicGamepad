@@ -2302,11 +2302,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
+		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2324,7 +2325,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4148"
+			(property "Value" "D"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2334,7 +2335,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2345,7 +2346,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2356,7 +2357,7 @@
 					)
 				)
 			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(property "Description" "Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2400,7 +2401,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?35*"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2411,7 +2412,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_0_1"
+			(symbol "D_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2449,7 +2450,7 @@
 					)
 				)
 			)
-			(symbol "1N4148_1_1"
+			(symbol "D_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -4398,10 +4399,6 @@
 		(uuid "1d3c717b-55e2-4123-812d-e1b5ed0a2feb")
 	)
 	(no_connect
-		(at 114.3 175.26)
-		(uuid "293e0ee6-1ad7-42b9-a6d0-93105ed86ee2")
-	)
-	(no_connect
 		(at 48.26 113.03)
 		(uuid "2e049ea3-d5c0-438e-bcbb-8bb65a100a21")
 	)
@@ -4418,12 +4415,24 @@
 		(uuid "78578cf2-faa4-4677-a99f-0349366e8818")
 	)
 	(no_connect
+		(at 114.3 175.26)
+		(uuid "7d876a2f-0fc4-4940-a554-2ab9cf254dcd")
+	)
+	(no_connect
 		(at 114.3 127)
 		(uuid "9e5604f1-286d-4c0a-a4c9-fbcbc072ba50")
 	)
 	(no_connect
+		(at 114.3 114.3)
+		(uuid "a2aef191-ca66-4e73-8b55-aa5036c7ea60")
+	)
+	(no_connect
 		(at 114.3 149.86)
 		(uuid "b6b0a634-8dd7-4a22-85d5-27cfb0b15c65")
+	)
+	(no_connect
+		(at 114.3 177.8)
+		(uuid "b9edcc20-b272-40ca-b413-fce8a321ddea")
 	)
 	(no_connect
 		(at 40.64 194.31)
@@ -4440,14 +4449,6 @@
 	(no_connect
 		(at 114.3 104.14)
 		(uuid "f321d4d7-6423-4c03-980c-3535a13fe6ed")
-	)
-	(no_connect
-		(at 114.3 114.3)
-		(uuid "f6dd6be8-23e6-4890-be7b-f3fd493bfaa2")
-	)
-	(no_connect
-		(at 114.3 177.8)
-		(uuid "f7bd5c48-9f18-473a-a35f-b2234e976f41")
 	)
 	(wire
 		(pts
@@ -5789,6 +5790,16 @@
 		)
 		(uuid "5c8c8b3c-d392-44e4-a5f8-2b9564c6ad5d")
 	)
+	(label "ROW1"
+		(at 114.3 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e085d05-24f7-4966-86ef-4f0d4cd0317d")
+	)
 	(label "ROW4"
 		(at 30.48 167.64 90)
 		(effects
@@ -5809,16 +5820,6 @@
 		)
 		(uuid "60c13a3b-0395-4ffb-bcb0-052c715bf0f6")
 	)
-	(label "MOSI"
-		(at 114.3 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61070eac-3231-4998-b749-a50c6823aca5")
-	)
 	(label "COL1"
 		(at 41.91 151.13 180)
 		(effects
@@ -5829,16 +5830,6 @@
 		)
 		(uuid "611257c7-fcb4-4fa7-854c-6c3b78a4d979")
 	)
-	(label "ROW4"
-		(at 114.3 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6200827c-2972-4a7a-9d11-c2582ffca9f8")
-	)
 	(label "ROW3"
 		(at 62.23 146.05 0)
 		(effects
@@ -5848,16 +5839,6 @@
 			(justify left bottom)
 		)
 		(uuid "621472b0-ef58-4a3f-b0d8-8b2d77349a6f")
-	)
-	(label "MISO"
-		(at 114.3 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6309882c-b113-4e0d-8c8b-f92eacb34a73")
 	)
 	(label "COL1"
 		(at 27.94 167.64 90)
@@ -5949,6 +5930,26 @@
 		)
 		(uuid "863dd252-14ee-4c6c-aebc-f8cb4cb0a108")
 	)
+	(label "SCK"
+		(at 114.3 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "878c9fe5-a22a-468b-9c1d-4e0a9f816a4a")
+	)
+	(label "ROW2"
+		(at 114.3 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8886f0d7-08c3-41f4-8bb7-401b92fa98df")
+	)
 	(label "ROW4"
 		(at 215.9 137.16 180)
 		(effects
@@ -5958,16 +5959,6 @@
 			(justify right bottom)
 		)
 		(uuid "88cd3054-9802-4bad-a7d4-f9b984e40f47")
-	)
-	(label "SCK"
-		(at 114.3 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ad43539-7c17-4977-bf46-cc8b632910fd")
 	)
 	(label "ROW4"
 		(at 41.91 148.59 180)
@@ -6029,16 +6020,6 @@
 		)
 		(uuid "9c7ee6f5-92c6-4283-81a2-77432b6ba281")
 	)
-	(label "ROW2"
-		(at 114.3 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1147d12-5a30-433b-b3bd-9dc8253319eb")
-	)
 	(label "SCK"
 		(at 106.68 45.72 180)
 		(effects
@@ -6048,16 +6029,6 @@
 			(justify right bottom)
 		)
 		(uuid "a676888b-e56b-420b-83db-2d76a872449a")
-	)
-	(label "ROW1"
-		(at 114.3 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7dd0396-ecca-495f-8c63-622deddbf45a")
 	)
 	(label "ROW1"
 		(at 184.15 69.85 180)
@@ -6099,16 +6070,6 @@
 		)
 		(uuid "aa11bb22-cc33-4dd4-8e55-9f66aa77bb88")
 	)
-	(label "ROW3"
-		(at 114.3 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ae154ceb-2f0d-4efd-959f-2da14955c966")
-	)
 	(label "ROW4"
 		(at 151.13 137.16 180)
 		(effects
@@ -6119,6 +6080,16 @@
 		)
 		(uuid "ae740aaa-922a-4c02-9fc9-1ca94a5ba027")
 	)
+	(label "MOSI"
+		(at 114.3 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b180e33a-f38d-45f9-b6be-85f754591244")
+	)
 	(label "ROW1"
 		(at 152.4 69.85 180)
 		(effects
@@ -6128,6 +6099,16 @@
 			(justify right bottom)
 		)
 		(uuid "b29e2751-91f4-4f5f-9246-cf1526e6f3e8")
+	)
+	(label "ROW4"
+		(at 114.3 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b37dec4f-c6b2-4d5c-af18-ca60e6dbee2c")
 	)
 	(label "ROW3"
 		(at 313.69 115.57 180)
@@ -6259,6 +6240,16 @@
 		)
 		(uuid "dd090b9f-1eb2-4b26-a31a-9767361481c0")
 	)
+	(label "ROW3"
+		(at 114.3 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0734a08-a470-44b1-8fe9-a86539cbbf53")
+	)
 	(label "ROW4"
 		(at 30.48 194.31 270)
 		(effects
@@ -6378,6 +6369,16 @@
 			(justify left bottom)
 		)
 		(uuid "fb0f78fe-c78b-4ec3-bb79-4407402ebbf5")
+	)
+	(label "MISO"
+		(at 114.3 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb3822ce-ac40-48ee-bc00-ff8809d580fb")
 	)
 	(label "ROW2"
 		(at 35.56 167.64 90)
@@ -6906,7 +6907,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 330.2 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -6928,7 +6929,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 332.74 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +6940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 330.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6950,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 330.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6961,7 +6962,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 330.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6972,7 +6973,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 330.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7563,7 +7564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 266.7 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -7585,7 +7586,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 269.24 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +7597,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7607,7 +7608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7618,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7629,7 +7630,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7985,7 +7986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 266.7 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -8007,7 +8008,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 269.24 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8019,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8029,7 +8030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8040,7 +8041,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8052,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8089,7 +8090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 298.45 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -8111,7 +8112,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 300.99 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8122,7 +8123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8133,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8144,7 +8145,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8193,7 +8194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 167.64 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -8215,7 +8216,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 170.18 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8237,7 +8238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8248,7 +8249,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8259,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8297,7 +8298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 232.41 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -8319,7 +8320,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 234.95 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8330,7 +8331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8352,7 +8353,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8363,7 +8364,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8734,7 +8735,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 298.45 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -8756,7 +8757,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 300.99 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8767,7 +8768,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8778,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8789,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8800,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8929,7 +8930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a95d191-3f8e-453b-8d22-e21bd6403810")
-		(property "Reference" "SW5"
+		(property "Reference" "SW05"
 			(at 193.04 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8991,7 +8992,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW5")
+					(reference "SW05")
 					(unit 1)
 				)
 			)
@@ -9157,7 +9158,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 200.66 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -9179,7 +9180,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 203.2 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +9191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9201,7 +9202,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9212,7 +9213,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9224,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9418,7 +9419,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 200.66 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -9440,7 +9441,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 203.2 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,7 +9452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9462,7 +9463,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9473,7 +9474,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9484,7 +9485,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9677,7 +9678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 200.66 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -9699,7 +9700,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 203.2 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9710,7 +9711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9721,7 +9722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9732,7 +9733,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9743,7 +9744,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9781,7 +9782,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 297.18 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -9803,7 +9804,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 299.72 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +9815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9825,7 +9826,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9836,7 +9837,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9847,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9885,7 +9886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 167.64 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -9907,7 +9908,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 170.18 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +9919,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9929,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9940,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +9952,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9989,7 +9990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 166.37 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -10011,7 +10012,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 168.91 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10022,7 +10023,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10044,7 +10045,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10055,7 +10056,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10353,7 +10354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71425fd7-7c56-4e6b-8d3f-b2dae1052018")
-		(property "Reference" "SW8"
+		(property "Reference" "SW08"
 			(at 191.77 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +10416,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW8")
+					(reference "SW08")
 					(unit 1)
 				)
 			)
@@ -10707,7 +10708,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 233.68 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -10729,7 +10730,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 236.22 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10740,7 +10741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10751,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10762,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10773,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11390,7 +11391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 330.2 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -11412,7 +11413,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 332.74 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11423,7 +11424,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11434,7 +11435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11445,7 +11446,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11456,7 +11457,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11505,7 +11506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a7d052-5cf8-4fd2-ad81-5c1503fffee5")
-		(property "Reference" "SW6"
+		(property "Reference" "SW06"
 			(at 193.04 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,14 +11568,14 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW6")
+					(reference "SW06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 167.64 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -11596,7 +11597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 170.18 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11607,7 +11608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11618,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11629,7 +11630,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11640,7 +11641,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11861,7 +11862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a433f17e-0b41-4241-a04b-c103d6a5d2b4")
-		(property "Reference" "SW2"
+		(property "Reference" "SW02"
 			(at 160.02 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11923,7 +11924,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW2")
+					(reference "SW02")
 					(unit 1)
 				)
 			)
@@ -12009,7 +12010,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 330.2 96.52 90)
 		(unit 1)
 		(body_style 1)
@@ -12031,7 +12032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 332.74 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12042,7 +12043,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 330.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12053,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 330.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12064,7 +12065,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 330.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12075,7 +12076,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 330.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12124,7 +12125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8420e9e-8fa1-4139-a4a4-e13241a64917")
-		(property "Reference" "SW4"
+		(property "Reference" "SW04"
 			(at 158.75 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12186,14 +12187,14 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW4")
+					(reference "SW04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 233.68 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -12215,7 +12216,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 236.22 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12226,7 +12227,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12237,7 +12238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12248,7 +12249,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12259,7 +12260,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12389,7 +12390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e033d8-5395-4ce0-a92e-dbe67238098f")
-		(property "Reference" "SW1"
+		(property "Reference" "SW01"
 			(at 160.02 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12451,14 +12452,14 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW1")
+					(reference "SW01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 298.45 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -12480,7 +12481,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 300.99 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12491,7 +12492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12502,7 +12503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12513,7 +12514,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12524,7 +12525,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12967,7 +12968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1fc2795-27bc-4e8d-b8d9-2a37be2fdf78")
-		(property "Reference" "SW3"
+		(property "Reference" "SW03"
 			(at 160.02 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13029,7 +13030,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW3")
+					(reference "SW03")
 					(unit 1)
 				)
 			)
@@ -13822,7 +13823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 199.39 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -13844,7 +13845,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 201.93 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13855,7 +13856,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13866,7 +13867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13877,7 +13878,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13888,7 +13889,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13926,7 +13927,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 328.93 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -13948,7 +13949,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 331.47 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13959,7 +13960,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13970,7 +13971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13981,7 +13982,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13992,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +14112,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 266.7 73.66 90)
 		(unit 1)
 		(body_style 1)
@@ -14133,7 +14134,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 269.24 74.9299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14144,7 +14145,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14155,7 +14156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14166,7 +14167,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14177,7 +14178,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14770,7 +14771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 265.43 140.97 90)
 		(unit 1)
 		(body_style 1)
@@ -14792,7 +14793,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 267.97 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14803,7 +14804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14814,7 +14815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14825,7 +14826,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -14836,7 +14837,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -15746,7 +15747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f35a9dd7-1fdc-4086-8acf-96a66abd1ef2")
-		(property "Reference" "SW7"
+		(property "Reference" "SW07"
 			(at 193.04 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15808,7 +15809,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW7")
+					(reference "SW07")
 					(unit 1)
 				)
 			)
@@ -16196,7 +16197,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
+		(lib_id "Device:D")
 		(at 233.68 119.38 90)
 		(unit 1)
 		(body_style 1)
@@ -16218,7 +16219,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
+		(property "Value" "1N4148WS"
 			(at 236.22 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16229,7 +16230,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16240,7 +16241,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16251,7 +16252,7 @@
 				)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -16262,7 +16263,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+(property "Sim.Device" "D"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
