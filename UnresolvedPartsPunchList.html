@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Unresolved Parts Punch List</title>
+<style>
+  @page { size: letter portrait; margin: 0.75in; }
+  body {
+    font-family: Calibri, "Segoe UI", Arial, sans-serif;
+    color: #111;
+    max-width: 7.5in;
+    margin: 0 auto;
+    line-height: 1.4;
+    font-size: 11pt;
+  }
+  h1 { font-size: 16pt; margin-bottom: 0.1em; }
+  h2 { font-size: 13pt; margin-top: 1.4em; border-bottom: 1px solid #999; padding-bottom: 0.2em; }
+  .meta { color: #444; font-size: 10pt; margin-bottom: 1em; }
+  table { border-collapse: collapse; width: 100%; margin: 0.8em 0; font-size: 10pt; }
+  th, td { border: 1px solid #888; padding: 5px 8px; text-align: left; vertical-align: top; }
+  th { background: #e8e8e8; }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  code { background: #eee; padding: 0 3px; border-radius: 3px; font-family: Consolas, monospace; }
+  ul { margin-top: 0.3em; }
+  @media print {
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Ergonomic Gamepad — Unresolved Part Specification Punch List</h1>
+<div class="meta">Source: <code>ErgonomicGamepad.kicad_sch</code> &nbsp;|&nbsp; Generated: 2026-07-19</div>
+
+<p>Every symbol placed on the schematic that would actually be soldered to the board by the
+manufacturer should carry five fields: <strong>Datasheet</strong>, <strong>Manufacturer</strong>,
+<strong>Manufacturer Part Number (MPN)</strong>, <strong>Supplier</strong>, and
+<strong>LCSC</strong> (LCSC part number).</p>
+
+<p>Of the 118 symbols in the schematic, 82 are real, board-mounted, BOM-relevant parts (power
+symbols and PWR_FLAGs were excluded — they aren't physical components).
+<strong>77 of those 82 are missing at least one of the five fields.</strong>
+Only <strong>D1, J1, J5, J7, and Y1</strong> are fully resolved — use them as templates for the
+field structure.</p>
+
+<h2>Unresolved, grouped by part type</h2>
+<table>
+<tr><th>Group</th><th>Refs</th><th>Missing</th></tr>
+<tr><td>Diodes (1N4148WS)</td><td>D2–D24, D09 (23 total)</td><td>Manufacturer, MPN, LCSC (Datasheet &amp; Supplier="LCSC" already filled)</td></tr>
+<tr><td>↳ worse subset</td><td>D14, D18, D19</td><td>also missing <strong>Supplier</strong> — the property isn't defined at all on these three, unlike the rest</td></tr>
+<tr><td>Resistors</td><td>R1–R7 (7)</td><td>Datasheet, Manufacturer, MPN, LCSC</td></tr>
+<tr><td>Capacitors</td><td>C1–C5 (5)</td><td>Datasheet, Manufacturer, MPN, LCSC</td></tr>
+<tr><td>DIP switches / hotswap sockets</td><td>SW01–SW24, SWR1 (25)</td><td>Datasheet, Manufacturer, MPN, LCSC</td></tr>
+<tr><td>8-pin headers</td><td>J2, J3, J4, J6 (4)</td><td>Datasheet, Manufacturer, MPN, LCSC</td></tr>
+<tr><td>Test points</td><td>TP1–TP7 (7)</td><td>all 5 fields</td></tr>
+<tr><td>LEDs</td><td>D25 (Pwr), D26 (Dbg)</td><td>Datasheet, Manufacturer, MPN, LCSC</td></tr>
+<tr><td>MCU</td><td>U1 (ATmega32U4-A)</td><td>Manufacturer, MPN, LCSC (has datasheet)</td></tr>
+<tr><td>ESD protection IC</td><td>U2 (USBLC6-2SC6)</td><td>just <strong>LCSC</strong> part number</td></tr>
+<tr><td>Solder jumper</td><td>JP1</td><td>all 5 fields — bare PCB pad jumper (<code>in_bom = no</code>), not a stocked part</td></tr>
+</table>
+
+<h2>Fully resolved (no action needed)</h2>
+<p>D1, J1 (USB-C receptacle), J5 (ISP header), J7 (power connector), Y1 (crystal)</p>
+
+<h2>Flagged for review</h2>
+<ul>
+<li><strong>D09 vs D9</strong> — both exist as separate reference designators for the same 1N4148WS diode. Only diode using a leading zero; likely an inconsistent naming pattern rather than an intentional duplicate part — confirm it's correct.</li>
+<li><strong>JP1 and TP1–TP7</strong> — pad-only footprints (solder jumper, test points) with no real manufacturer part behind them. Consider marking these DNP / excluded from BOM rather than filling in Manufacturer/MPN/LCSC, since there's no physical component to source.</li>
+</ul>
+
+</body>
+</html>
