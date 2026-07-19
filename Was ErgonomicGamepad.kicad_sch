@@ -7544,7 +7544,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C13738.pdf"
+		(property "Datasheet" ""
 			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7566,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC Crystal Oscillators"
+		(property "Manufacturer" ""
 			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7577,7 +7577,7 @@
 				)
 			)
 		)
-		(property "MPN" "X322516MLB4SI"
+		(property "MPN" ""
 			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7599,7 +7599,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13738"
+		(property "LCSC" ""
 			(at 82.55 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -8885,7 +8885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C191023.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 54.61 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8907,7 +8907,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Guangdong Hottech"
+		(property "Manufacturer" ""
 			(at 54.61 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8918,7 +8918,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N5819WS"
+		(property "MPN" ""
 			(at 54.61 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -8940,7 +8940,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C191023"
+		(property "LCSC" ""
 			(at 54.61 74.93 90)
 			(hide yes)
 			(show_name no)
@@ -14072,7 +14072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 125.73 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +14083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C32713283.html"
+		(property "Datasheet" ""
 			(at 151.765 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -14105,7 +14105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "hanxia"
+		(property "Manufacturer" ""
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14116,7 +14116,7 @@
 				)
 			)
 		)
-		(property "MPN" "HX PZ2.54-2x3P TP"
+		(property "MPN" ""
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14138,7 +14138,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C32713283"
+		(property "LCSC" ""
 			(at 119.38 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17928,7 +17928,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1824417"
+		(property "Value" "Conn_01x02"
 			(at 29.21 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17939,7 +17939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17950,7 +17950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C5873683.html"
+		(property "Datasheet" ""
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17961,7 +17961,7 @@
 				)
 			)
 		)
-		(property "Description" "2-pin SMT power input connector"
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17972,7 +17972,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Phoenix Contact"
+		(property "Manufacturer" ""
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -17983,7 +17983,7 @@
 				)
 			)
 		)
-		(property "MPN" "1824417"
+		(property "MPN" ""
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18005,7 +18005,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5873683"
+		(property "LCSC" ""
 			(at 26.67 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19732,7 +19732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 36.83 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19754,7 +19754,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Korean Hroparts Elec"
+		(property "Manufacturer" ""
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19765,7 +19765,7 @@
 				)
 			)
 		)
-		(property "MPN" "TYPE-C-31-M-12"
+		(property "MPN" ""
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19787,7 +19787,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C165948"
+		(property "LCSC" ""
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
