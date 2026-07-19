@@ -818,7 +818,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pintype "passive")
 			(uuid "7f019aaa-e800-4a6b-a6ef-2dbf0b7d0ed4")
 		)
@@ -827,7 +827,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pintype "passive")
 			(uuid "1e530f35-72eb-40a6-bb9e-e814935b01d3")
 		)
@@ -850,7 +850,7 @@
 		(at 98.23 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D14"
+		(property "Reference" "DM14"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "38227f01-2f89-4d13-9ceb-67b788de6b1d")
@@ -872,7 +872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -924,7 +924,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -937,7 +937,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -950,12 +950,25 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f74bde3f-418e-4bf8-84f3-8c94cf73808a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbe27c83-26f8-463e-ae1f-50f658ed1ac6")
 			(effects
 				(font
 					(size 1 1)
@@ -1171,7 +1184,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "758d0fed-b7b4-425b-afdb-a8ce3da2ff6f")
@@ -1195,7 +1208,7 @@
 		(at 98.23 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D12"
+		(property "Reference" "DM12"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "e4ee9e0d-c30f-49cd-b8b0-e0511a1e0da7")
@@ -1217,7 +1230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1269,7 +1282,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1282,7 +1295,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1308,7 +1321,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1529,7 +1542,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "89835091-0a2d-44d2-8d19-d8aa82e1ae91")
@@ -2278,7 +2291,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pintype "passive")
 			(uuid "f3bea4b5-d00e-419e-b9f4-9cc6af33bbb3")
 		)
@@ -2287,7 +2300,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pintype "passive")
 			(uuid "178202a2-e6f7-4097-8950-e7629ff1cff2")
 		)
@@ -3035,7 +3048,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pintype "passive")
 			(uuid "993c2d6d-86e0-4869-a870-ee9783d7d2ba")
 		)
@@ -3044,7 +3057,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pintype "passive")
 			(uuid "a3040a79-08ab-4c74-8693-80f6b4e9f6b6")
 		)
@@ -3792,7 +3805,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pintype "passive")
 			(uuid "4600d927-3fd3-4897-aa88-0d49f8592622")
 		)
@@ -3801,7 +3814,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pintype "passive")
 			(uuid "bda0a3c5-b397-48ea-92ce-af3e572161d5")
 		)
@@ -3824,7 +3837,7 @@
 		(at 98.23 172.2)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D17"
+		(property "Reference" "DM17"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "d49cefa0-cca8-4ea5-8ff1-285fd9f0be9a")
@@ -3846,7 +3859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3872,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3885,7 +3898,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3911,7 +3924,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4158,7 +4171,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "feaed6b0-592a-4644-aeaa-39edc7cbd823")
@@ -4400,7 +4413,7 @@
 		(at 87.46 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3"
+		(property "Reference" "DM02"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "1af463eb-a89d-46cc-abd0-19a197b540c4")
@@ -4422,7 +4435,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4448,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4461,7 +4474,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4487,7 +4500,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4734,7 +4747,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "595f611f-edee-49c0-8e8b-fe466cae8423")
@@ -5693,7 +5706,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pintype "passive")
 			(uuid "aaafc45e-5eae-4968-aeba-ab2a5d188ff8")
 		)
@@ -5702,7 +5715,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pintype "passive")
 			(uuid "756724af-1e15-430f-8b9b-a923a78c46fd")
 		)
@@ -6450,7 +6463,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pintype "passive")
 			(uuid "84fbeb13-7838-431e-8f9d-5ca264569422")
 		)
@@ -6459,7 +6472,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pintype "passive")
 			(uuid "fdcfc979-558f-490c-ab67-8fbf598bd77c")
 		)
@@ -6482,7 +6495,7 @@
 		(at 109 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D24"
+		(property "Reference" "DM24"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "85cc4ee5-3ccb-43df-8e73-34f3cbef9819")
@@ -6504,7 +6517,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6530,7 +6543,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6543,7 +6556,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6569,7 +6582,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6816,7 +6829,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "58646fef-858e-4809-869b-cf9e20efe055")
@@ -7565,7 +7578,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pintype "passive")
 			(uuid "ad1005a4-025a-46f3-9e0d-c8fbf0ff8051")
 		)
@@ -7574,7 +7587,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pintype "passive")
 			(uuid "25caa8d7-0bcb-4198-a1f1-20aad5511d8f")
 		)
@@ -8648,7 +8661,7 @@
 		(at 109 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D22"
+		(property "Reference" "DM22"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "9970604f-7bbd-452a-be6e-6da35a7b553f")
@@ -8670,7 +8683,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8696,7 +8709,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8709,7 +8722,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8735,7 +8748,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8982,10 +8995,368 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "ec64d53f-859d-4948-9200-ac8820911b1e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SOD-323"
+		(layer "F.Cu")
+		(uuid "2a8bf630-aa60-47fc-b134-02083d789b89")
+		(at 33.67 170.975)
+		(descr "SOD-323")
+		(tags "SOD-323")
+		(property "Reference" "DM09"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "6b3781fb-ca16-4984-88d4-0e2917dc95ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 0.1 1.9 0)
+			(layer "F.Fab")
+			(uuid "6f4977a4-6b93-4e55-b07d-d66292e7cb5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c14ff8-8dd1-4e2f-80f6-e19caa255ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a7e0d5-0833-4e53-9643-21e20ce30d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "303d8eb8-aa93-4f0d-8c95-41eee73f8bb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a178f4-ffc2-4e2c-a5f6-3741bfbd93f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8510a969-99c2-4bce-a863-72afe770046b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac23cd46-af57-4ca9-be73-3ac72ebf32be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e5d262-2696-4196-a832-76d349e3b9a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7446e4f9-3c3e-45f8-93f7-4f6b08933e78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/a894d004-525f-483f-a5a4-b399f7ac6fa0")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.61 -0.85)
+			(end -1.61 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef74c4cc-9146-46b6-b28b-032e0174c79f")
+		)
+		(fp_line
+			(start -1.61 -0.85)
+			(end 1.05 -0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "60bf6eaf-3ecb-4ab2-bf6d-7331f7c4c232")
+		)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b83f593-1c12-46be-b8c9-c37c4ccec4c1")
+		)
+		(fp_line
+			(start -1.6 -0.95)
+			(end -1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3615da4e-a6db-4544-84ee-f8875df89663")
+		)
+		(fp_line
+			(start -1.6 -0.95)
+			(end 1.6 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a552edcb-03c9-475a-9352-2ba7a21b3665")
+		)
+		(fp_line
+			(start -1.6 0.95)
+			(end 1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71e1ea99-1e64-44e3-92a6-e2df429df814")
+		)
+		(fp_line
+			(start 1.6 -0.95)
+			(end 1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "332481a6-6c26-4a2c-b58c-ba7fc9cd02aa")
+		)
+		(fp_line
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9de5d10f-3f2b-41a3-ba14-6a5f537d7f3d")
+		)
+		(fp_line
+			(start -0.9 0.7)
+			(end -0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a9572a36-4d46-4550-ba1e-813b1eb510e2")
+		)
+		(fp_line
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "292fbee1-627a-45bb-8f44-a439303fea4e")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end -0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f48630a4-1b6b-48d6-8ea8-698822ddd3a6")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end 0.2 -0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7740693-c052-460e-9212-aab41759794e")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cca54520-85bf-4cca-8c33-049a281c12b9")
+		)
+		(fp_line
+			(start 0.2 0)
+			(end 0.45 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8261c38a-24d5-45d9-a58c-daf535bd4406")
+		)
+		(fp_line
+			(start 0.2 0.35)
+			(end -0.3 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2a8e3dd-6310-4293-8d05-99a49b606440")
+		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f42caea8-2c42-4f7c-8f97-02e628a384cb")
+		)
+		(fp_line
+			(start 0.9 0.7)
+			(end -0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef3e5918-a933-466e-8c84-035526514eab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.85 0)
+			(layer "F.Fab")
+			(uuid "095cc5fd-82b1-4466-b7a5-a97af07ee5a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.05 0)
+			(size 0.6 0.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/COL3")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "0c43cb7a-d78b-4fe9-aefd-9ca9a6ca3afe")
+		)
+		(pad "2" smd roundrect
+			(at 1.05 0)
+			(size 0.6 0.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(DM09-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "8137d910-3c18-4d37-bdb8-c2b7b8764927")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
@@ -9575,7 +9946,7 @@
 		(at 87.46 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D7"
+		(property "Reference" "DM06"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "8edf0a8c-3316-4d52-9615-6e1e953f4a60")
@@ -9597,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9649,7 +10020,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9662,7 +10033,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9688,7 +10059,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9909,7 +10280,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d7b7f627-6071-4b07-8741-b0a28bab11c7")
@@ -10932,7 +11303,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pintype "passive")
 			(uuid "f61f347d-4771-4735-afe5-de07cc7429b9")
 		)
@@ -10941,7 +11312,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pintype "passive")
 			(uuid "45ba3730-db11-4db8-8d91-c2a552bf8f5a")
 		)
@@ -11689,7 +12060,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D09-A)")
+			(net "Net-(DM09-A)")
 			(pintype "passive")
 			(uuid "2cf6f321-8499-4b29-8e8c-2604901f931c")
 		)
@@ -11698,7 +12069,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D09-A)")
+			(net "Net-(DM09-A)")
 			(pintype "passive")
 			(uuid "0c867afe-d251-4b31-9c74-ca5a13f174bf")
 		)
@@ -11721,7 +12092,7 @@
 		(at 98.23 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D15"
+		(property "Reference" "DM15"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "066499d2-cf16-4939-8657-77db3a31abb7")
@@ -11743,7 +12114,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11795,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11808,7 +12179,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11834,7 +12205,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12055,7 +12426,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d16baf06-2942-4a3a-8497-bda8675a3608")
@@ -12493,7 +12864,7 @@
 		(at 109 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D23"
+		(property "Reference" "DM23"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "cdbb593d-74d5-47f4-8b0e-f1a16e4d7ff9")
@@ -12515,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12567,7 +12938,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12580,7 +12951,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12606,7 +12977,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12827,7 +13198,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "9ab71031-4c5a-4844-bf5b-60517a5004fe")
@@ -13210,7 +13581,7 @@
 		(at 109 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D19"
+		(property "Reference" "DM19"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "e66ee839-1003-4f35-aaa4-1de735282a23")
@@ -13232,7 +13603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13277,6 +13648,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c71763d2-9c65-4ebf-986e-25ccd93be9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f15494c3-4caf-46bd-a783-9a8f197e5e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c4f25db-0f11-4f2b-b5f8-5573acad05b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27405522-f00b-429b-9e99-a3511bd4d2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e850004-2f0e-41f1-b310-3a4d5a3bb7df")
 			(effects
 				(font
 					(size 1 1)
@@ -13492,7 +13915,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "5560b5f0-a571-4382-9708-804a6dcc7148")
@@ -14560,7 +14983,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pintype "passive")
 			(uuid "c7450c34-a61b-47ae-96e2-42861114b896")
 		)
@@ -14569,7 +14992,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pintype "passive")
 			(uuid "fb5ac393-a8c0-46ee-bb8e-7066405b45fa")
 		)
@@ -14592,7 +15015,7 @@
 		(at 98.23 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D10"
+		(property "Reference" "DM10"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "2ee8b366-7704-460c-89ca-289b9d9ffcd2")
@@ -14614,7 +15037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14640,7 +15063,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14653,7 +15076,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14679,7 +15102,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14926,7 +15349,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "8b3c1734-978c-4f40-ad3f-cb74fb56e06f")
@@ -15675,7 +16098,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pintype "passive")
 			(uuid "c623efaa-2491-4de7-98e4-9be19f0d4d35")
 		)
@@ -15684,7 +16107,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pintype "passive")
 			(uuid "d231f373-4a57-4326-bad4-120b19a32123")
 		)
@@ -16127,7 +16550,7 @@
 		(at 87.46 172.2)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D09"
+		(property "Reference" "DM08"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "1ac60be2-e44f-4eb6-9818-18a32daa0d6f")
@@ -16149,7 +16572,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16175,7 +16598,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16188,7 +16611,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16214,7 +16637,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16451,7 +16874,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/COL3")
+			(net "/COL2")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "e2e08ba3-9620-4a72-82b4-1c00f2f66d14")
@@ -16461,7 +16884,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D09-A)")
+			(net "Net-(DM08-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d9b71e24-1c17-4ca1-890b-35cf626494ec")
@@ -16485,7 +16908,7 @@
 		(at 87.46 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4"
+		(property "Reference" "DM03"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "985b1c55-a8b6-41ed-8bff-c4513fd7bda7")
@@ -16507,7 +16930,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16559,7 +16982,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16572,7 +16995,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16598,7 +17021,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16819,7 +17242,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "6e5942a5-6445-49ca-93f3-8d9813bb6295")
@@ -17568,7 +17991,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pintype "passive")
 			(uuid "7c90e08f-9240-4b03-be16-f71f688db02c")
 		)
@@ -17577,7 +18000,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pintype "passive")
 			(uuid "9ab58d03-81e9-4226-93ba-bd934a77e2df")
 		)
@@ -17600,7 +18023,7 @@
 		(at 98.23 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D16"
+		(property "Reference" "DM16"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "6829898e-8f28-4e8c-b8b8-b983028a979b")
@@ -17622,7 +18045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17648,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17661,7 +18084,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17687,7 +18110,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17934,7 +18357,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f5a74ea4-1d0f-4c32-b2d7-71d124e3cd90")
@@ -19244,7 +19667,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pintype "passive")
 			(uuid "73924cbf-4349-4c05-b2f2-7c361b96f850")
 		)
@@ -19253,7 +19676,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pintype "passive")
 			(uuid "9b8d5396-0eab-4421-b5f9-a333a9b8814e")
 		)
@@ -19276,7 +19699,7 @@
 		(at 109 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D20"
+		(property "Reference" "DM20"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "97ec46ef-a68c-4150-845c-e06576bfb9fb")
@@ -19298,7 +19721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19350,7 +19773,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19363,7 +19786,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19389,7 +19812,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19610,7 +20033,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f1df162b-4dc5-4389-945d-8d1feb08b3ae")
@@ -19634,7 +20057,7 @@
 		(at 87.46 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D6"
+		(property "Reference" "DM05"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "b529926f-68a6-4449-8912-d0ff2ba8a898")
@@ -19656,7 +20079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19708,7 +20131,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19721,7 +20144,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19747,7 +20170,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19968,7 +20391,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2cf79f4a-9f16-4bd3-bdee-0f650daf7ee1")
@@ -20826,7 +21249,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D9-A)")
+			(net "Net-(DM08-A)")
 			(pintype "passive")
 			(uuid "aede4f8d-3b51-4d8f-a284-ee51cf85e8c4")
 		)
@@ -20835,7 +21258,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D9-A)")
+			(net "Net-(DM08-A)")
 			(pintype "passive")
 			(uuid "1ec4858d-9a88-424e-9f05-fbd64dbc21ef")
 		)
@@ -21583,7 +22006,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pintype "passive")
 			(uuid "3d529423-3cf2-4c26-98ed-5e8fe74a757f")
 		)
@@ -21592,7 +22015,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pintype "passive")
 			(uuid "280758cc-950a-4a56-b90f-99ea6917a4a5")
 		)
@@ -21615,7 +22038,7 @@
 		(at 87.46 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2"
+		(property "Reference" "DM01"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f5021a50-eb95-48fe-b082-63e81b0a04ab")
@@ -21637,7 +22060,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21689,7 +22112,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21702,7 +22125,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21728,7 +22151,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21949,7 +22372,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "81b818e0-78ec-46e6-a1fc-56f17f5eef2d")
@@ -21973,7 +22396,7 @@
 		(at 98.23 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D13"
+		(property "Reference" "DM13"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "a7d934f7-424f-4d1c-9e21-74d100376589")
@@ -21995,7 +22418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22021,7 +22444,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22034,7 +22457,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22060,7 +22483,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22307,7 +22730,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "97617c8d-989c-4338-a8cf-639d8104a34f")
@@ -23056,7 +23479,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pintype "passive")
 			(uuid "effdb49f-ad35-49c4-ac8e-6c5f8addd4bb")
 		)
@@ -23065,7 +23488,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pintype "passive")
 			(uuid "835f40cf-20fc-4fb5-af17-6ef8d797349b")
 		)
@@ -23813,7 +24236,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pintype "passive")
 			(uuid "c5cc276c-cc3b-4298-8631-172d1a06d39a")
 		)
@@ -23822,7 +24245,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pintype "passive")
 			(uuid "65818855-2d7f-4410-ad10-a6fe5a77264b")
 		)
@@ -24570,7 +24993,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pintype "passive")
 			(uuid "97a901ab-fe63-4a85-9f77-c67534401de3")
 		)
@@ -24579,7 +25002,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pintype "passive")
 			(uuid "c652f858-ef78-41b6-8b66-071780916e00")
 		)
@@ -24862,7 +25285,7 @@
 		(at 109 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D18"
+		(property "Reference" "DM18"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "30782375-7840-4ece-b50c-2f8deae1f5f9")
@@ -24884,7 +25307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24929,6 +25352,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34396f00-ee94-4d04-88e6-0cfdb14f605e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6add49-429e-4281-8e6c-388c55782002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c8340d-fbb1-4d8e-b6f2-9743663ce2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b669dfbf-4687-4f55-959c-c357d1493750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dad57163-4fa3-492b-b3ea-a43b593be208")
 			(effects
 				(font
 					(size 1 1)
@@ -25144,7 +25619,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c37dd5ae-7ff0-4477-8c48-8070222b411b")
@@ -25893,7 +26368,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pintype "passive")
 			(uuid "835d99cc-6de6-4156-8a79-ba2db777ff29")
 		)
@@ -25902,7 +26377,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pintype "passive")
 			(uuid "a3438167-6fdc-4bf7-bf9a-d65875951774")
 		)
@@ -26650,7 +27125,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pintype "passive")
 			(uuid "596ae3c9-6434-4a58-9e54-3756fac176ed")
 		)
@@ -26659,7 +27134,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pintype "passive")
 			(uuid "fec6d38a-17a4-46a0-9aab-62fd5cd18a2e")
 		)
@@ -27407,7 +27882,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pintype "passive")
 			(uuid "067bc8cd-af2f-49b7-b15c-c5db5f9e5aa0")
 		)
@@ -27416,7 +27891,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pintype "passive")
 			(uuid "670c3dc8-156e-4d92-88f9-20b0b7d0eb1a")
 		)
@@ -27798,7 +28273,7 @@
 		(at 109 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D21"
+		(property "Reference" "DM21"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "bf244da8-d280-4e52-ae56-0909bc44e1eb")
@@ -27820,7 +28295,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27846,7 +28321,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27859,7 +28334,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27885,7 +28360,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28132,7 +28607,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "e0abcf49-398b-4891-8cc8-dc2d892b8771")
@@ -29825,7 +30300,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pintype "passive")
 			(uuid "826c98a6-a1d6-422e-946a-642ecf7154e5")
 		)
@@ -29834,7 +30309,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pintype "passive")
 			(uuid "1081260a-8efa-49c0-a2a9-7f1fa904bcfe")
 		)
@@ -30582,7 +31057,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pintype "passive")
 			(uuid "e95b58ca-c77e-439a-9ada-b14f92e66192")
 		)
@@ -30591,7 +31066,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pintype "passive")
 			(uuid "f9498c2f-54a5-4cab-aafa-747fa62b5b91")
 		)
@@ -30824,7 +31299,7 @@
 		(at 87.46 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D8"
+		(property "Reference" "DM07"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "ed48e248-7944-4aa2-be61-83ca9f1d6675")
@@ -30846,7 +31321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30898,7 +31373,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30911,7 +31386,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30937,7 +31412,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31158,7 +31633,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f4a1351f-9f04-4cc6-b21f-977b71a824b0")
@@ -32927,7 +33402,7 @@
 		(at 98.23 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D11"
+		(property "Reference" "DM11"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "32e5ae4e-43e1-4415-b388-11d9eecc132a")
@@ -32949,7 +33424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32975,7 +33450,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32988,7 +33463,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33014,7 +33489,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33261,7 +33736,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c2b949bd-afaa-48a8-9aad-04ec8dbae66f")
@@ -34762,7 +35237,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pintype "passive")
 			(uuid "fb5b6920-d626-47e0-b4ca-43e5d16b14b8")
 		)
@@ -34771,7 +35246,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pintype "passive")
 			(uuid "47f735ae-a4c5-4cb6-959b-e7daf8194ed9")
 		)
@@ -34794,7 +35269,7 @@
 		(at 87.46 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D5"
+		(property "Reference" "DM04"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f71a5514-ffdb-45a3-bbbc-800cb18e14b5")
@@ -34816,7 +35291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34868,7 +35343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34881,7 +35356,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34907,7 +35382,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35128,7 +35603,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "59b45ba7-fb53-4a51-84b6-ea1ec6f49683")
