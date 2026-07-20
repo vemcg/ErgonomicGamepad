@@ -56,9 +56,24 @@ This repo contains the schematic, PCB, and production support files for an ATmeg
 - J2/J3/J4/J6: `PinHeader_1x08_P2.54mm_Vertical`
 - J7: `PinHeader_1x02_P2.54mm_Vertical`
 - J5: `PinHeader_2x03_P2.54mm_Vertical`
-- JP1: `SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm`
+- JP1/JP2: `Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical`
 - Y1: `Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm`
 - SWR1: `Button_Switch_SMD:SW_SPST_TL3342`
+
+## Jumper Shunts Needed (Not Part of PCBA)
+
+JP1 (power-path select) and JP2 (forces hardware bootloader via U1 pin 33 /
+HWB when bridged) are populated as bare 2-pin headers during JLCPCB assembly,
+but the assembly process does not install a shunt on them - a jumper shunt is
+a friction-fit plastic/metal cap, not a soldered part, so it has to be
+installed by hand after the boards arrive.
+
+Buy separately (not on the PCBA BOM):
+- **2.54mm 2-pin jumper shunt cap** - e.g. BOOMELE, LCSC `C5305` (~$0.01/unit,
+  50-piece minimum order on LCSC). Any standard 2.54mm/0.1" shunt works; this
+  is a common commodity part also sold on Amazon/DigiKey/etc.
+- Need at least 2 (one per jumper), but buy a small handful (the LCSC MOQ is
+  50 anyway) since they're easy to lose.
 
 ## Progress (Brief)
 
