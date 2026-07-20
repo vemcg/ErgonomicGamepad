@@ -5012,15 +5012,11 @@
 		(uuid "016f531d-1b33-4d5c-aeae-2eb533956e25")
 	)
 	(no_connect
-		(at 45.72 139.7)
-		(uuid "0a49b6f0-0813-4fca-8b5d-ad7de9770c85")
-	)
-	(no_connect
 		(at 130.81 134.62)
 		(uuid "0e1902fa-8b25-4ae3-8d2a-27b0bf146f7f")
 	)
 	(no_connect
-		(at 40.64 167.64)
+		(at 34.29 140.97)
 		(uuid "15c480dd-6092-4498-93ed-22d2e7a7a766")
 	)
 	(no_connect
@@ -5032,8 +5028,8 @@
 		(uuid "2e049ea3-d5c0-438e-bcbb-8bb65a100a21")
 	)
 	(no_connect
-		(at 66.04 139.7)
-		(uuid "37a75435-79ab-4c35-aa35-2e63a3635113")
+		(at 54.61 171.45)
+		(uuid "5fc64d1b-77aa-459f-b9d6-68ee69e838f3")
 	)
 	(no_connect
 		(at 48.26 110.49)
@@ -5042,6 +5038,10 @@
 	(no_connect
 		(at 130.81 180.34)
 		(uuid "7d876a2f-0fc4-4940-a554-2ab9cf254dcd")
+	)
+	(no_connect
+		(at 54.61 140.97)
+		(uuid "9db5be76-17ed-4704-8185-4be09a757acc")
 	)
 	(no_connect
 		(at 130.81 132.08)
@@ -5060,8 +5060,8 @@
 		(uuid "b9edcc20-b272-40ca-b413-fce8a321ddea")
 	)
 	(no_connect
-		(at 40.64 194.31)
-		(uuid "c86abe7a-db36-4763-95b8-58b33cadcb7a")
+		(at 34.29 171.45)
+		(uuid "d32845c4-ea63-4b01-a39d-52602093453c")
 	)
 	(no_connect
 		(at 130.81 121.92)
@@ -5637,16 +5637,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 154.94) (xy 45.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94cfd755-2e18-482d-9dbc-3cf236c56a80")
-	)
-	(wire
-		(pts
 			(xy 298.45 123.19) (xy 298.45 124.46)
 		)
 		(stroke
@@ -6135,16 +6125,6 @@
 		)
 		(uuid "00e97041-b3e9-43ab-a652-145af518a237")
 	)
-	(label "ROW1"
-		(at 45.72 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01215896-a136-403e-bb48-a73035be57f6")
-	)
 	(label "XTAL2"
 		(at 100.33 119.38 180)
 		(effects
@@ -6175,26 +6155,6 @@
 		)
 		(uuid "067da870-a0a3-41bf-b298-11a94ea2a90e")
 	)
-	(label "ROW2"
-		(at 45.72 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07b11d9d-fda3-4386-84f0-06bf18ec593a")
-	)
-	(label "ROW2"
-		(at 35.56 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08aafe62-ca20-4db6-a61a-384a73b6c188")
-	)
 	(label "XTAL1"
 		(at 91.44 72.39 0)
 		(effects
@@ -6205,16 +6165,6 @@
 		)
 		(uuid "09309c8f-8b4b-475f-b250-3f8e87f710ef")
 	)
-	(label "COL1"
-		(at 27.94 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14b61cfd-4f60-4c92-97ed-3235d27ff44a")
-	)
 	(label "COL3"
 		(at 233.68 78.74 180)
 		(effects
@@ -6224,6 +6174,16 @@
 			(justify right bottom)
 		)
 		(uuid "14d9f6c3-2ce5-4775-b189-14f1b87b8b23")
+	)
+	(label "COL1"
+		(at 54.61 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19666b30-f75e-4595-9100-06041e0cc12e")
 	)
 	(label "COL4"
 		(at 266.7 101.6 180)
@@ -6245,6 +6205,16 @@
 		)
 		(uuid "1b0d6382-caa7-4fb2-a776-aae22acde111")
 	)
+	(label "COL1"
+		(at 34.29 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bdfa0df-9b39-4e8a-91a9-7ba067658a8b")
+	)
 	(label "COL2"
 		(at 199.39 146.05 180)
 		(effects
@@ -6255,15 +6225,25 @@
 		)
 		(uuid "1c1a600e-a4d5-40ba-9eec-2f54832b2af9")
 	)
-	(label "COL1"
-		(at 66.04 152.4 0)
+	(label "ROW1"
+		(at 34.29 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1c332123-57b7-4f5a-87e9-5ded4a6e9cc3")
+		(uuid "1d46b1a0-f95d-461e-a64f-a3ce9950590a")
+	)
+	(label "ROW1"
+		(at 54.61 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e21625e-57dc-4b75-8daf-653e8836d14c")
 	)
 	(label "D-"
 		(at 85.09 97.79 0)
@@ -6294,16 +6274,6 @@
 			(justify right bottom)
 		)
 		(uuid "2a1dadd3-a6b8-4bdb-90fa-58ca5dc31b4c")
-	)
-	(label "ROW3"
-		(at 45.72 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a36a7b3-c74c-425f-96d0-af016a43f3eb")
 	)
 	(label "COL5"
 		(at 298.45 124.46 180)
@@ -6396,34 +6366,14 @@
 		(uuid "4cf352f8-2f84-4682-9293-7eac5c6b6180")
 	)
 	(label "ROW1"
-		(at 38.1 167.64 90)
+		(at 34.29 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4e394a86-693d-4ca1-8e09-0279eb6383f5")
-	)
-	(label "ROW2"
-		(at 66.04 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4faf6c9b-1bf6-4264-9860-74f67f04d590")
-	)
-	(label "ROW1"
-		(at 66.04 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53dcf206-998a-40ae-93c6-eb96e088cac6")
 	)
 	(label "COL3"
 		(at 232.41 146.05 180)
@@ -6486,12 +6436,12 @@
 		(uuid "5e085d05-24f7-4966-86ef-4f0d4cd0317d")
 	)
 	(label "ROW4"
-		(at 30.48 167.64 90)
+		(at 34.29 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "60acec63-f558-49af-90de-d69d413daa34")
 	)
@@ -6505,16 +6455,6 @@
 		)
 		(uuid "60c13a3b-0395-4ffb-bcb0-052c715bf0f6")
 	)
-	(label "COL1"
-		(at 45.72 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "611257c7-fcb4-4fa7-854c-6c3b78a4d979")
-	)
 	(label "VBUS RAW"
 		(at 54.61 82.55 0)
 		(effects
@@ -6526,22 +6466,22 @@
 		(uuid "6193a1ae-463a-414f-b196-e9b48efd9bac")
 	)
 	(label "ROW3"
-		(at 66.04 147.32 0)
+		(at 54.61 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "621472b0-ef58-4a3f-b0d8-8b2d77349a6f")
+		(uuid "6374f448-44e0-49ca-8c53-14d173ccae52")
 	)
 	(label "COL1"
-		(at 27.94 167.64 90)
+		(at 34.29 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "63df7f53-4482-40dc-8627-be719572e723")
 	)
@@ -6554,6 +6494,16 @@
 			(justify right bottom)
 		)
 		(uuid "65076dfa-c9ba-4331-8a13-537e51763efb")
+	)
+	(label "ROW4"
+		(at 34.29 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6592e8c2-d625-468c-adf3-1e8984ef1937")
 	)
 	(label "COL3"
 		(at 233.68 101.6 180)
@@ -6575,6 +6525,16 @@
 		)
 		(uuid "6957f638-9228-4868-88af-7892561f9c8c")
 	)
+	(label "ROW4"
+		(at 54.61 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "702609e3-4a72-4bd9-8727-f6846785cef4")
+	)
 	(label "COL3"
 		(at 233.68 124.46 180)
 		(effects
@@ -6584,6 +6544,16 @@
 			(justify right bottom)
 		)
 		(uuid "721151d4-0f74-4642-a508-24ec41f695c5")
+	)
+	(label "ROW1"
+		(at 54.61 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "729aa7ee-66f7-4f88-ad42-f1ef9f7817ab")
 	)
 	(label "COL1"
 		(at 167.64 78.74 180)
@@ -6615,16 +6585,6 @@
 		)
 		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
 	)
-	(label "ROW4"
-		(at 66.04 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "863dd252-14ee-4c6c-aebc-f8cb4cb0a108")
-	)
 	(label "SCK"
 		(at 130.81 111.76 0)
 		(effects
@@ -6655,16 +6615,6 @@
 		)
 		(uuid "88cd3054-9802-4bad-a7d4-f9b984e40f47")
 	)
-	(label "ROW4"
-		(at 45.72 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f357338-3224-4950-bbf3-e20daa23a410")
-	)
 	(label "XTAL1"
 		(at 100.33 114.3 180)
 		(effects
@@ -6694,6 +6644,16 @@
 			(justify right bottom)
 		)
 		(uuid "9559fcbf-e5a4-4943-8a9b-64cfd16035f5")
+	)
+	(label "ROW3"
+		(at 54.61 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aedb9aa-74a7-4bfa-a34a-e122c0d8658e")
 	)
 	(label "COL6"
 		(at 330.2 78.74 180)
@@ -6775,6 +6735,16 @@
 		)
 		(uuid "aa11bb22-cc33-4dd4-8e55-9f66aa77bb88")
 	)
+	(label "COL1"
+		(at 54.61 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad97a095-694b-42cf-a82b-c26c42067107")
+	)
 	(label "ROW4"
 		(at 151.13 137.16 180)
 		(effects
@@ -6825,6 +6795,16 @@
 		)
 		(uuid "b37dec4f-c6b2-4d5c-af18-ca60e6dbee2c")
 	)
+	(label "ROW2"
+		(at 54.61 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4c75bf6-5885-40a9-b5dd-dbc6cf49413c")
+	)
 	(label "ROW3"
 		(at 313.69 115.57 180)
 		(effects
@@ -6866,6 +6846,26 @@
 		(uuid "bc882b1c-c87a-4757-bef9-e3575080de22")
 	)
 	(label "ROW2"
+		(at 54.61 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf95d2c1-fcdc-4d13-b8c4-70fd35b6db7a")
+	)
+	(label "ROW3"
+		(at 34.29 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0d65d12-a3ea-4d9c-9cb4-aba0ab39c9d2")
+	)
+	(label "ROW2"
 		(at 281.94 92.71 180)
 		(effects
 			(font
@@ -6884,6 +6884,16 @@
 			(justify left bottom)
 		)
 		(uuid "c56aa21f-9b43-41ed-8411-ba3cee6c3252")
+	)
+	(label "ROW2"
+		(at 34.29 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c908c883-a804-4150-886a-dc758a73c0ac")
 	)
 	(label "ROW2"
 		(at 184.15 92.71 180)
@@ -6926,16 +6936,6 @@
 		(uuid "d3b2e8be-652e-418e-87aa-bc8f21608a33")
 	)
 	(label "ROW1"
-		(at 38.1 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4732d82-a03a-4e4b-a89b-45e1f85e1d38")
-	)
-	(label "ROW1"
 		(at 217.17 69.85 180)
 		(effects
 			(font
@@ -6975,35 +6975,15 @@
 		)
 		(uuid "e0734a08-a470-44b1-8fe9-a86539cbbf53")
 	)
-	(label "ROW4"
-		(at 30.48 194.31 270)
+	(label "ROW3"
+		(at 34.29 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "e2879173-9052-4a27-89b9-f6d6d1b78d0a")
-	)
-	(label "ROW3"
-		(at 33.02 167.64 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "e5cef2e9-a569-4913-8a9f-35681702ee4e")
-	)
-	(label "ROW3"
-		(at 33.02 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6d958ca-4d95-4303-8812-b4510952a845")
 	)
 	(label "ROW3"
 		(at 250.19 115.57 180)
@@ -7095,6 +7075,16 @@
 		)
 		(uuid "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c")
 	)
+	(label "ROW4"
+		(at 54.61 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f0a5ec-cc2e-4cf2-84ba-b41790bf4d64")
+	)
 	(label "XTAL2"
 		(at 91.44 80.01 0)
 		(effects
@@ -7116,12 +7106,12 @@
 		(uuid "fb3822ce-ac40-48ee-bc00-ff8809d580fb")
 	)
 	(label "ROW2"
-		(at 35.56 167.64 90)
+		(at 34.29 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fbac2b0d-6f9e-405c-ade1-04b4b255c443")
 	)
@@ -7597,148 +7587,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 33.02 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12ce3e56-89dc-4a33-8a9a-c4b02f6c799c")
-		(property "Reference" "J3"
-			(at 34.29 182.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 34.29 185.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb0a5411-d959-46be-ab6d-0538e59ad255")
-		)
-		(pin "4"
-			(uuid "859e4aec-a150-4288-8200-292851aa77a0")
-		)
-		(pin "6"
-			(uuid "fb6d4af4-65d7-41b9-8d97-f286e632ad4e")
-		)
-		(pin "3"
-			(uuid "10de1cdd-7af3-4880-b085-bce73c7e9d29")
-		)
-		(pin "7"
-			(uuid "5bddaf97-9b97-466a-8d67-539cd42ad6b7")
-		)
-		(pin "1"
-			(uuid "81e95cdd-c7fa-4d7f-8766-660ef62314e3")
-		)
-		(pin "5"
-			(uuid "fd1c960c-fee3-4bf5-b84a-c5d1251155ca")
-		)
-		(pin "8"
-			(uuid "9efac6d4-6291-451d-a4b9-fe0bc5bfa79c")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal")
 		(at 82.55 76.2 270)
 		(unit 1)
@@ -8011,7 +7859,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 194.31 180)
+		(at 54.61 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8019,10 +7867,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "187037d7-4c03-4e9b-b2e8-f123132227c7")
-		(property "Reference" "#PWR014"
-			(at 43.18 190.5 0)
+		(uuid "19c09a2f-746a-4675-9cb9-a6ae85181a9a")
+		(property "Reference" "#PWR027"
+			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8033,18 +7880,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 195.5799 0)
+			(at 52.07 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8055,7 +7902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +7913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,12 +7924,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05d3f0fa-5875-4759-ba24-159bec631b18")
+			(uuid "24743d09-4f46-4f20-bf08-f1e2f46ad604")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9075,6 +8922,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ec80830-4bb3-4ab8-bd55-681126ec4f9f")
+		(property "Reference" "#PWR025"
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 52.07 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ed4f47b-135b-4cff-aba9-2139927e45b3")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 54.61 74.93 270)
 		(unit 1)
@@ -9917,8 +9842,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 35.56 172.72 270)
+		(lib_id "power:GND")
+		(at 34.29 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9926,10 +9851,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cf76614-aed4-40d7-9aab-e63016bc3f5a")
-		(property "Reference" "J2"
-			(at 34.29 176.53 90)
+		(uuid "3c404c0c-5bb7-4c72-be76-e7eeb93473d0")
+		(property "Reference" "#PWR015"
+			(at 34.29 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9938,8 +9863,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08"
-			(at 34.29 179.07 90)
+		(property "Value" "GND"
+			(at 34.544 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9948,8 +9873,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 35.56 172.72 0)
+		(property "Footprint" ""
+			(at 34.29 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9960,7 +9885,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 172.72 0)
+			(at 34.29 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04283afa-fd73-4a67-b73a-f940dc380388")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 39.37 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf76614-aed4-40d7-9aab-e63016bc3f5a")
+		(property "Reference" "J2"
+			(at 43.18 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 45.72 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 39.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9971,7 +9973,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 172.72 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,8 +9983,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 35.56 172.72 90)
+		(property "Manufacturer" "Ckmtw"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,8 +9994,8 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 35.56 172.72 90)
+		(property "MPN" "B-2100S08P-A110"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,7 +10006,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 35.56 172.72 90)
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,8 +10016,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 35.56 172.72 90)
+		(property "LCSC" "C124381"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10376,6 +10378,148 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 59.69 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46396d6b-259b-4797-b298-f7f6c6a4e38f")
+		(property "Reference" "J3"
+			(at 63.5 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 66.04 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "72038b9f-a175-4ff2-8729-e182efc6cf9a")
+		)
+		(pin "5"
+			(uuid "8f27b9b0-1e68-4846-a1af-c4720deb7713")
+		)
+		(pin "1"
+			(uuid "cb87dcc4-21f4-4eb0-b4ce-c80a2f8094b2")
+		)
+		(pin "7"
+			(uuid "7ba3288a-6675-40d7-80e1-5cb1f6a6a14b")
+		)
+		(pin "2"
+			(uuid "a1678fda-2a2d-45b4-b792-4cabb636f9f7")
+		)
+		(pin "6"
+			(uuid "78d4c785-b31c-457f-8391-153ba4e4ce99")
+		)
+		(pin "4"
+			(uuid "406a2b4d-d879-43c8-ae9a-a71d7bad3ce3")
+		)
+		(pin "3"
+			(uuid "3b6f40f0-8d45-4da9-85d4-9c86491aa046")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13161,8 +13305,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 50.8 144.78 0)
+		(lib_id "power:+5V")
+		(at 34.29 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13170,9 +13314,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7c9eaa43-74c5-44ee-b9fe-6d7cd5df16e8")
-		(property "Reference" "J6"
-			(at 45.212 131.572 0)
+		(uuid "7c2fd68e-1c23-446e-8082-73dc8298026e")
+		(property "Reference" "#PWR014"
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13182,19 +13337,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08"
-			(at 40.386 134.112 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 50.8 144.78 0)
+		(property "Footprint" ""
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13205,7 +13349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 144.78 0)
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13215,8 +13359,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 144.78 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13225,79 +13369,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "3606fbf7-eff8-48d6-bbe7-3403b6324647")
-		)
-		(pin "3"
-			(uuid "769a513e-b6f7-4a74-b9c4-3bb37992ca83")
-		)
-		(pin "8"
-			(uuid "e40a65fe-a7eb-413d-88e3-2efc490f6e65")
 		)
 		(pin "1"
-			(uuid "9ea3a266-4c31-421d-8170-6fffca45cbe9")
-		)
-		(pin "5"
-			(uuid "1f52396e-6ab3-4b60-b9d7-1a2660446325")
-		)
-		(pin "7"
-			(uuid "46c76418-5927-4a5a-84c6-e7e77146b124")
-		)
-		(pin "2"
-			(uuid "32312f5e-786b-4af1-a21c-e332720d794d")
-		)
-		(pin "4"
-			(uuid "e23af0fd-1da0-4e09-b3d7-abf5c5f33644")
+			(uuid "8ad3c0e6-cb8f-4473-9b57-6b0ae928f851")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J6")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13577,6 +13656,83 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8235c0d0-0fcd-4479-bc32-effefd667dac")
+		(property "Reference" "#PWR026"
+			(at 54.61 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.864 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d52e8e68-89ee-4c19-87c2-bd03afc6ab57")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14631,7 +14787,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 167.64 0)
+		(at 34.29 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14639,10 +14795,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5443df3-72b6-4de7-99d9-74a316610a38")
 		(property "Reference" "#PWR013"
-			(at 43.18 171.45 0)
+			(at 34.29 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14653,7 +14808,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 166.3699 0)
+			(at 31.75 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14664,7 +14819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14675,7 +14830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14686,7 +14841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16860,84 +17015,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 154.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9fadf30-a0a4-4b6e-ba90-ca7444b4e9da")
-		(property "Reference" "#PWR01"
-			(at 27.94 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b950093-ad56-4fe5-b1d0-23e6ed845238")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -17008,84 +17085,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 45.72 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbe2d432-f12e-488a-89e3-0217dc0e100f")
-		(property "Reference" "#PWR015"
-			(at 49.53 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 44.45 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "973246c1-c241-4489-846b-3937af8e3f78")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18189,6 +18188,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 54.61 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d79051e3-fdc9-4cbd-a3da-6446a6a9aa37")
+		(property "Reference" "#PWR028"
+			(at 54.61 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.864 191.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cabc38de-9e58-4870-9806-fb1a066d42b6")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -19205,8 +19281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 154.94 90)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 39.37 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19215,9 +19291,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e756b364-59c0-4d8a-8de9-988fef584dc0")
-		(property "Reference" "#PWR02"
-			(at 72.39 154.94 0)
+		(uuid "e98920d5-5654-4768-b884-de5419cb6e13")
+		(property "Reference" "J4"
+			(at 43.18 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 45.72 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19227,19 +19323,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 154.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 154.94 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19249,8 +19334,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 154.94 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19260,8 +19345,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 154.94 0)
+		(property "Manufacturer" "Ckmtw"
+			(at 39.37 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19270,14 +19355,68 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "cc261515-8ab3-4470-8ec5-b7272f20f09b")
+		)
+		(pin "5"
+			(uuid "6f641c13-86a7-4a5a-abb1-6e8adb89ebc4")
 		)
 		(pin "1"
-			(uuid "94a3f216-59fc-4f41-9119-ac4ad82bb8b7")
+			(uuid "a08c5ddf-2157-416e-b79a-90b36b15b33e")
+		)
+		(pin "7"
+			(uuid "dae9cf3f-f94f-4dc4-a287-cd921bbd6065")
+		)
+		(pin "2"
+			(uuid "6eda19d7-f30d-4376-8fbd-07e1ac0d1e67")
+		)
+		(pin "6"
+			(uuid "ddb785fa-d683-4e03-be6e-f1aaf6611624")
+		)
+		(pin "4"
+			(uuid "e593fb45-e14b-4763-9fb0-1aab8ed88232")
+		)
+		(pin "3"
+			(uuid "af54a0f3-1644-4853-b817-8f4685a959cc")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR02")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -19362,7 +19501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 167.64 270)
+		(at 34.29 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19370,10 +19509,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea23cbb7-6b7b-45c5-82b8-125042ff31c8")
 		(property "Reference" "#PWR06"
-			(at 19.05 167.64 0)
+			(at 34.29 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19384,7 +19522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 163.83 90)
+			(at 34.544 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19394,7 +19532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19405,7 +19543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19416,7 +19554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19758,84 +19896,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 194.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2408255-9ec2-40a8-a09e-df275a450ac6")
-		(property "Reference" "#PWR04"
-			(at 19.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0be19c3d-177c-46d7-bb0d-4a0502108087")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20198,8 +20258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 66.04 137.16 270)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 59.69 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20208,87 +20268,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f376b1e6-1476-44c4-8728-f342a6f2aa56")
-		(property "Reference" "#PWR016"
-			(at 62.23 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0762d0b0-4b8d-4159-b738-7d98c18519f1")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 60.96 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f80487ef-aee1-428f-a936-30aeb7fab2f9")
-		(property "Reference" "J4"
-			(at 64.77 131.572 0)
+		(uuid "f43c4253-cb5d-422a-a03f-d2887151ece1")
+		(property "Reference" "J6"
+			(at 63.5 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20298,7 +20280,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 65.278 134.112 0)
+			(at 66.04 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20308,7 +20290,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20318,8 +20300,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 147.32 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20330,7 +20312,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20340,8 +20322,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 60.96 147.32 0)
+		(property "Manufacturer" "Ckmtw"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20351,8 +20333,8 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 60.96 147.32 0)
+		(property "MPN" "B-2100S08P-A110"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20363,7 +20345,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20373,8 +20355,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 60.96 147.32 0)
+		(property "LCSC" "C124381"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20383,35 +20365,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "38e95298-d0da-47a8-9a3a-d0b07a293783")
-		)
-		(pin "1"
-			(uuid "6bacf8d6-d079-402b-bd4e-48b114290431")
-		)
-		(pin "6"
-			(uuid "2532402d-5186-496a-8301-27a6e334ca2a")
-		)
-		(pin "2"
-			(uuid "7b2bba24-e5fb-485c-979f-9183cfe6a14d")
-		)
-		(pin "3"
-			(uuid "8ecc50ee-9a37-45d3-9f44-255dc2c7200b")
-		)
-		(pin "4"
-			(uuid "d2db2bc7-2d0b-4140-963f-c8a7da9c1835")
-		)
-		(pin "5"
-			(uuid "d21e13bf-2495-4eaf-9d82-a9a133655376")
 		)
 		(pin "8"
-			(uuid "9f245f65-825c-468f-956a-92c107507424")
+			(uuid "ae3baf94-7d42-4b9d-ba13-af8f76c33287")
+		)
+		(pin "5"
+			(uuid "2b6b6d0a-f3b6-48cf-ac7e-6c4df2671d5b")
+		)
+		(pin "1"
+			(uuid "2adcc49b-0314-4387-9cfd-7e19e6b0080c")
+		)
+		(pin "7"
+			(uuid "31df2571-fa37-429f-8345-102a66c8afcd")
+		)
+		(pin "2"
+			(uuid "d84e6f51-6290-4360-b771-584e6f631d12")
+		)
+		(pin "6"
+			(uuid "7160ef2d-36a7-4f74-a889-04faed2a81c6")
+		)
+		(pin "4"
+			(uuid "2c03ca29-3eb3-494d-a366-2fc3239d3e80")
+		)
+		(pin "3"
+			(uuid "29b76558-65d6-4a28-9cda-03db06305009")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
