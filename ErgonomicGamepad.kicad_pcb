@@ -32731,7 +32731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44854.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32765,7 +32765,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32778,7 +32778,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ATMEGA32U4-AU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32804,7 +32804,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C44854"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
