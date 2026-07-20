@@ -12149,7 +12149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d01de16-ce76-4c96-bb06-aec37ced1e68")
-		(property "Reference" "D25"
+		(property "Reference" "LED1"
 			(at 157.988 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12180,7 +12180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12213,7 +12213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YONGYUTAI"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12224,7 +12224,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "YLED0603G"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12246,7 +12246,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12266,7 +12266,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D25")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -13306,7 +13306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82c4ea71-098c-43a0-a206-127469e0fe22")
-		(property "Reference" "D26"
+		(property "Reference" "LED2"
 			(at 157.988 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13337,7 +13337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2286.pdf"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13359,7 +13359,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Hubei KENTO Elec"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13370,7 +13370,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KT-0603R"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13392,7 +13392,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13423,7 +13423,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D26")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
