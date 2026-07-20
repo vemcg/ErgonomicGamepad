@@ -15327,7 +15327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C109456.pdf"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15349,7 +15349,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15360,7 +15360,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX5R6BB475"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15382,7 +15382,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C109456"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15924,7 +15924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C519390.pdf"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15946,7 +15946,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15957,7 +15957,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRNPO8BN220"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15979,7 +15979,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519390"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16330,7 +16330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C519390.pdf"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16352,7 +16352,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16363,7 +16363,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRNPO8BN220"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -16385,7 +16385,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519390"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -17134,7 +17134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106215.pdf"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17156,7 +17156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17167,7 +17167,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX5R7BB105"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17189,7 +17189,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106215"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -17632,7 +17632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17654,7 +17654,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17665,7 +17665,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17687,7 +17687,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
