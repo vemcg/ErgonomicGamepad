@@ -7144,7 +7144,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0611e965-8fa5-48c0-84f5-cb610815705d")
 		(property "Reference" "SW09"
@@ -7178,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7200,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7211,7 +7211,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7233,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8099,7 +8099,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "204044f8-6fee-4e07-b470-5916b349188f")
 		(property "Reference" "SW11"
@@ -8133,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8166,7 +8166,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8188,7 +8188,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8223,7 +8223,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "210d9d45-1fd8-4634-96d7-31f9e35c630e")
 		(property "Reference" "SW21"
@@ -8257,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8279,7 +8279,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8290,7 +8290,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8312,7 +8312,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8425,7 +8425,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27148f3b-8f46-4b13-9eca-b37490a62438")
 		(property "Reference" "SW10"
@@ -8459,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8481,7 +8481,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8492,7 +8492,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8514,7 +8514,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9134,7 +9134,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "36491a33-468c-400a-bff9-c26c6e2c017d")
 		(property "Reference" "SW23"
@@ -9168,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9190,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9201,7 +9201,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9223,7 +9223,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10682,7 +10682,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47a79728-b33c-475c-87d7-6fd804357839")
 		(property "Reference" "SW17"
@@ -10716,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10738,7 +10738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +10749,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10771,7 +10771,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10806,7 +10806,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a95d191-3f8e-453b-8d22-e21bd6403810")
 		(property "Reference" "SW05"
@@ -10840,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10862,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10873,7 +10873,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10895,7 +10895,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10930,7 +10930,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4f94bf8f-eb9a-4dcc-bacb-d1c724a236db")
 		(property "Reference" "SW20"
@@ -10964,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10986,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10997,7 +10997,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11019,7 +11019,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12331,7 +12331,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65b82eb4-0ac0-47d5-934e-bd0ccc49569e")
 		(property "Reference" "SW22"
@@ -12365,7 +12365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12387,7 +12387,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12398,7 +12398,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12420,7 +12420,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12712,7 +12712,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71425fd7-7c56-4e6b-8d3f-b2dae1052018")
 		(property "Reference" "SW08"
@@ -12746,7 +12746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12768,7 +12768,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12779,7 +12779,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12801,7 +12801,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13391,7 +13391,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7e91fcff-7445-43d8-be50-621cae3e87bf")
 		(property "Reference" "SW16"
@@ -13425,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13447,7 +13447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13458,7 +13458,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13480,7 +13480,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14183,7 +14183,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "96a7d052-5cf8-4fd2-ad81-5c1503fffee5")
 		(property "Reference" "SW06"
@@ -14217,7 +14217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14239,7 +14239,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14250,7 +14250,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14272,7 +14272,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14670,7 +14670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a433f17e-0b41-4241-a04b-c103d6a5d2b4")
 		(property "Reference" "SW02"
@@ -14704,7 +14704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14726,7 +14726,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14737,7 +14737,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14759,7 +14759,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15020,7 +15020,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a8420e9e-8fa1-4139-a4a4-e13241a64917")
 		(property "Reference" "SW04"
@@ -15054,7 +15054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15076,7 +15076,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15087,7 +15087,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15109,7 +15109,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -15417,7 +15417,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a8e033d8-5395-4ce0-a92e-dbe67238098f")
 		(property "Reference" "SW01"
@@ -15451,7 +15451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15473,7 +15473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15484,7 +15484,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15506,7 +15506,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -16171,7 +16171,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b1fc2795-27bc-4e8d-b8d9-2a37be2fdf78")
 		(property "Reference" "SW03"
@@ -16205,7 +16205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16227,7 +16227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16238,7 +16238,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16260,7 +16260,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16821,7 +16821,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7b2d48e-c6d3-4e00-83c9-1bdfe22afc57")
 		(property "Reference" "SW14"
@@ -16855,7 +16855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16877,7 +16877,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16888,7 +16888,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16910,7 +16910,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17870,7 +17870,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cfdfbbeb-ec11-4462-8c1b-245009005d95")
 		(property "Reference" "SW19"
@@ -17904,7 +17904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17926,7 +17926,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17937,7 +17937,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17959,7 +17959,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17994,7 +17994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d09c3f9a-6d55-406b-a3d2-2021457b59bb")
 		(property "Reference" "SW24"
@@ -18028,7 +18028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18050,7 +18050,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18061,7 +18061,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18083,7 +18083,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18472,7 +18472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d9ef3848-8c5a-48d3-9cbe-07dfc6e8265a")
 		(property "Reference" "SW15"
@@ -18506,7 +18506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18528,7 +18528,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18539,7 +18539,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18561,7 +18561,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19708,7 +19708,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec3e394f-e40c-45b5-90e9-d6f208c2ad9b")
 		(property "Reference" "SW12"
@@ -19742,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19764,7 +19764,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19775,7 +19775,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -19797,7 +19797,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -20142,7 +20142,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f35a9dd7-1fdc-4086-8acf-96a66abd1ef2")
 		(property "Reference" "SW07"
@@ -20176,7 +20176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20198,7 +20198,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20209,7 +20209,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20231,7 +20231,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -20577,7 +20577,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa52d3e9-c4fa-49b8-9c52-2439ce9c0849")
 		(property "Reference" "SW18"
@@ -20611,7 +20611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -20633,7 +20633,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20644,7 +20644,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +20666,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20849,7 +20849,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fce3b196-896c-4017-ab2e-9c786e3388f3")
 		(property "Reference" "SW13"
@@ -20883,7 +20883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20905,7 +20905,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20916,7 +20916,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20938,7 +20938,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
