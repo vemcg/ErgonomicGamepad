@@ -818,7 +818,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pintype "passive")
 			(uuid "7f019aaa-e800-4a6b-a6ef-2dbf0b7d0ed4")
 		)
@@ -827,7 +827,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pintype "passive")
 			(uuid "1e530f35-72eb-40a6-bb9e-e814935b01d3")
 		)
@@ -850,7 +850,7 @@
 		(at 98.23 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D14"
+		(property "Reference" "DM14"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "38227f01-2f89-4d13-9ceb-67b788de6b1d")
@@ -872,7 +872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -924,7 +924,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -937,7 +937,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -950,12 +950,25 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f74bde3f-418e-4bf8-84f3-8c94cf73808a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbe27c83-26f8-463e-ae1f-50f658ed1ac6")
 			(effects
 				(font
 					(size 1 1)
@@ -1171,7 +1184,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "758d0fed-b7b4-425b-afdb-a8ce3da2ff6f")
@@ -1195,7 +1208,7 @@
 		(at 98.23 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D12"
+		(property "Reference" "DM12"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "e4ee9e0d-c30f-49cd-b8b0-e0511a1e0da7")
@@ -1217,7 +1230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1269,7 +1282,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1282,7 +1295,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1308,7 +1321,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1529,13 +1542,372 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "89835091-0a2d-44d2-8d19-d8aa82e1ae91")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "0578c1f6-1256-4188-8d24-af0d13a61e9a")
+		(at 171.385 31.795)
+		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(property "Reference" "J4"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "6f8a29b7-49f7-4ab7-aa17-602b3b99de58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 0 20.16 0)
+			(layer "F.Fab")
+			(uuid "f1c746cf-3806-484d-9d97-50581d072d29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30133158-4c37-43a7-a837-9fbf54f7c0db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d812ea79-2a6b-4963-8f09-3f615e366360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34b09fe2-1351-4ae3-9d1d-5a130f058744")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "205d4c19-e7a7-4751-91aa-3b47709e111b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef8a7b10-37a6-46df-bc9b-613c86645063")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d101a2e8-4dd4-4ef6-b082-7ef791bc1fd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a71b01d0-2ecd-4ca9-a9d4-1dd485f6389a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/e98920d5-5654-4768-b884-de5419cb6e13")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c36ddcf0-8f53-43d1-971c-4736a3ecc208")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a9add4df-55be-4c18-aef7-8e69b1f66da9")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "95c62df6-a439-4e8c-a8c0-5b2c52fc62d8")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "816b8cb0-a43f-4b0b-b82a-9f74182bbbed")
+		)
+		(fp_line
+			(start -1.38 19.16)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3c11deb-10f8-4e75-b42a-58ad5514efa3")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9286b847-eef6-43db-b2c2-2df5c794e4df")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bf7e8e89-1bec-432e-8f60-f740cbaa75df")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a57f9ebb-8b00-44c6-a530-8b08195b5c21")
+		)
+		(fp_line
+			(start -1.27 19.05)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a0eb519b-19ee-4fd0-8bdc-dd7e5535146f")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f084375c-fe44-4769-9f8e-9025ff01b210")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e7da997-d662-45a2-a3a5-b4e73c82319a")
+		)
+		(fp_line
+			(start 1.27 19.05)
+			(end -1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f673869d-8904-4168-abfa-cc28242cf878")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 8.89 90)
+			(layer "F.Fab")
+			(uuid "081fd003-1862-4937-88e8-eca7826463db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+5V")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "b27d1c9f-b1d0-4257-bd53-bda831f72e2d")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(J4-Pin_2-Pad2)")
+			(pinfunction "Pin_2_2")
+			(pintype "passive+no_connect")
+			(uuid "c1b43b56-da8b-45b3-b6e1-63e12ca263e7")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW1")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "b80950f4-2cd3-45c0-828b-3f65926e0e4a")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW2")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "93ea5e0a-650e-4b47-b111-3726c2ed308e")
+		)
+		(pad "5" thru_hole circle
+			(at 0 10.16)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW3")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
+			(uuid "5bc4583a-31bb-402e-a54f-63d7aaf30317")
+		)
+		(pad "6" thru_hole circle
+			(at 0 12.7)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW4")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
+			(uuid "4426d72b-f835-4bcc-9d71-a11e6c3c416a")
+		)
+		(pad "7" thru_hole circle
+			(at 0 15.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/COL1")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
+			(uuid "b01eaaf8-2c99-450c-9335-70e56b575d90")
+		)
+		(pad "8" thru_hole circle
+			(at 0 17.78)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pin_8_8")
+			(pintype "passive")
+			(uuid "722e64af-75cd-4a8b-b23a-c0b3ab438b44")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2278,7 +2650,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pintype "passive")
 			(uuid "f3bea4b5-d00e-419e-b9f4-9cc6af33bbb3")
 		)
@@ -2287,7 +2659,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pintype "passive")
 			(uuid "178202a2-e6f7-4097-8950-e7629ff1cff2")
 		)
@@ -3035,7 +3407,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pintype "passive")
 			(uuid "993c2d6d-86e0-4869-a870-ee9783d7d2ba")
 		)
@@ -3044,7 +3416,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pintype "passive")
 			(uuid "a3040a79-08ab-4c74-8693-80f6b4e9f6b6")
 		)
@@ -3792,7 +4164,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pintype "passive")
 			(uuid "4600d927-3fd3-4897-aa88-0d49f8592622")
 		)
@@ -3801,7 +4173,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pintype "passive")
 			(uuid "bda0a3c5-b397-48ea-92ce-af3e572161d5")
 		)
@@ -3824,7 +4196,7 @@
 		(at 98.23 172.2)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D17"
+		(property "Reference" "DM17"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "d49cefa0-cca8-4ea5-8ff1-285fd9f0be9a")
@@ -3846,7 +4218,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3872,7 +4244,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3885,7 +4257,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3911,7 +4283,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4158,7 +4530,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D17-A)")
+			(net "Net-(DM17-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "feaed6b0-592a-4644-aeaa-39edc7cbd823")
@@ -4240,6 +4612,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4349,6 +4722,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4400,7 +4774,7 @@
 		(at 87.46 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D3"
+		(property "Reference" "DM02"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "1af463eb-a89d-46cc-abd0-19a197b540c4")
@@ -4422,7 +4796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4448,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4461,7 +4835,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4487,7 +4861,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4734,7 +5108,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "595f611f-edee-49c0-8e8b-fe466cae8423")
@@ -5693,7 +6067,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pintype "passive")
 			(uuid "aaafc45e-5eae-4968-aeba-ab2a5d188ff8")
 		)
@@ -5702,7 +6076,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pintype "passive")
 			(uuid "756724af-1e15-430f-8b9b-a923a78c46fd")
 		)
@@ -6450,7 +6824,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pintype "passive")
 			(uuid "84fbeb13-7838-431e-8f9d-5ca264569422")
 		)
@@ -6459,7 +6833,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pintype "passive")
 			(uuid "fdcfc979-558f-490c-ab67-8fbf598bd77c")
 		)
@@ -6482,7 +6856,7 @@
 		(at 109 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D24"
+		(property "Reference" "DM24"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "85cc4ee5-3ccb-43df-8e73-34f3cbef9819")
@@ -6504,7 +6878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6530,7 +6904,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6543,7 +6917,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6569,7 +6943,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6816,7 +7190,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D24-A)")
+			(net "Net-(DM24-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "58646fef-858e-4809-869b-cf9e20efe055")
@@ -7565,7 +7939,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pintype "passive")
 			(uuid "ad1005a4-025a-46f3-9e0d-c8fbf0ff8051")
 		)
@@ -7574,7 +7948,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D3-A)")
+			(net "Net-(DM02-A)")
 			(pintype "passive")
 			(uuid "25caa8d7-0bcb-4198-a1f1-20aad5511d8f")
 		)
@@ -8648,7 +9022,7 @@
 		(at 109 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D22"
+		(property "Reference" "DM22"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "9970604f-7bbd-452a-be6e-6da35a7b553f")
@@ -8670,7 +9044,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8696,7 +9070,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8709,7 +9083,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8735,7 +9109,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8982,10 +9356,368 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "ec64d53f-859d-4948-9200-ac8820911b1e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Diode_SMD:D_SOD-323"
+		(layer "F.Cu")
+		(uuid "2a8bf630-aa60-47fc-b134-02083d789b89")
+		(at 33.67 170.975)
+		(descr "SOD-323")
+		(tags "SOD-323")
+		(property "Reference" "DM09"
+			(at 0 -1.85 0)
+			(layer "F.SilkS")
+			(uuid "6b3781fb-ca16-4984-88d4-0e2917dc95ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 0.1 1.9 0)
+			(layer "F.Fab")
+			(uuid "6f4977a4-6b93-4e55-b07d-d66292e7cb5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c14ff8-8dd1-4e2f-80f6-e19caa255ae2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92a7e0d5-0833-4e53-9643-21e20ce30d22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "303d8eb8-aa93-4f0d-8c95-41eee73f8bb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5a178f4-ffc2-4e2c-a5f6-3741bfbd93f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8510a969-99c2-4bce-a863-72afe770046b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac23cd46-af57-4ca9-be73-3ac72ebf32be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25e5d262-2696-4196-a832-76d349e3b9a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7446e4f9-3c3e-45f8-93f7-4f6b08933e78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
+		(path "/a894d004-525f-483f-a5a4-b399f7ac6fa0")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.61 -0.85)
+			(end -1.61 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ef74c4cc-9146-46b6-b28b-032e0174c79f")
+		)
+		(fp_line
+			(start -1.61 -0.85)
+			(end 1.05 -0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "60bf6eaf-3ecb-4ab2-bf6d-7331f7c4c232")
+		)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b83f593-1c12-46be-b8c9-c37c4ccec4c1")
+		)
+		(fp_line
+			(start -1.6 -0.95)
+			(end -1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3615da4e-a6db-4544-84ee-f8875df89663")
+		)
+		(fp_line
+			(start -1.6 -0.95)
+			(end 1.6 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a552edcb-03c9-475a-9352-2ba7a21b3665")
+		)
+		(fp_line
+			(start -1.6 0.95)
+			(end 1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "71e1ea99-1e64-44e3-92a6-e2df429df814")
+		)
+		(fp_line
+			(start 1.6 -0.95)
+			(end 1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "332481a6-6c26-4a2c-b58c-ba7fc9cd02aa")
+		)
+		(fp_line
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9de5d10f-3f2b-41a3-ba14-6a5f537d7f3d")
+		)
+		(fp_line
+			(start -0.9 0.7)
+			(end -0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a9572a36-4d46-4550-ba1e-813b1eb510e2")
+		)
+		(fp_line
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "292fbee1-627a-45bb-8f44-a439303fea4e")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end -0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f48630a4-1b6b-48d6-8ea8-698822ddd3a6")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end 0.2 -0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b7740693-c052-460e-9212-aab41759794e")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cca54520-85bf-4cca-8c33-049a281c12b9")
+		)
+		(fp_line
+			(start 0.2 0)
+			(end 0.45 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8261c38a-24d5-45d9-a58c-daf535bd4406")
+		)
+		(fp_line
+			(start 0.2 0.35)
+			(end -0.3 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a2a8e3dd-6310-4293-8d05-99a49b606440")
+		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f42caea8-2c42-4f7c-8f97-02e628a384cb")
+		)
+		(fp_line
+			(start 0.9 0.7)
+			(end -0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef3e5918-a933-466e-8c84-035526514eab")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.85 0)
+			(layer "F.Fab")
+			(uuid "095cc5fd-82b1-4466-b7a5-a97af07ee5a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.05 0)
+			(size 0.6 0.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/COL3")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "0c43cb7a-d78b-4fe9-aefd-9ca9a6ca3afe")
+		)
+		(pad "2" smd roundrect
+			(at 1.05 0)
+			(size 0.6 0.45)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(DM09-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "8137d910-3c18-4d37-bdb8-c2b7b8764927")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
@@ -9028,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9062,7 +9794,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Ckmtw"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9075,7 +9807,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B-2100S08P-A110"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9101,7 +9833,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C124381"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9575,7 +10307,7 @@
 		(at 87.46 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D7"
+		(property "Reference" "DM06"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "8edf0a8c-3316-4d52-9615-6e1e953f4a60")
@@ -9597,7 +10329,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9649,7 +10381,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9662,7 +10394,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9688,7 +10420,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9909,7 +10641,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d7b7f627-6071-4b07-8741-b0a28bab11c7")
@@ -9933,7 +10665,7 @@
 		(at 126.66 185.74)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "D25"
+		(property "Reference" "LED1"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "a86e2c41-332f-4794-b075-75df6c7a4d43")
@@ -9955,7 +10687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10002,7 +10734,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YONGYUTAI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10015,7 +10747,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "YLED0603G"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10041,7 +10773,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10183,7 +10915,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D25-A)")
+			(net "Net-(LED1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "df8afe98-4e3a-4e20-85ed-1a1d2ad02d1d")
@@ -10932,7 +11664,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pintype "passive")
 			(uuid "f61f347d-4771-4735-afe5-de07cc7429b9")
 		)
@@ -10941,7 +11673,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D7-A)")
+			(net "Net-(DM06-A)")
 			(pintype "passive")
 			(uuid "45ba3730-db11-4db8-8d91-c2a552bf8f5a")
 		)
@@ -11689,7 +12421,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D09-A)")
+			(net "Net-(DM09-A)")
 			(pintype "passive")
 			(uuid "2cf6f321-8499-4b29-8e8c-2604901f931c")
 		)
@@ -11698,7 +12430,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D09-A)")
+			(net "Net-(DM09-A)")
 			(pintype "passive")
 			(uuid "0c867afe-d251-4b31-9c74-ca5a13f174bf")
 		)
@@ -11721,7 +12453,7 @@
 		(at 98.23 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D15"
+		(property "Reference" "DM15"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "066499d2-cf16-4939-8657-77db3a31abb7")
@@ -11743,7 +12475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11795,7 +12527,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11808,7 +12540,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11834,7 +12566,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12055,7 +12787,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d16baf06-2942-4a3a-8497-bda8675a3608")
@@ -12101,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7519.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12174,7 +12906,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12493,7 +13225,7 @@
 		(at 109 165.1)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D23"
+		(property "Reference" "DM23"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "cdbb593d-74d5-47f4-8b0e-f1a16e4d7ff9")
@@ -12515,7 +13247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12567,7 +13299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12580,7 +13312,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12606,7 +13338,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12827,7 +13559,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D23-A)")
+			(net "Net-(DM23-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "9ab71031-4c5a-4844-bf5b-60517a5004fe")
@@ -12960,7 +13692,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/f80487ef-aee1-428f-a936-30aeb7fab2f9")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
 		(units
@@ -13210,7 +13941,7 @@
 		(at 109 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D19"
+		(property "Reference" "DM19"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "e66ee839-1003-4f35-aaa4-1de735282a23")
@@ -13232,7 +13963,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13277,6 +14008,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c71763d2-9c65-4ebf-986e-25ccd93be9d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f15494c3-4caf-46bd-a783-9a8f197e5e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c4f25db-0f11-4f2b-b5f8-5573acad05b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27405522-f00b-429b-9e99-a3511bd4d2b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e850004-2f0e-41f1-b310-3a4d5a3bb7df")
 			(effects
 				(font
 					(size 1 1)
@@ -13492,7 +14275,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "5560b5f0-a571-4382-9708-804a6dcc7148")
@@ -13784,6 +14567,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -14560,7 +15344,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pintype "passive")
 			(uuid "c7450c34-a61b-47ae-96e2-42861114b896")
 		)
@@ -14569,7 +15353,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D15-A)")
+			(net "Net-(DM15-A)")
 			(pintype "passive")
 			(uuid "fb5ac393-a8c0-46ee-bb8e-7066405b45fa")
 		)
@@ -14592,7 +15376,7 @@
 		(at 98.23 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D10"
+		(property "Reference" "DM10"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "2ee8b366-7704-460c-89ca-289b9d9ffcd2")
@@ -14614,7 +15398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14640,7 +15424,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14653,7 +15437,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14679,7 +15463,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14926,7 +15710,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "8b3c1734-978c-4f40-ad3f-cb74fb56e06f")
@@ -15675,7 +16459,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pintype "passive")
 			(uuid "c623efaa-2491-4de7-98e4-9be19f0d4d35")
 		)
@@ -15684,7 +16468,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D12-A)")
+			(net "Net-(DM12-A)")
 			(pintype "passive")
 			(uuid "d231f373-4a57-4326-bad4-120b19a32123")
 		)
@@ -16127,7 +16911,7 @@
 		(at 87.46 172.2)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D09"
+		(property "Reference" "DM08"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "1ac60be2-e44f-4eb6-9818-18a32daa0d6f")
@@ -16149,7 +16933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16175,7 +16959,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16188,7 +16972,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16214,7 +16998,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16451,7 +17235,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/COL3")
+			(net "/COL2")
 			(pinfunction "K_1")
 			(pintype "passive")
 			(uuid "e2e08ba3-9620-4a72-82b4-1c00f2f66d14")
@@ -16461,7 +17245,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D09-A)")
+			(net "Net-(DM08-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "d9b71e24-1c17-4ca1-890b-35cf626494ec")
@@ -16479,13 +17263,372 @@
 			)
 		)
 	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "780a2eb5-6335-4bb0-b55f-417db86dd9ff")
+		(at 175.975 31.795)
+		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(property "Reference" "J6"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "a5989ae7-2609-475f-a6e2-c11dd30a2acc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 0 20.16 0)
+			(layer "F.Fab")
+			(uuid "1d50d340-730c-4fd9-8a9b-06b771ffa1dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b9afed6-f3d6-4496-8ec8-ed6f7daaf962")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7255e018-5465-4772-9d06-8d6f774d8e94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38cfbc07-df87-4621-b6d2-14acbee8b283")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd826088-3c2e-4315-a228-59ce8e35e57c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "357736b6-34c9-47bf-837c-1cae19be00a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7616e26-4a0a-4aa7-9516-0960b0a3a559")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0de83024-f982-4a35-8f10-498ef384eb6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/f43c4253-cb5d-422a-a03f-d2887151ece1")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57c0b5b0-da51-4faa-877e-c2bbc7f15583")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1311f66c-6edc-44c7-bfc3-e746b4334825")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "397ca610-23ea-4e4d-8260-095111d44643")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "470a6e6f-908c-4817-b554-137187ef812a")
+		)
+		(fp_line
+			(start -1.38 19.16)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2bb2eb50-15dc-4101-8917-68a2b6e00d30")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9690ef4b-5fcc-4254-87a9-92151e3715be")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "73080ae5-aae3-46f2-819b-4df5ac10fc8f")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9c7c3b5b-b348-4d3a-85a0-de0e5a33f316")
+		)
+		(fp_line
+			(start -1.27 19.05)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07deba55-6827-4d37-9614-354c42315fe0")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ae0d0ed-a5a5-4e3d-929e-cdc0c5fccff2")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a194ed1-bbf3-4bdb-b2d7-c98db8dc52c5")
+		)
+		(fp_line
+			(start 1.27 19.05)
+			(end -1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bad7390e-26a9-4de4-8a00-3a278416e166")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 8.89 90)
+			(layer "F.Fab")
+			(uuid "75b2bb22-bed2-467b-a2da-1a1e5724df55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+5V")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "68296695-5013-416b-bc02-640c3b3c3395")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(J6-Pin_2-Pad2)")
+			(pinfunction "Pin_2_2")
+			(pintype "passive+no_connect")
+			(uuid "4a34e944-7942-4a14-82f6-8a24ba0e2b00")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW1")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "3b99041e-73aa-4a73-bdce-0d8a492a0bf0")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW2")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "e22f68e2-ae9a-47e7-85a9-d23488e180ad")
+		)
+		(pad "5" thru_hole circle
+			(at 0 10.16)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW3")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
+			(uuid "312192db-e98f-4fd5-aa70-dbf6403cf411")
+		)
+		(pad "6" thru_hole circle
+			(at 0 12.7)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW4")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
+			(uuid "bf61f659-fe66-4d7e-9fe3-ae2692e8626b")
+		)
+		(pad "7" thru_hole circle
+			(at 0 15.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/COL1")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
+			(uuid "8389c635-f0e2-454f-b372-49d59858af76")
+		)
+		(pad "8" thru_hole circle
+			(at 0 17.78)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pin_8_8")
+			(pintype "passive")
+			(uuid "2f4a0d33-c897-4a9d-b085-07a2c8e54c70")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "79c74447-d47b-4ab6-8fa4-92a960854fd1")
 		(at 87.46 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D4"
+		(property "Reference" "DM03"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "985b1c55-a8b6-41ed-8bff-c4513fd7bda7")
@@ -16507,7 +17650,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16559,7 +17702,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16572,7 +17715,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16598,7 +17741,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16819,7 +17962,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "6e5942a5-6445-49ca-93f3-8d9813bb6295")
@@ -17568,7 +18711,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pintype "passive")
 			(uuid "7c90e08f-9240-4b03-be16-f71f688db02c")
 		)
@@ -17577,7 +18720,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pintype "passive")
 			(uuid "9ab58d03-81e9-4226-93ba-bd934a77e2df")
 		)
@@ -17600,7 +18743,7 @@
 		(at 98.23 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D16"
+		(property "Reference" "DM16"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "6829898e-8f28-4e8c-b8b8-b983028a979b")
@@ -17622,7 +18765,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17648,7 +18791,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17661,7 +18804,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17687,7 +18830,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17934,7 +19077,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f5a74ea4-1d0f-4c32-b2d7-71d124e3cd90")
@@ -17952,14 +19095,14 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8c94a222-e86f-4534-8158-ed743add0f42")
 		(at 120.215 47.825)
-		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "JP1"
-			(at 0 -1.8 0)
+			(at 0 -2.38 0)
 			(layer "F.SilkS")
 			(uuid "dcc78052-8190-456a-a7f6-e3de3d7dc87d")
 			(effects
@@ -17969,8 +19112,8 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 0)
+		(property "Value" "Jumper_2_Open"
+			(at 0 4.92 0)
 			(layer "F.Fab")
 			(uuid "d91ffc15-ff8d-4f9a-9764-b5182d324d22")
 			(effects
@@ -17980,33 +19123,93 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124375.pdf"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3d8f6d6a-9c11-4344-bbfe-b4ce0de394fb")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" "2-pin 2.54mm header for a removable shorting jumper (power-path select)"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f324a77-17cc-448f-9a39-457435b759ac")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "85ad4b16-6365-4693-9c68-42aa00444fea")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
 		)
-		(property ki_fp_filters "SolderJumper*Open*")
+		(property "Manufacturer" "Ckmtw"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ba98174-ae13-40e2-b71d-7b0d68b6a519")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2100S02P-A110"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a275ea-1a65-4b6f-9e9a-d6ff3aa91f87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "926b8e69-b792-4d10-8a22-aaceeabac118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C124375"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "516aa74f-e6a1-4fa7-afe0-8a13e584f179")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/0e5655c1-ea94-4a01-90f1-1c7096ca83fd")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
@@ -18016,33 +19219,21 @@
 				(pins "1" "2")
 			)
 		)
-		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.15 -0.75)
-			(end 0.15 0.75)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Mask")
-			(uuid "6f30784d-39b8-48e7-b606-0759af1f2bc3")
-		)
 		(fp_line
-			(start -1.4 -1)
-			(end 1.4 -1)
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "49b7fcf7-9deb-49b8-bfce-0aadbe12fe8f")
+			(uuid "c15cdadc-0b17-4167-81d2-896c987028d6")
 		)
 		(fp_line
-			(start -1.4 1)
-			(end -1.4 -1)
+			(start -1.38 0)
+			(end -1.38 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18051,8 +19242,8 @@
 			(uuid "a51c9354-0d3c-4251-a290-941c59931f2b")
 		)
 		(fp_line
-			(start 1.4 -1)
-			(end 1.4 1)
+			(start -1.38 1.27)
+			(end -1.38 3.92)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18061,8 +19252,8 @@
 			(uuid "446dc1f5-90c7-4d73-b5fb-a418a2ae85e2")
 		)
 		(fp_line
-			(start 1.4 1)
-			(end -1.4 1)
+			(start -1.38 1.27)
+			(end 1.38 1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -18071,64 +19262,131 @@
 			(uuid "5ea0247e-0f4a-436a-b780-042c8afe62c6")
 		)
 		(fp_line
-			(start -1.65 -1.25)
-			(end -1.65 1.25)
+			(start -1.38 3.92)
+			(end 1.38 3.92)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.SilkS")
+			(uuid "49b7fcf7-9deb-49b8-bfce-0aadbe12fe8f")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
 			(uuid "2c2a6eb4-537e-4134-bfd4-0837471dfc50")
 		)
-		(fp_line
-			(start -1.65 -1.25)
-			(end 1.65 -1.25)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 4.32)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "c15cdadc-0b17-4167-81d2-896c987028d6")
+			(uuid "6f30784d-39b8-48e7-b606-0759af1f2bc3")
 		)
 		(fp_line
-			(start 1.65 1.25)
-			(end -1.65 1.25)
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "b6d023f5-0ede-4258-87d3-64c97cab9ce8")
 		)
 		(fp_line
-			(start 1.65 1.25)
-			(end 1.65 -1.25)
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
+			(layer "F.Fab")
 			(uuid "47891c6a-a68c-40ca-9fd5-1455cfa63ed3")
 		)
-		(pad "1" smd rect
-			(at -0.65 0)
-			(size 1 1.5)
-			(layers "F.Cu" "F.Mask")
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5646764-8a2e-42e5-ad58-8983e55f936e")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1379cdee-aa4d-4290-a030-2cde94f897ca")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "54f8085a-0bf0-416a-b4ed-02fa4a1476b8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 90)
+			(layer "F.Fab")
+			(uuid "691f4381-00c7-4b50-9ffe-9aea46fa4c13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(D1-K)")
 			(pinfunction "A_1")
 			(pintype "passive")
 			(uuid "141969fe-9f09-494d-80c4-8e914333e735")
 		)
-		(pad "2" smd rect
-			(at 0.65 0)
-			(size 1 1.5)
-			(layers "F.Cu" "F.Mask")
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "+5V")
 			(pinfunction "B_2")
 			(pintype "passive")
 			(uuid "76c6d78f-e962-409e-9ba2-0408bf31fbdc")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
@@ -18136,7 +19394,7 @@
 		(at 126.66 188.33)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
-		(property "Reference" "D26"
+		(property "Reference" "LED2"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "6e1d9943-56ec-497d-8f4c-6d9c41fa8ad7")
@@ -18158,7 +19416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2286.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18205,7 +19463,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Hubei KENTO Elec"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18218,7 +19476,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KT-0603R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18244,7 +19502,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18386,7 +19644,7 @@
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D26-A)")
+			(net "Net-(LED2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "ebe4af07-56a4-4e5a-97ab-fa362bc25e7f")
@@ -18468,6 +19726,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19244,7 +20503,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pintype "passive")
 			(uuid "73924cbf-4349-4c05-b2f2-7c361b96f850")
 		)
@@ -19253,7 +20512,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pintype "passive")
 			(uuid "9b8d5396-0eab-4421-b5f9-a333a9b8814e")
 		)
@@ -19276,7 +20535,7 @@
 		(at 109 154.45)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D20"
+		(property "Reference" "DM20"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "97ec46ef-a68c-4150-845c-e06576bfb9fb")
@@ -19298,7 +20557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19350,7 +20609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19363,7 +20622,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19389,7 +20648,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19610,7 +20869,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f1df162b-4dc5-4389-945d-8d1feb08b3ae")
@@ -19634,7 +20893,7 @@
 		(at 87.46 161.55)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D6"
+		(property "Reference" "DM05"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "b529926f-68a6-4449-8912-d0ff2ba8a898")
@@ -19656,7 +20915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19708,7 +20967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19721,7 +20980,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19747,7 +21006,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19968,7 +21227,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D6-A)")
+			(net "Net-(DM05-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "2cf79f4a-9f16-4bd3-bdee-0f650daf7ee1")
@@ -20050,6 +21309,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20826,7 +22086,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D9-A)")
+			(net "Net-(DM08-A)")
 			(pintype "passive")
 			(uuid "aede4f8d-3b51-4d8f-a284-ee51cf85e8c4")
 		)
@@ -20835,7 +22095,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D9-A)")
+			(net "Net-(DM08-A)")
 			(pintype "passive")
 			(uuid "1ec4858d-9a88-424e-9f05-fbd64dbc21ef")
 		)
@@ -21583,7 +22843,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pintype "passive")
 			(uuid "3d529423-3cf2-4c26-98ed-5e8fe74a757f")
 		)
@@ -21592,7 +22852,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D14-A)")
+			(net "Net-(DM14-A)")
 			(pintype "passive")
 			(uuid "280758cc-950a-4a56-b90f-99ea6917a4a5")
 		)
@@ -21615,7 +22875,7 @@
 		(at 87.46 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D2"
+		(property "Reference" "DM01"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f5021a50-eb95-48fe-b082-63e81b0a04ab")
@@ -21637,7 +22897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21689,7 +22949,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21702,7 +22962,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21728,7 +22988,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21949,7 +23209,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D2-A)")
+			(net "Net-(DM01-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "81b818e0-78ec-46e6-a1fc-56f17f5eef2d")
@@ -21973,7 +23233,7 @@
 		(at 98.23 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D13"
+		(property "Reference" "DM13"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "a7d934f7-424f-4d1c-9e21-74d100376589")
@@ -21995,7 +23255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22021,7 +23281,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22034,7 +23294,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22060,7 +23320,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22307,7 +23567,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "97617c8d-989c-4338-a8cf-639d8104a34f")
@@ -23056,7 +24316,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pintype "passive")
 			(uuid "effdb49f-ad35-49c4-ac8e-6c5f8addd4bb")
 		)
@@ -23065,7 +24325,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pintype "passive")
 			(uuid "835f40cf-20fc-4fb5-af17-6ef8d797349b")
 		)
@@ -23813,7 +25073,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pintype "passive")
 			(uuid "c5cc276c-cc3b-4298-8631-172d1a06d39a")
 		)
@@ -23822,7 +25082,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D19-A)")
+			(net "Net-(DM19-A)")
 			(pintype "passive")
 			(uuid "65818855-2d7f-4410-ad10-a6fe5a77264b")
 		)
@@ -24570,7 +25830,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pintype "passive")
 			(uuid "97a901ab-fe63-4a85-9f77-c67534401de3")
 		)
@@ -24579,7 +25839,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D22-A)")
+			(net "Net-(DM22-A)")
 			(pintype "passive")
 			(uuid "c652f858-ef78-41b6-8b66-071780916e00")
 		)
@@ -24862,7 +26122,7 @@
 		(at 109 147.35)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D18"
+		(property "Reference" "DM18"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "30782375-7840-4ece-b50c-2f8deae1f5f9")
@@ -24884,7 +26144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24929,6 +26189,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34396f00-ee94-4d04-88e6-0cfdb14f605e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca6add49-429e-4281-8e6c-388c55782002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4c8340d-fbb1-4d8e-b6f2-9743663ce2b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b669dfbf-4687-4f55-959c-c357d1493750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dad57163-4fa3-492b-b3ea-a43b593be208")
 			(effects
 				(font
 					(size 1 1)
@@ -25144,7 +26456,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D18-A)")
+			(net "Net-(DM18-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c37dd5ae-7ff0-4477-8c48-8070222b411b")
@@ -25893,7 +27205,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pintype "passive")
 			(uuid "835d99cc-6de6-4156-8a79-ba2db777ff29")
 		)
@@ -25902,7 +27214,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D4-A)")
+			(net "Net-(DM03-A)")
 			(pintype "passive")
 			(uuid "a3438167-6fdc-4bf7-bf9a-d65875951774")
 		)
@@ -26650,7 +27962,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pintype "passive")
 			(uuid "596ae3c9-6434-4a58-9e54-3756fac176ed")
 		)
@@ -26659,7 +27971,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D16-A)")
+			(net "Net-(DM16-A)")
 			(pintype "passive")
 			(uuid "fec6d38a-17a4-46a0-9aab-62fd5cd18a2e")
 		)
@@ -27407,7 +28719,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pintype "passive")
 			(uuid "067bc8cd-af2f-49b7-b15c-c5db5f9e5aa0")
 		)
@@ -27416,7 +28728,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D10-A)")
+			(net "Net-(DM10-A)")
 			(pintype "passive")
 			(uuid "670c3dc8-156e-4d92-88f9-20b0b7d0eb1a")
 		)
@@ -27548,7 +28860,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/12ce3e56-89dc-4a33-8a9a-c4b02f6c799c")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
 		(units
@@ -27798,7 +29109,7 @@
 		(at 109 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D21"
+		(property "Reference" "DM21"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "bf244da8-d280-4e52-ae56-0909bc44e1eb")
@@ -27820,7 +29131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27846,7 +29157,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27859,7 +29170,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27885,7 +29196,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28132,13 +29443,306 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D21-A)")
+			(net "Net-(DM21-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "e0abcf49-398b-4891-8cc8-dc2d892b8771")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "cc78f058-7e43-45df-827d-fbf9448d2407")
+		(at -4.205 76.795)
+		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(property "Reference" "JP2"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "228c21eb-6bd6-4276-aedb-7a41dfced76a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 0 4.92 0)
+			(layer "F.Fab")
+			(uuid "b2d7bd08-8395-4070-be53-fb20126ac4b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124375.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cace646e-da9f-48f7-8533-9a702023604f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-pin 2.54mm header for a removable shorting jumper (hardware bootloader force via HWB/PE2)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd3caf19-7494-4d2f-99b5-062b7480643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9ec4bdfd-322c-471c-b2c7-19f0c442f081")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdbe0eef-356d-4d79-a0cd-6213668676b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2100S02P-A110"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45d3805a-85ec-4c57-89a1-05c479771ea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91ca0f13-bdb2-41b1-80fe-b1c597613957")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C124375"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b69239f9-1b09-4a25-9257-832f63819f79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/b6f9a1c2-0d3e-4f5a-9b6c-1d2e3f4a5b6c")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1d589ebb-2b5b-42e6-befb-d43b4472a4e4")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1df0c9d-acdd-4bb5-b648-b40d3e2045a5")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3bade391-5ac0-4e90-a7d5-739578177395")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b39b0e45-ca7f-492f-a049-31f85fe59a4e")
+		)
+		(fp_line
+			(start -1.38 3.92)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5a88d79-158d-4c52-963a-e19afa0efc75")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 3.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "670a4511-c46e-446f-9000-d5dd19c8dc69")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 4.32)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "818d8db5-0878-4f7f-85bf-3f8667e08852")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "37c7cd79-2441-4827-8279-482f24c8c669")
+		)
+		(fp_line
+			(start -1.27 3.81)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9cd2c766-c0b5-42a6-94b2-d429fcff5f83")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aa28568d-7cd5-4036-8de6-52baa9a1f757")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8d28bb79-6e85-4241-ba94-4ee6e27fd1b1")
+		)
+		(fp_line
+			(start 1.27 3.81)
+			(end -1.27 3.81)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66727e81-4322-4145-a2c4-aa64d3914529")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.27 90)
+			(layer "F.Fab")
+			(uuid "5e4616ac-5dc8-4716-8ada-5e56068c736f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/HWB")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(uuid "37702933-1f26-425e-9645-ba12c103c4f9")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(uuid "987f28c5-3d8f-4034-84f2-a10c6a87236f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28343,7 +29947,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D25-A)")
+			(net "Net-(LED1-A)")
 			(pintype "passive")
 			(uuid "55c0d884-be16-40c7-abb7-8652409866dc")
 		)
@@ -29049,6 +30653,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -29825,7 +31430,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pintype "passive")
 			(uuid "826c98a6-a1d6-422e-946a-642ecf7154e5")
 		)
@@ -29834,7 +31439,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D20-A)")
+			(net "Net-(DM20-A)")
 			(pintype "passive")
 			(uuid "1081260a-8efa-49c0-a2a9-7f1fa904bcfe")
 		)
@@ -30582,7 +32187,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pintype "passive")
 			(uuid "e95b58ca-c77e-439a-9ada-b14f92e66192")
 		)
@@ -30591,7 +32196,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D13-A)")
+			(net "Net-(DM13-A)")
 			(pintype "passive")
 			(uuid "f9498c2f-54a5-4cab-aafa-747fa62b5b91")
 		)
@@ -30824,7 +32429,7 @@
 		(at 87.46 168.65)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D8"
+		(property "Reference" "DM07"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "ed48e248-7944-4aa2-be61-83ca9f1d6675")
@@ -30846,7 +32451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30898,7 +32503,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30911,7 +32516,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30937,7 +32542,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31158,7 +32763,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D8-A)")
+			(net "Net-(DM07-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "f4a1351f-9f04-4cc6-b21f-977b71a824b0")
@@ -31240,6 +32845,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31841,7 +33447,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44854.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31875,7 +33481,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31888,7 +33494,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ATMEGA32U4-AU"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31914,7 +33520,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C44854"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32583,9 +34189,9 @@
 			(size 1.475 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "unconnected-(U1-~{HWB}{slash}PE2-Pad33)")
+			(net "/HWB")
 			(pinfunction "~{HWB}/PE2_33")
-			(pintype "bidirectional+no_connect")
+			(pintype "bidirectional")
 			(uuid "e7f4dca4-f71f-43a3-bca4-273454292d89")
 		)
 		(pad "34" smd roundrect
@@ -32927,7 +34533,7 @@
 		(at 98.23 150.9)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D11"
+		(property "Reference" "DM11"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "32e5ae4e-43e1-4415-b388-11d9eecc132a")
@@ -32949,7 +34555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32975,7 +34581,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32988,7 +34594,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33014,7 +34620,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33261,13 +34867,372 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "c2b949bd-afaa-48a8-9aad-04ec8dbae66f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(layer "F.Cu")
+		(uuid "ebf31516-a981-49d9-aa77-c7f0faa7a017")
+		(at 166.795 31.795)
+		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x08 2.54mm single row")
+		(property "Reference" "J3"
+			(at 0 -2.38 0)
+			(layer "F.SilkS")
+			(uuid "20f32d9d-3657-48fe-94d6-a8ef0dbc21de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 0 20.16 0)
+			(layer "F.Fab")
+			(uuid "09db3801-1e16-4a7f-8e46-2fa922a91075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2345bc-069f-465e-ab55-3dc6b1390fa0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8cef865-6060-4cd5-8ac4-8cdfa40086c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "connector/pin_header_socket"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fe985561-0e2f-4281-a407-f07fd7c286ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7569701-6981-4c08-a686-49113c43b541")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50e3526d-6307-4723-b1ec-ec91e56587e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efe6bf31-6cd6-45c3-9822-bd0351a7d7c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4fe17ef1-69c4-41c5-944a-e22c35735d02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
+		(path "/46396d6b-259b-4797-b298-f7f6c6a4e38f")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.38 -1.38)
+			(end 0 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c72b24f6-4655-467b-aec2-04081cad2956")
+		)
+		(fp_line
+			(start -1.38 0)
+			(end -1.38 -1.38)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4dd05c05-1e28-4023-aad8-e266ce471961")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end -1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f514b7e-ce8d-422b-afba-cf3b21a069cb")
+		)
+		(fp_line
+			(start -1.38 1.27)
+			(end 1.38 1.27)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f3756921-63d7-4685-a719-3051709e05d5")
+		)
+		(fp_line
+			(start -1.38 19.16)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ad5f636-756b-435a-94d0-0971aaddec6f")
+		)
+		(fp_line
+			(start 1.38 1.27)
+			(end 1.38 19.16)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3ac53f3f-35e3-4a28-85e0-f8d63612f7e4")
+		)
+		(fp_rect
+			(start -1.77 -1.77)
+			(end 1.77 19.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "53943102-66a2-4cad-ac7f-629f6852aace")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39a60b29-0b0e-48bc-987b-1409215b3da2")
+		)
+		(fp_line
+			(start -1.27 19.05)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9245ee7b-69b8-43b7-84c8-a07b179d415a")
+		)
+		(fp_line
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "67770879-327b-4913-85a3-245d2260dd37")
+		)
+		(fp_line
+			(start 1.27 -1.27)
+			(end 1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a638ab93-7213-4b0c-9287-9662b427a95d")
+		)
+		(fp_line
+			(start 1.27 19.05)
+			(end -1.27 19.05)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8e83382-5646-43c1-be84-eb15776e0b0a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 8.89 90)
+			(layer "F.Fab")
+			(uuid "09043eef-3ab4-4a05-94dc-a7eee15a2fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole rect
+			(at 0 0)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+5V")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "f5501d6c-a856-4c56-9a89-18c28405dcc3")
+		)
+		(pad "2" thru_hole circle
+			(at 0 2.54)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "unconnected-(J3-Pin_2-Pad2)")
+			(pinfunction "Pin_2_2")
+			(pintype "passive+no_connect")
+			(uuid "2cd5a2c2-4e11-4f7b-a9c6-52a861eb5d25")
+		)
+		(pad "3" thru_hole circle
+			(at 0 5.08)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW1")
+			(pinfunction "Pin_3_3")
+			(pintype "passive")
+			(uuid "8bb3df51-b8c4-4966-b3a1-a62c9a3435fb")
+		)
+		(pad "4" thru_hole circle
+			(at 0 7.62)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW2")
+			(pinfunction "Pin_4_4")
+			(pintype "passive")
+			(uuid "a5695c68-8428-4e8c-bbb2-5a043c8541e0")
+		)
+		(pad "5" thru_hole circle
+			(at 0 10.16)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW3")
+			(pinfunction "Pin_5_5")
+			(pintype "passive")
+			(uuid "7d7c8b0d-57bc-4b90-816a-28763eebab0f")
+		)
+		(pad "6" thru_hole circle
+			(at 0 12.7)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/ROW4")
+			(pinfunction "Pin_6_6")
+			(pintype "passive")
+			(uuid "9d478295-046c-4bec-ba56-44898693e71e")
+		)
+		(pad "7" thru_hole circle
+			(at 0 15.24)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/COL1")
+			(pinfunction "Pin_7_7")
+			(pintype "passive")
+			(uuid "47ff638e-9fcd-46e1-9708-efac1dbd0a37")
+		)
+		(pad "8" thru_hole circle
+			(at 0 17.78)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "Pin_8_8")
+			(pintype "passive")
+			(uuid "1de4dcbc-32f6-4ce1-85f6-c73be7083c24")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34762,7 +36727,7 @@
 			(drill 3.05)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pintype "passive")
 			(uuid "fb5b6920-d626-47e0-b4ca-43e5d16b14b8")
 		)
@@ -34771,7 +36736,7 @@
 			(size 3.55 2.5)
 			(layers "B.Cu")
 			(roundrect_rratio 0.1)
-			(net "Net-(D11-A)")
+			(net "Net-(DM11-A)")
 			(pintype "passive")
 			(uuid "47f735ae-a4c5-4cb6-959b-e7daf8194ed9")
 		)
@@ -34794,7 +36759,7 @@
 		(at 87.46 158)
 		(descr "SOD-323")
 		(tags "SOD-323")
-		(property "Reference" "D5"
+		(property "Reference" "DM04"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f71a5514-ffdb-45a3-bbbc-800cb18e14b5")
@@ -34816,7 +36781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34868,7 +36833,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34881,7 +36846,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34907,7 +36872,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35128,7 +37093,7 @@
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D5-A)")
+			(net "Net-(DM04-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
 			(uuid "59b45ba7-fb53-4a51-84b6-ea1ec6f49683")
@@ -35549,9 +37514,219 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D26-A)")
+			(net "Net-(LED2-A)")
 			(pintype "passive")
 			(uuid "91091161-9fad-4a6e-afa0-912e6c759203")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric"
+		(layer "F.Cu")
+		(uuid "f86a60bc-8a69-4109-b4df-97eec5ac6fa2")
+		(at 0.095 75.755)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "resistor")
+		(property "Reference" "R8"
+			(at 0 -1.43 0)
+			(layer "F.SilkS")
+			(uuid "dac712cb-9e6e-40e0-9f94-8df13ea530b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 0 1.43 0)
+			(layer "F.Fab")
+			(uuid "f262bc60-125d-4b9a-8911-9ae4f9b1b218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4636f3e-35ed-49f2-93be-984ab2c87ef9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd303f10-c830-4519-b195-92174565b27a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf256417-2c84-4af6-a28f-b2ee9e833e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73ff10dc-207e-421c-8902-88f865809bbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4809ee09-6ea3-4bd8-b94b-bcfb31d925d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82313921-58a4-4c3c-92a8-ad445209cbfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3ff4a23-1318-40a0-9c0b-efb692a0fa01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "82cc585b-d6b4-45c9-8df1-f9e4f9c16d1d")
+		)
+		(fp_line
+			(start -0.237258 0.5225)
+			(end 0.237258 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa698400-a6ab-4686-9f97-d9c0285b8011")
+		)
+		(fp_rect
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ff6c6ef5-80cb-4656-811d-4afa044d4738")
+		)
+		(fp_rect
+			(start -0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d18a96de-d8f5-46ae-9a2c-2b19706014cb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ca224c22-46bf-4a02-a5e1-0039a54c8446")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(pintype "passive")
+			(uuid "77e6bfc1-0789-47be-b143-75ef91f62f8c")
+		)
+		(pad "2" smd roundrect
+			(at 0.825 0)
+			(size 0.8 0.95)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/HWB")
+			(pintype "passive")
+			(uuid "c5264dfd-5301-486f-abea-ccf719abb6b5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
@@ -35681,7 +37856,6 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/7c9eaa43-74c5-44ee-b9fe-6d7cd5df16e8")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
 		(units

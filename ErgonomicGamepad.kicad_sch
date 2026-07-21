@@ -2656,6 +2656,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4846,15 +5012,11 @@
 		(uuid "016f531d-1b33-4d5c-aeae-2eb533956e25")
 	)
 	(no_connect
-		(at 45.72 139.7)
-		(uuid "0a49b6f0-0813-4fca-8b5d-ad7de9770c85")
-	)
-	(no_connect
 		(at 130.81 134.62)
 		(uuid "0e1902fa-8b25-4ae3-8d2a-27b0bf146f7f")
 	)
 	(no_connect
-		(at 40.64 167.64)
+		(at 34.29 140.97)
 		(uuid "15c480dd-6092-4498-93ed-22d2e7a7a766")
 	)
 	(no_connect
@@ -4866,12 +5028,8 @@
 		(uuid "2e049ea3-d5c0-438e-bcbb-8bb65a100a21")
 	)
 	(no_connect
-		(at 66.04 139.7)
-		(uuid "37a75435-79ab-4c35-aa35-2e63a3635113")
-	)
-	(no_connect
-		(at 130.81 162.56)
-		(uuid "58ccd18e-76c1-4df4-ad7a-9a838f3a450d")
+		(at 54.61 171.45)
+		(uuid "5fc64d1b-77aa-459f-b9d6-68ee69e838f3")
 	)
 	(no_connect
 		(at 48.26 110.49)
@@ -4880,6 +5038,10 @@
 	(no_connect
 		(at 130.81 180.34)
 		(uuid "7d876a2f-0fc4-4940-a554-2ab9cf254dcd")
+	)
+	(no_connect
+		(at 54.61 140.97)
+		(uuid "9db5be76-17ed-4704-8185-4be09a757acc")
 	)
 	(no_connect
 		(at 130.81 132.08)
@@ -4898,8 +5060,8 @@
 		(uuid "b9edcc20-b272-40ca-b413-fce8a321ddea")
 	)
 	(no_connect
-		(at 40.64 194.31)
-		(uuid "c86abe7a-db36-4763-95b8-58b33cadcb7a")
+		(at 34.29 171.45)
+		(uuid "d32845c4-ea63-4b01-a39d-52602093453c")
 	)
 	(no_connect
 		(at 130.81 121.92)
@@ -5475,16 +5637,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 154.94) (xy 45.72 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94cfd755-2e18-482d-9dbc-3cf236c56a80")
-	)
-	(wire
-		(pts
 			(xy 298.45 123.19) (xy 298.45 124.46)
 		)
 		(stroke
@@ -5973,16 +6125,6 @@
 		)
 		(uuid "00e97041-b3e9-43ab-a652-145af518a237")
 	)
-	(label "ROW1"
-		(at 45.72 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01215896-a136-403e-bb48-a73035be57f6")
-	)
 	(label "XTAL2"
 		(at 100.33 119.38 180)
 		(effects
@@ -6013,26 +6155,6 @@
 		)
 		(uuid "067da870-a0a3-41bf-b298-11a94ea2a90e")
 	)
-	(label "ROW2"
-		(at 45.72 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07b11d9d-fda3-4386-84f0-06bf18ec593a")
-	)
-	(label "ROW2"
-		(at 35.56 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08aafe62-ca20-4db6-a61a-384a73b6c188")
-	)
 	(label "XTAL1"
 		(at 91.44 72.39 0)
 		(effects
@@ -6043,16 +6165,6 @@
 		)
 		(uuid "09309c8f-8b4b-475f-b250-3f8e87f710ef")
 	)
-	(label "COL1"
-		(at 27.94 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14b61cfd-4f60-4c92-97ed-3235d27ff44a")
-	)
 	(label "COL3"
 		(at 233.68 78.74 180)
 		(effects
@@ -6062,6 +6174,16 @@
 			(justify right bottom)
 		)
 		(uuid "14d9f6c3-2ce5-4775-b189-14f1b87b8b23")
+	)
+	(label "COL1"
+		(at 54.61 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19666b30-f75e-4595-9100-06041e0cc12e")
 	)
 	(label "COL4"
 		(at 266.7 101.6 180)
@@ -6083,6 +6205,16 @@
 		)
 		(uuid "1b0d6382-caa7-4fb2-a776-aae22acde111")
 	)
+	(label "COL1"
+		(at 34.29 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1bdfa0df-9b39-4e8a-91a9-7ba067658a8b")
+	)
 	(label "COL2"
 		(at 199.39 146.05 180)
 		(effects
@@ -6093,15 +6225,25 @@
 		)
 		(uuid "1c1a600e-a4d5-40ba-9eec-2f54832b2af9")
 	)
-	(label "COL1"
-		(at 66.04 152.4 0)
+	(label "ROW1"
+		(at 34.29 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "1c332123-57b7-4f5a-87e9-5ded4a6e9cc3")
+		(uuid "1d46b1a0-f95d-461e-a64f-a3ce9950590a")
+	)
+	(label "ROW1"
+		(at 54.61 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e21625e-57dc-4b75-8daf-653e8836d14c")
 	)
 	(label "D-"
 		(at 85.09 97.79 0)
@@ -6132,16 +6274,6 @@
 			(justify right bottom)
 		)
 		(uuid "2a1dadd3-a6b8-4bdb-90fa-58ca5dc31b4c")
-	)
-	(label "ROW3"
-		(at 45.72 147.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a36a7b3-c74c-425f-96d0-af016a43f3eb")
 	)
 	(label "COL5"
 		(at 298.45 124.46 180)
@@ -6234,34 +6366,14 @@
 		(uuid "4cf352f8-2f84-4682-9293-7eac5c6b6180")
 	)
 	(label "ROW1"
-		(at 38.1 167.64 90)
+		(at 34.29 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4e394a86-693d-4ca1-8e09-0279eb6383f5")
-	)
-	(label "ROW2"
-		(at 66.04 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4faf6c9b-1bf6-4264-9860-74f67f04d590")
-	)
-	(label "ROW1"
-		(at 66.04 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53dcf206-998a-40ae-93c6-eb96e088cac6")
 	)
 	(label "COL3"
 		(at 232.41 146.05 180)
@@ -6324,12 +6436,12 @@
 		(uuid "5e085d05-24f7-4966-86ef-4f0d4cd0317d")
 	)
 	(label "ROW4"
-		(at 30.48 167.64 90)
+		(at 34.29 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "60acec63-f558-49af-90de-d69d413daa34")
 	)
@@ -6343,16 +6455,6 @@
 		)
 		(uuid "60c13a3b-0395-4ffb-bcb0-052c715bf0f6")
 	)
-	(label "COL1"
-		(at 45.72 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "611257c7-fcb4-4fa7-854c-6c3b78a4d979")
-	)
 	(label "VBUS RAW"
 		(at 54.61 82.55 0)
 		(effects
@@ -6364,22 +6466,22 @@
 		(uuid "6193a1ae-463a-414f-b196-e9b48efd9bac")
 	)
 	(label "ROW3"
-		(at 66.04 147.32 0)
+		(at 54.61 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "621472b0-ef58-4a3f-b0d8-8b2d77349a6f")
+		(uuid "6374f448-44e0-49ca-8c53-14d173ccae52")
 	)
 	(label "COL1"
-		(at 27.94 167.64 90)
+		(at 34.29 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "63df7f53-4482-40dc-8627-be719572e723")
 	)
@@ -6392,6 +6494,16 @@
 			(justify right bottom)
 		)
 		(uuid "65076dfa-c9ba-4331-8a13-537e51763efb")
+	)
+	(label "ROW4"
+		(at 34.29 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6592e8c2-d625-468c-adf3-1e8984ef1937")
 	)
 	(label "COL3"
 		(at 233.68 101.6 180)
@@ -6413,6 +6525,16 @@
 		)
 		(uuid "6957f638-9228-4868-88af-7892561f9c8c")
 	)
+	(label "ROW4"
+		(at 54.61 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "702609e3-4a72-4bd9-8727-f6846785cef4")
+	)
 	(label "COL3"
 		(at 233.68 124.46 180)
 		(effects
@@ -6422,6 +6544,16 @@
 			(justify right bottom)
 		)
 		(uuid "721151d4-0f74-4642-a508-24ec41f695c5")
+	)
+	(label "ROW1"
+		(at 54.61 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "729aa7ee-66f7-4f88-ad42-f1ef9f7817ab")
 	)
 	(label "COL1"
 		(at 167.64 78.74 180)
@@ -6453,16 +6585,6 @@
 		)
 		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
 	)
-	(label "ROW4"
-		(at 66.04 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "863dd252-14ee-4c6c-aebc-f8cb4cb0a108")
-	)
 	(label "SCK"
 		(at 130.81 111.76 0)
 		(effects
@@ -6492,16 +6614,6 @@
 			(justify right bottom)
 		)
 		(uuid "88cd3054-9802-4bad-a7d4-f9b984e40f47")
-	)
-	(label "ROW4"
-		(at 45.72 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f357338-3224-4950-bbf3-e20daa23a410")
 	)
 	(label "XTAL1"
 		(at 100.33 114.3 180)
@@ -6533,6 +6645,16 @@
 		)
 		(uuid "9559fcbf-e5a4-4943-8a9b-64cfd16035f5")
 	)
+	(label "ROW3"
+		(at 54.61 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aedb9aa-74a7-4bfa-a34a-e122c0d8658e")
+	)
 	(label "COL6"
 		(at 330.2 78.74 180)
 		(effects
@@ -6552,6 +6674,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c7ee6f5-92c6-4283-81a2-77432b6ba281")
+	)
+	(label "HWB"
+		(at 167.64 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d")
 	)
 	(label "SCK"
 		(at 106.68 45.72 180)
@@ -6603,6 +6735,16 @@
 		)
 		(uuid "aa11bb22-cc33-4dd4-8e55-9f66aa77bb88")
 	)
+	(label "COL1"
+		(at 54.61 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad97a095-694b-42cf-a82b-c26c42067107")
+	)
 	(label "ROW4"
 		(at 151.13 137.16 180)
 		(effects
@@ -6633,6 +6775,16 @@
 		)
 		(uuid "b29e2751-91f4-4f5f-9246-cf1526e6f3e8")
 	)
+	(label "HWB"
+		(at 152.4 40.64 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e")
+	)
 	(label "ROW4"
 		(at 130.81 177.8 0)
 		(effects
@@ -6642,6 +6794,16 @@
 			(justify left bottom)
 		)
 		(uuid "b37dec4f-c6b2-4d5c-af18-ca60e6dbee2c")
+	)
+	(label "ROW2"
+		(at 54.61 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b4c75bf6-5885-40a9-b5dd-dbc6cf49413c")
 	)
 	(label "ROW3"
 		(at 313.69 115.57 180)
@@ -6684,6 +6846,26 @@
 		(uuid "bc882b1c-c87a-4757-bef9-e3575080de22")
 	)
 	(label "ROW2"
+		(at 54.61 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf95d2c1-fcdc-4d13-b8c4-70fd35b6db7a")
+	)
+	(label "ROW3"
+		(at 34.29 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0d65d12-a3ea-4d9c-9cb4-aba0ab39c9d2")
+	)
+	(label "ROW2"
 		(at 281.94 92.71 180)
 		(effects
 			(font
@@ -6702,6 +6884,16 @@
 			(justify left bottom)
 		)
 		(uuid "c56aa21f-9b43-41ed-8411-ba3cee6c3252")
+	)
+	(label "ROW2"
+		(at 34.29 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c908c883-a804-4150-886a-dc758a73c0ac")
 	)
 	(label "ROW2"
 		(at 184.15 92.71 180)
@@ -6744,16 +6936,6 @@
 		(uuid "d3b2e8be-652e-418e-87aa-bc8f21608a33")
 	)
 	(label "ROW1"
-		(at 38.1 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d4732d82-a03a-4e4b-a89b-45e1f85e1d38")
-	)
-	(label "ROW1"
 		(at 217.17 69.85 180)
 		(effects
 			(font
@@ -6793,35 +6975,15 @@
 		)
 		(uuid "e0734a08-a470-44b1-8fe9-a86539cbbf53")
 	)
-	(label "ROW4"
-		(at 30.48 194.31 270)
+	(label "ROW3"
+		(at 34.29 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "e2879173-9052-4a27-89b9-f6d6d1b78d0a")
-	)
-	(label "ROW3"
-		(at 33.02 167.64 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "e5cef2e9-a569-4913-8a9f-35681702ee4e")
-	)
-	(label "ROW3"
-		(at 33.02 194.31 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6d958ca-4d95-4303-8812-b4510952a845")
 	)
 	(label "ROW3"
 		(at 250.19 115.57 180)
@@ -6903,6 +7065,26 @@
 		)
 		(uuid "efc4b42b-d6fb-42d6-9e27-7874b60a110c")
 	)
+	(label "HWB"
+		(at 130.81 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c")
+	)
+	(label "ROW4"
+		(at 54.61 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f0a5ec-cc2e-4cf2-84ba-b41790bf4d64")
+	)
 	(label "XTAL2"
 		(at 91.44 80.01 0)
 		(effects
@@ -6924,12 +7106,12 @@
 		(uuid "fb3822ce-ac40-48ee-bc00-ff8809d580fb")
 	)
 	(label "ROW2"
-		(at 35.56 167.64 90)
+		(at 34.29 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "fbac2b0d-6f9e-405c-ade1-04b4b255c443")
 	)
@@ -6962,7 +7144,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0611e965-8fa5-48c0-84f5-cb610815705d")
 		(property "Reference" "SW09"
@@ -6996,7 +7178,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7018,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7029,7 +7211,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7051,7 +7233,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7156,12 +7338,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "Jumper:Jumper_2_Open")
 		(at 54.61 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7178,7 +7360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "Jumper_2_Open"
 			(at 57.15 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7189,7 +7371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 54.61 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -7200,8 +7382,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 62.23 52.07 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124375.pdf"
+			(at 54.61 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7211,8 +7393,52 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
+		(property "Description" "2-pin 2.54mm header for a removable shorting jumper (power-path select)"
 			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 54.61 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B-2100S02P-A110"
+			(at 54.61 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 54.61 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124375"
+			(at 54.61 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,7 +7505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105580.pdf"
 			(at 52.07 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7301,7 +7527,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7312,7 +7538,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-075K1L"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7334,7 +7560,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105580"
 			(at 52.07 92.71 90)
 			(hide yes)
 			(show_name no)
@@ -7355,148 +7581,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 33.02 189.23 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12ce3e56-89dc-4a33-8a9a-c4b02f6c799c")
-		(property "Reference" "J3"
-			(at 34.29 182.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x08"
-			(at 34.29 185.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 33.02 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 33.02 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bb0a5411-d959-46be-ab6d-0538e59ad255")
-		)
-		(pin "4"
-			(uuid "859e4aec-a150-4288-8200-292851aa77a0")
-		)
-		(pin "6"
-			(uuid "fb6d4af4-65d7-41b9-8d97-f286e632ad4e")
-		)
-		(pin "3"
-			(uuid "10de1cdd-7af3-4880-b085-bce73c7e9d29")
-		)
-		(pin "7"
-			(uuid "5bddaf97-9b97-466a-8d67-539cd42ad6b7")
-		)
-		(pin "1"
-			(uuid "81e95cdd-c7fa-4d7f-8766-660ef62314e3")
-		)
-		(pin "5"
-			(uuid "fd1c960c-fee3-4bf5-b84a-c5d1251155ca")
-		)
-		(pin "8"
-			(uuid "9efac6d4-6291-451d-a4b9-fe0bc5bfa79c")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7637,7 +7721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "179ab270-f832-49fb-8062-dd747bcec4b8")
-		(property "Reference" "D23"
+		(property "Reference" "DM23"
 			(at 332.74 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7670,7 +7754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 330.2 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 330.2 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7725,7 +7809,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 330.2 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7747,7 +7831,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 330.2 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -7767,7 +7851,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D23")
+					(reference "DM23")
 					(unit 1)
 				)
 			)
@@ -7775,7 +7859,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 194.31 180)
+		(at 54.61 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7783,10 +7867,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "187037d7-4c03-4e9b-b2e8-f123132227c7")
-		(property "Reference" "#PWR014"
-			(at 43.18 190.5 0)
+		(uuid "19c09a2f-746a-4675-9cb9-a6ae85181a9a")
+		(property "Reference" "#PWR027"
+			(at 54.61 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7797,18 +7880,18 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 195.5799 0)
+			(at 52.07 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7819,7 +7902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +7913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 194.31 0)
+			(at 54.61 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,12 +7924,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05d3f0fa-5875-4759-ba24-159bec631b18")
+			(uuid "24743d09-4f46-4f20-bf08-f1e2f46ad604")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8016,7 +8099,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "204044f8-6fee-4e07-b470-5916b349188f")
 		(property "Reference" "SW11"
@@ -8050,7 +8133,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8072,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8083,7 +8166,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8105,7 +8188,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8140,7 +8223,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "210d9d45-1fd8-4634-96d7-31f9e35c630e")
 		(property "Reference" "SW21"
@@ -8174,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8196,7 +8279,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8207,7 +8290,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8229,7 +8312,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8342,7 +8425,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27148f3b-8f46-4b13-9eca-b37490a62438")
 		(property "Reference" "SW10"
@@ -8376,7 +8459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8481,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8409,7 +8492,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8431,7 +8514,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 226.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8463,10 +8546,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27942206-deee-44f3-ba60-0e73d516ab94")
 		(property "Reference" "TP4"
@@ -8503,8 +8586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 102.87 0)
-			(hide yes)
+			(at 81.28 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8548,7 +8630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27c90bd1-a1c9-4dc4-be41-7edf86487bc7")
-		(property "Reference" "D15"
+		(property "Reference" "DM15"
 			(at 269.24 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +8663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 266.7 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -8625,7 +8707,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 266.7 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -8636,7 +8718,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 266.7 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -8658,7 +8740,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 266.7 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -8678,7 +8760,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D15")
+					(reference "DM15")
 					(unit 1)
 				)
 			)
@@ -8690,10 +8772,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29a27c6a-b34b-4763-8074-807edcee27d4")
 		(property "Reference" "TP6"
@@ -8730,8 +8812,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 80.01 0)
-			(hide yes)
+			(at 88.9 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8835,6 +8916,84 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ec80830-4bb3-4ab8-bd55-681126ec4f9f")
+		(property "Reference" "#PWR025"
+			(at 54.61 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 52.07 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ed4f47b-135b-4cff-aba9-2139927e45b3")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8975,7 +9134,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "36491a33-468c-400a-bff9-c26c6e2c017d")
 		(property "Reference" "SW23"
@@ -9009,7 +9168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9042,7 +9201,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9064,7 +9223,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9102,7 +9261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "378b849d-eba2-4d12-9b40-9715ca959978")
-		(property "Reference" "D14"
+		(property "Reference" "DM14"
 			(at 269.24 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9135,7 +9294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 266.7 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9179,7 +9338,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 266.7 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -9190,7 +9349,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 266.7 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -9201,7 +9360,18 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
+			(at 266.7 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
 			(at 266.7 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -9221,7 +9391,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D14")
+					(reference "DM14")
 					(unit 1)
 				)
 			)
@@ -9239,7 +9409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3845bbe8-2732-4f3f-a186-fbecd3b13772")
-		(property "Reference" "D19"
+		(property "Reference" "DM19"
 			(at 300.99 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 298.45 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9316,6 +9486,50 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 298.45 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 298.45 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 298.45 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 298.45 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5242bfcf-91f0-4ad0-b924-28f55bc7b2d0")
 		)
@@ -9325,7 +9539,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D19")
+					(reference "DM19")
 					(unit 1)
 				)
 			)
@@ -9343,7 +9557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a11599d-8764-45b1-a52b-78ddd4264f39")
-		(property "Reference" "D4"
+		(property "Reference" "DM03"
 			(at 170.18 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9376,7 +9590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 167.64 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9420,7 +9634,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 167.64 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -9431,7 +9645,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 167.64 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -9453,7 +9667,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 167.64 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -9473,7 +9687,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D4")
+					(reference "DM03")
 					(unit 1)
 				)
 			)
@@ -9491,7 +9705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a2d0658-3116-4b3b-91f7-77c250efc10f")
-		(property "Reference" "D12"
+		(property "Reference" "DM12"
 			(at 234.95 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9524,7 +9738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 232.41 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -9568,7 +9782,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 232.41 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -9579,7 +9793,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 232.41 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9815,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 232.41 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -9621,15 +9835,15 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D12")
+					(reference "DM12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 35.56 172.72 270)
+		(lib_id "power:GND")
+		(at 34.29 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9637,10 +9851,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cf76614-aed4-40d7-9aab-e63016bc3f5a")
-		(property "Reference" "J2"
-			(at 34.29 176.53 90)
+		(uuid "3c404c0c-5bb7-4c72-be76-e7eeb93473d0")
+		(property "Reference" "#PWR015"
+			(at 34.29 193.04 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9649,8 +9863,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x08"
-			(at 34.29 179.07 90)
+		(property "Value" "GND"
+			(at 34.544 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9659,8 +9873,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 35.56 172.72 0)
+		(property "Footprint" ""
+			(at 34.29 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9671,7 +9885,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 172.72 0)
+			(at 34.29 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04283afa-fd73-4a67-b73a-f940dc380388")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 39.37 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cf76614-aed4-40d7-9aab-e63016bc3f5a")
+		(property "Reference" "J2"
+			(at 43.18 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 45.72 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 39.37 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9973,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 35.56 172.72 0)
+			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,8 +9983,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 35.56 172.72 90)
+		(property "Manufacturer" "Ckmtw"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,8 +9994,8 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 35.56 172.72 90)
+		(property "MPN" "B-2100S08P-A110"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +10006,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 35.56 172.72 90)
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,8 +10016,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 35.56 172.72 90)
+		(property "LCSC" "C124381"
+			(at 39.37 146.05 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22548.pdf"
 			(at 146.05 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9910,7 +10201,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 146.05 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -9921,7 +10212,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-071KL"
 			(at 146.05 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -9943,7 +10234,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22548"
 			(at 146.05 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -10011,7 +10302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105580.pdf"
 			(at 52.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10033,7 +10324,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 52.07 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -10044,7 +10335,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-075K1L"
 			(at 52.07 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -10066,7 +10357,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105580"
 			(at 52.07 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -10093,6 +10384,148 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 59.69 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46396d6b-259b-4797-b298-f7f6c6a4e38f")
+		(property "Reference" "J3"
+			(at 63.5 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 66.04 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 59.69 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 59.69 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "72038b9f-a175-4ff2-8729-e182efc6cf9a")
+		)
+		(pin "5"
+			(uuid "8f27b9b0-1e68-4846-a1af-c4720deb7713")
+		)
+		(pin "1"
+			(uuid "cb87dcc4-21f4-4eb0-b4ce-c80a2f8094b2")
+		)
+		(pin "7"
+			(uuid "7ba3288a-6675-40d7-80e1-5cb1f6a6a14b")
+		)
+		(pin "2"
+			(uuid "a1678fda-2a2d-45b4-b792-4cabb636f9f7")
+		)
+		(pin "6"
+			(uuid "78d4c785-b31c-457f-8391-153ba4e4ce99")
+		)
+		(pin "4"
+			(uuid "406a2b4d-d879-43c8-ae9a-a71d7bad3ce3")
+		)
+		(pin "3"
+			(uuid "3b6f40f0-8d45-4da9-85d4-9c86491aa046")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 298.45 96.52 90)
 		(unit 1)
@@ -10104,7 +10537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4715c872-eaa8-4d3b-86d7-04fb63fe6eda")
-		(property "Reference" "D18"
+		(property "Reference" "DM18"
 			(at 300.99 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 298.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10181,6 +10614,50 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JSMSEMI"
+			(at 298.45 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "1N4148WS"
+			(at 298.45 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 298.45 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C917117"
+			(at 298.45 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf4ae037-1895-436f-b249-853870d67718")
 		)
@@ -10190,7 +10667,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D18")
+					(reference "DM18")
 					(unit 1)
 				)
 			)
@@ -10205,7 +10682,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47a79728-b33c-475c-87d7-6fd804357839")
 		(property "Reference" "SW17"
@@ -10239,7 +10716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10272,7 +10749,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10294,7 +10771,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 290.83 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10329,7 +10806,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4a95d191-3f8e-453b-8d22-e21bd6403810")
 		(property "Reference" "SW05"
@@ -10363,7 +10840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10385,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10396,7 +10873,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10418,7 +10895,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10453,7 +10930,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4f94bf8f-eb9a-4dcc-bacb-d1c724a236db")
 		(property "Reference" "SW20"
@@ -10487,7 +10964,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10509,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10520,7 +10997,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +11019,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 289.56 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10659,7 +11136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "556b43e8-6298-4608-ab5c-90b7acaaeb31")
-		(property "Reference" "D7"
+		(property "Reference" "DM06"
 			(at 203.2 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +11169,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 200.66 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10736,7 +11213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 200.66 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -10747,7 +11224,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 200.66 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -10769,7 +11246,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 200.66 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -10789,7 +11266,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D7")
+					(reference "DM06")
 					(unit 1)
 				)
 			)
@@ -10801,10 +11278,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "56a157c8-9e8f-46f9-9bab-12cef782e3a3")
 		(property "Reference" "TP5"
@@ -10841,8 +11318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 69.85 0)
-			(hide yes)
+			(at 88.9 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10964,7 +11440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5939cc0b-5e25-46e5-af36-1cd05c8c9d40")
-		(property "Reference" "D6"
+		(property "Reference" "DM05"
 			(at 203.2 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10997,7 +11473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 200.66 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11041,7 +11517,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 200.66 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11052,7 +11528,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 200.66 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11074,7 +11550,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 200.66 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11094,7 +11570,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D6")
+					(reference "DM05")
 					(unit 1)
 				)
 			)
@@ -11106,10 +11582,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "59cc108c-d55f-445b-93dc-19f0638b6082")
 		(property "Reference" "TP1"
@@ -11144,8 +11620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 66.04 0)
-			(hide yes)
+			(at 52.07 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11267,7 +11742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c715030-094a-4038-b67f-d2201e9bed6c")
-		(property "Reference" "D8"
+		(property "Reference" "DM07"
 			(at 203.2 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +11775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 200.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11344,7 +11819,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 200.66 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -11355,7 +11830,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 200.66 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -11377,7 +11852,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 200.66 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -11397,7 +11872,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D8")
+					(reference "DM07")
 					(unit 1)
 				)
 			)
@@ -11415,7 +11890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e89ba32-b109-4583-b59c-0e5615bc51b6")
-		(property "Reference" "D20"
+		(property "Reference" "DM20"
 			(at 299.72 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11448,7 +11923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 297.18 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11492,7 +11967,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 297.18 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11503,7 +11978,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 297.18 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11525,7 +12000,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 297.18 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11545,7 +12020,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D20")
+					(reference "DM20")
 					(unit 1)
 				)
 			)
@@ -11563,7 +12038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6160b95b-057a-4760-90bd-e1002a1881e4")
-		(property "Reference" "D2"
+		(property "Reference" "DM01"
 			(at 170.18 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11596,7 +12071,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 167.64 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11640,7 +12115,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 167.64 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11651,7 +12126,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 167.64 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11673,7 +12148,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 167.64 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -11693,7 +12168,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D2")
+					(reference "DM01")
 					(unit 1)
 				)
 			)
@@ -11711,7 +12186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64de5ff0-4bde-4184-8463-c9f1db6cd28c")
-		(property "Reference" "D5"
+		(property "Reference" "DM04"
 			(at 168.91 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11744,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 166.37 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -11788,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 166.37 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11799,7 +12274,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 166.37 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11821,7 +12296,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 166.37 140.97 90)
 			(hide yes)
 			(show_name no)
@@ -11841,7 +12316,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D5")
+					(reference "DM04")
 					(unit 1)
 				)
 			)
@@ -11856,7 +12331,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "65b82eb4-0ac0-47d5-934e-bd0ccc49569e")
 		(property "Reference" "SW22"
@@ -11890,7 +12365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11912,7 +12387,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11923,7 +12398,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11945,7 +12420,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 322.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12013,7 +12488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C125758.pdf"
 			(at 72.39 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12035,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -12046,7 +12521,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0720RL"
 			(at 72.39 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -12068,7 +12543,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C125758"
 			(at 72.39 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -12105,7 +12580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d01de16-ce76-4c96-bb06-aec37ced1e68")
-		(property "Reference" "D25"
+		(property "Reference" "LED1"
 			(at 157.988 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12136,7 +12611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12169,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YONGYUTAI"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12180,7 +12655,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "YLED0603G"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12202,7 +12677,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19273151"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -12222,7 +12697,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D25")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -12237,7 +12712,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "71425fd7-7c56-4e6b-8d3f-b2dae1052018")
 		(property "Reference" "SW08"
@@ -12271,7 +12746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12293,7 +12768,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12304,7 +12779,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12326,7 +12801,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12397,7 +12872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C44854.pdf"
 			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12419,7 +12894,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Microchip"
 			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12430,7 +12905,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ATMEGA32U4-AU"
 			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12452,7 +12927,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C44854"
 			(at 115.57 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12693,7 +13168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79bd69ed-0124-40a9-a334-7e939e83c334")
-		(property "Reference" "D10"
+		(property "Reference" "DM10"
 			(at 236.22 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12726,7 +13201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12748,7 +13223,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12759,7 +13234,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12781,7 +13256,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 233.68 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -12823,15 +13298,15 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D10")
+					(reference "DM10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 50.8 144.78 0)
+		(lib_id "power:+5V")
+		(at 34.29 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12839,9 +13314,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7c9eaa43-74c5-44ee-b9fe-6d7cd5df16e8")
-		(property "Reference" "J6"
-			(at 45.212 131.572 0)
+		(uuid "7c2fd68e-1c23-446e-8082-73dc8298026e")
+		(property "Reference" "#PWR014"
+			(at 34.29 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 165.354 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12851,19 +13337,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x08"
-			(at 40.386 134.112 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 50.8 144.78 0)
+		(property "Footprint" ""
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12874,7 +13349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 144.78 0)
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12884,8 +13359,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 50.8 144.78 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12894,79 +13369,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Manufacturer" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 50.8 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "3606fbf7-eff8-48d6-bbe7-3403b6324647")
-		)
-		(pin "3"
-			(uuid "769a513e-b6f7-4a74-b9c4-3bb37992ca83")
-		)
-		(pin "8"
-			(uuid "e40a65fe-a7eb-413d-88e3-2efc490f6e65")
 		)
 		(pin "1"
-			(uuid "9ea3a266-4c31-421d-8170-6fffca45cbe9")
-		)
-		(pin "5"
-			(uuid "1f52396e-6ab3-4b60-b9d7-1a2660446325")
-		)
-		(pin "7"
-			(uuid "46c76418-5927-4a5a-84c6-e7e77146b124")
-		)
-		(pin "2"
-			(uuid "32312f5e-786b-4af1-a21c-e332720d794d")
-		)
-		(pin "4"
-			(uuid "e23af0fd-1da0-4e09-b3d7-abf5c5f33644")
+			(uuid "8ad3c0e6-cb8f-4473-9b57-6b0ae928f851")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J6")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -12981,7 +13391,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7e91fcff-7445-43d8-be50-621cae3e87bf")
 		(property "Reference" "SW16"
@@ -13015,7 +13425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13037,7 +13447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13048,7 +13458,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13070,7 +13480,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 257.81 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13252,6 +13662,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8235c0d0-0fcd-4479-bc32-effefd667dac")
+		(property "Reference" "#PWR026"
+			(at 54.61 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.864 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d52e8e68-89ee-4c19-87c2-bd03afc6ab57")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 165.1 180)
 		(unit 1)
@@ -13262,7 +13749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82c4ea71-098c-43a0-a206-127469e0fe22")
-		(property "Reference" "D26"
+		(property "Reference" "LED2"
 			(at 157.988 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13293,7 +13780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2286.pdf"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13315,7 +13802,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Hubei KENTO Elec"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13326,7 +13813,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "KT-0603R"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13348,7 +13835,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 157.48 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13379,7 +13866,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D26")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -13469,10 +13956,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "869eb011-e6eb-4dca-8472-e75ef104ed6a")
 		(property "Reference" "TP2"
@@ -13507,8 +13994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 53.34 0)
-			(hide yes)
+			(at 22.86 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13552,7 +14038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92dc8bd3-e9b4-4869-9e9e-75578b05f787")
-		(property "Reference" "D21"
+		(property "Reference" "DM21"
 			(at 332.74 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,7 +14071,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13607,7 +14093,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13618,7 +14104,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13640,7 +14126,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 330.2 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13682,7 +14168,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D21")
+					(reference "DM21")
 					(unit 1)
 				)
 			)
@@ -13697,7 +14183,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "96a7d052-5cf8-4fd2-ad81-5c1503fffee5")
 		(property "Reference" "SW06"
@@ -13731,7 +14217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13753,7 +14239,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13764,7 +14250,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13786,7 +14272,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13824,7 +14310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "987584eb-5a17-4327-a86f-202450859ea6")
-		(property "Reference" "D3"
+		(property "Reference" "DM02"
 			(at 170.18 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13857,7 +14343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13879,7 +14365,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13890,7 +14376,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13912,7 +14398,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 167.64 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13954,7 +14440,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D3")
+					(reference "DM02")
 					(unit 1)
 				)
 			)
@@ -13966,10 +14452,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9bdf045d-a5c9-4c9d-8057-17416e23cdd6")
 		(property "Reference" "TP3"
@@ -14006,8 +14492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 95.25 0)
-			(hide yes)
+			(at 81.28 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14185,7 +14670,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a433f17e-0b41-4241-a04b-c103d6a5d2b4")
 		(property "Reference" "SW02"
@@ -14219,7 +14704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14241,7 +14726,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14252,7 +14737,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14274,7 +14759,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14302,7 +14787,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 167.64 0)
+		(at 34.29 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14310,10 +14795,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5443df3-72b6-4de7-99d9-74a316610a38")
 		(property "Reference" "#PWR013"
-			(at 43.18 171.45 0)
+			(at 34.29 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14324,7 +14808,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 45.72 166.3699 0)
+			(at 31.75 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14335,7 +14819,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14346,7 +14830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14357,7 +14841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 167.64 0)
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14391,7 +14875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a88af0-31f6-4650-84a2-fc475b6bcd0c")
-		(property "Reference" "D22"
+		(property "Reference" "DM22"
 			(at 332.74 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14424,7 +14908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 330.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14446,7 +14930,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 30.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14457,7 +14941,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 30.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14479,7 +14963,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 30.2 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14521,7 +15005,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D22")
+					(reference "DM22")
 					(unit 1)
 				)
 			)
@@ -14536,7 +15020,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a8420e9e-8fa1-4139-a4a4-e13241a64917")
 		(property "Reference" "SW04"
@@ -14570,7 +15054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14592,7 +15076,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14603,7 +15087,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14625,7 +15109,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 158.75 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -14663,7 +15147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a894d004-525f-483f-a5a4-b399f7ac6fa0")
-		(property "Reference" "D09"
+		(property "Reference" "DM09"
 			(at 236.22 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14696,7 +15180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14718,7 +15202,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14729,7 +15213,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14751,7 +15235,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 233.68 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -14793,7 +15277,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D09")
+					(reference "DM09")
 					(unit 1)
 				)
 			)
@@ -14843,7 +15327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C109456.pdf"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14865,7 +15349,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14876,7 +15360,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX5R6BB475"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14898,7 +15382,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C109456"
 			(at 26.67 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -14933,7 +15417,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a8e033d8-5395-4ce0-a92e-dbe67238098f")
 		(property "Reference" "SW01"
@@ -14967,7 +15451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14989,7 +15473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15000,7 +15484,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15022,7 +15506,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -15060,7 +15544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a964fee5-aac8-401f-b145-543938b5ecbf")
-		(property "Reference" "D17"
+		(property "Reference" "DM17"
 			(at 300.99 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15093,7 +15577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15115,7 +15599,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15126,7 +15610,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +15632,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 298.45 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -15190,7 +15674,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D17")
+					(reference "DM17")
 					(unit 1)
 				)
 			)
@@ -15217,7 +15701,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "B3U-3000P"
 			(at 73.66 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15227,7 +15711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-3000P"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15238,7 +15722,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C963349.pdf"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15260,7 +15744,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Omron"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15271,7 +15755,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B3U-3000P"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15293,7 +15777,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C963349"
 			(at 73.66 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -15440,7 +15924,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C519390.pdf"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15462,7 +15946,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15473,7 +15957,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRNPO8BN220"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15495,7 +15979,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519390"
 			(at 72.39 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15687,7 +16171,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b1fc2795-27bc-4e8d-b8d9-2a37be2fdf78")
 		(property "Reference" "SW03"
@@ -15721,7 +16205,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15743,7 +16227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15754,7 +16238,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15776,7 +16260,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 160.02 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15846,7 +16330,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C519390.pdf"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15868,7 +16352,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15879,7 +16363,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603JRNPO8BN220"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15901,7 +16385,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C519390"
 			(at 72.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -15922,6 +16406,206 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6c7d8e9-f0a1-4b2c-3d4e-5f6a7b8c9d0e")
+		(property "Reference" "#PWR0124"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.146 29.464 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7d8e9f0-a1b2-4c3d-4e5f-6a7b8c9d0e1f")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 172.72 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6f9a1c2-0d3e-4f5a-9b6c-1d2e3f4a5b6c")
+		(property "Reference" "JP2"
+			(at 170.942 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 176.784 34.036 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124375.pdf"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2-pin 2.54mm header for a removable shorting jumper (hardware bootloader force via HWB/PE2)"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Ckmtw"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "B-2100S02P-A110"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124375"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f")
+		)
+		(pin "2"
+			(uuid "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -15969,7 +16653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
 			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15991,7 +16675,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16002,7 +16686,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0710KL"
 			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16024,7 +16708,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 73.66 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -16137,7 +16821,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7b2d48e-c6d3-4e00-83c9-1bdfe22afc57")
 		(property "Reference" "SW14"
@@ -16171,7 +16855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16193,7 +16877,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16204,7 +16888,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16226,7 +16910,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16331,84 +17015,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 154.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9fadf30-a0a4-4b6e-ba90-ca7444b4e9da")
-		(property "Reference" "#PWR01"
-			(at 27.94 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 33.02 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b950093-ad56-4fe5-b1d0-23e6ed845238")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 68.58 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -16485,84 +17091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 45.72 137.16 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbe2d432-f12e-488a-89e3-0217dc0e100f")
-		(property "Reference" "#PWR015"
-			(at 49.53 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 44.45 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 45.72 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "973246c1-c241-4489-846b-3937af8e3f78")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 63.5 180)
 		(unit 1)
@@ -16606,7 +17134,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106215.pdf"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16628,7 +17156,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16639,7 +17167,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX5R7BB105"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16661,7 +17189,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106215"
 			(at 68.58 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16776,7 +17304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c611cc12-e3cb-46e5-bd9a-20d743b521ba")
-		(property "Reference" "D9"
+		(property "Reference" "DM08"
 			(at 201.93 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16809,7 +17337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16831,7 +17359,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16842,7 +17370,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16864,7 +17392,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 199.39 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16906,7 +17434,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D9")
+					(reference "DM08")
 					(unit 1)
 				)
 			)
@@ -16924,7 +17452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7133803-b821-4b3b-8687-e6db12145351")
-		(property "Reference" "D24"
+		(property "Reference" "DM24"
 			(at 331.47 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16957,7 +17485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16979,7 +17507,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16990,7 +17518,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17012,7 +17540,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 328.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -17054,7 +17582,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D24")
+					(reference "DM24")
 					(unit 1)
 				)
 			)
@@ -17104,7 +17632,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14663.pdf"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17126,7 +17654,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17137,7 +17665,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CC0603KRX7R9BB104"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17159,7 +17687,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17197,7 +17725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf3df694-a83d-4dd6-988f-850292748798")
-		(property "Reference" "D13"
+		(property "Reference" "DM13"
 			(at 269.24 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,7 +17758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17252,7 +17780,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17263,7 +17791,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17285,7 +17813,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 266.7 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -17327,7 +17855,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D13")
+					(reference "DM13")
 					(unit 1)
 				)
 			)
@@ -17342,7 +17870,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "cfdfbbeb-ec11-4462-8c1b-245009005d95")
 		(property "Reference" "SW19"
@@ -17376,7 +17904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17398,7 +17926,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17409,7 +17937,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17431,7 +17959,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 290.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17466,7 +17994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d09c3f9a-6d55-406b-a3d2-2021457b59bb")
 		(property "Reference" "SW24"
@@ -17500,7 +18028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17522,7 +18050,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17533,7 +18061,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17555,7 +18083,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 321.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17659,6 +18187,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d79051e3-fdc9-4cbd-a3da-6446a6a9aa37")
+		(property "Reference" "#PWR028"
+			(at 54.61 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.864 191.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cabc38de-9e58-4870-9806-fb1a066d42b6")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8e9f0a1-b2c3-4d4e-5f6a-7b8c9d0e1f2a")
+		(property "Reference" "#PWR0125"
+			(at 177.8 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9f0a1b2-c3d4-4e5f-6a7b-8c9d0e1f2a3b")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 97.79 90)
 		(unit 1)
@@ -17700,7 +18382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C125758.pdf"
 			(at 72.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17722,7 +18404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 72.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17733,7 +18415,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-0720RL"
 			(at 72.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17755,7 +18437,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C125758"
 			(at 72.39 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -17790,7 +18472,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d9ef3848-8c5a-48d3-9cbe-07dfc6e8265a")
 		(property "Reference" "SW15"
@@ -17824,7 +18506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17846,7 +18528,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17857,7 +18539,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -17879,7 +18561,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -18120,7 +18802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e252135a-b612-49cf-981d-919dd7bdda9f")
-		(property "Reference" "D16"
+		(property "Reference" "DM16"
 			(at 267.97 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18153,7 +18835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18175,7 +18857,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18186,7 +18868,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18208,7 +18890,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18250,7 +18932,130 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D16")
+					(reference "DM16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 152.4 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b")
+		(property "Reference" "R8"
+			(at 155.448 35.052 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 155.448 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 150.622 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 152.4 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b8c")
+		)
+		(pin "2"
+			(uuid "a5b6c7d8-e9f0-4a1b-2c3d-4e5f6a7b8c9d")
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18302,7 +19107,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7519.pdf"
 			(at 60.96 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -18358,7 +19163,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7519"
 			(at 59.69 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -18476,8 +19281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 154.94 90)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 39.37 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18486,9 +19291,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e756b364-59c0-4d8a-8de9-988fef584dc0")
-		(property "Reference" "#PWR02"
-			(at 72.39 154.94 0)
+		(uuid "e98920d5-5654-4768-b884-de5419cb6e13")
+		(property "Reference" "J4"
+			(at 43.18 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 45.72 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18498,19 +19323,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 69.85 154.9399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 154.94 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18520,8 +19334,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 66.04 154.94 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18531,8 +19345,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 154.94 0)
+		(property "Manufacturer" "Ckmtw"
+			(at 39.37 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18541,14 +19355,68 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "MPN" "B-2100S08P-A110"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C124381"
+			(at 39.37 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "cc261515-8ab3-4470-8ec5-b7272f20f09b")
+		)
+		(pin "5"
+			(uuid "6f641c13-86a7-4a5a-abb1-6e8adb89ebc4")
 		)
 		(pin "1"
-			(uuid "94a3f216-59fc-4f41-9119-ac4ad82bb8b7")
+			(uuid "a08c5ddf-2157-416e-b79a-90b36b15b33e")
+		)
+		(pin "7"
+			(uuid "dae9cf3f-f94f-4dc4-a287-cd921bbd6065")
+		)
+		(pin "2"
+			(uuid "6eda19d7-f30d-4376-8fbd-07e1ac0d1e67")
+		)
+		(pin "6"
+			(uuid "ddb785fa-d683-4e03-be6e-f1aaf6611624")
+		)
+		(pin "4"
+			(uuid "e593fb45-e14b-4763-9fb0-1aab8ed88232")
+		)
+		(pin "3"
+			(uuid "af54a0f3-1644-4853-b817-8f4685a959cc")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR02")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -18633,7 +19501,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 167.64 270)
+		(at 34.29 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18641,10 +19509,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea23cbb7-6b7b-45c5-82b8-125042ff31c8")
 		(property "Reference" "#PWR06"
-			(at 19.05 167.64 0)
+			(at 34.29 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18655,7 +19522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 163.83 90)
+			(at 34.544 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18665,7 +19532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18676,7 +19543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18687,7 +19554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 167.64 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18751,7 +19618,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105881.pdf"
 			(at 146.05 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18773,7 +19640,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 146.05 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18784,7 +19651,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RC0603FR-07330RL"
 			(at 146.05 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18806,7 +19673,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105881"
 			(at 146.05 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -18841,7 +19708,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ec3e394f-e40c-45b5-90e9-d6f208c2ad9b")
 		(property "Reference" "SW12"
@@ -18875,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18897,7 +19764,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18908,7 +19775,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18930,7 +19797,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 224.79 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18962,10 +19829,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ed05af88-573a-4728-9f2d-f8fa00d7902e")
 		(property "Reference" "TP7"
@@ -19002,8 +19869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 55.88 0)
-			(hide yes)
+			(at 81.28 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19030,84 +19896,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 194.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2408255-9ec2-40a8-a09e-df275a450ac6")
-		(property "Reference" "#PWR04"
-			(at 19.05 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 24.13 190.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0be19c3d-177c-46d7-bb0d-4a0502108087")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -19354,7 +20142,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f35a9dd7-1fdc-4086-8acf-96a66abd1ef2")
 		(property "Reference" "SW07"
@@ -19388,7 +20176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19410,7 +20198,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19421,7 +20209,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19443,7 +20231,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 193.04 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19470,8 +20258,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 66.04 137.16 270)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 59.69 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19480,87 +20268,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f376b1e6-1476-44c4-8728-f342a6f2aa56")
-		(property "Reference" "#PWR016"
-			(at 62.23 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 137.1599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0762d0b0-4b8d-4159-b738-7d98c18519f1")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 60.96 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f80487ef-aee1-428f-a936-30aeb7fab2f9")
-		(property "Reference" "J4"
-			(at 64.77 131.572 0)
+		(uuid "f43c4253-cb5d-422a-a03f-d2887151ece1")
+		(property "Reference" "J6"
+			(at 63.5 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19570,7 +20280,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 65.278 134.112 0)
+			(at 66.04 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19580,7 +20290,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19590,8 +20300,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 60.96 147.32 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C124381.pdf"
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19602,7 +20312,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19612,8 +20322,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 60.96 147.32 0)
+		(property "Manufacturer" "Ckmtw"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19623,8 +20333,8 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 60.96 147.32 0)
+		(property "MPN" "B-2100S08P-A110"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19635,7 +20345,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 60.96 147.32 0)
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19645,8 +20355,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 60.96 147.32 0)
+		(property "LCSC" "C124381"
+			(at 59.69 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19655,35 +20365,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "38e95298-d0da-47a8-9a3a-d0b07a293783")
-		)
-		(pin "1"
-			(uuid "6bacf8d6-d079-402b-bd4e-48b114290431")
-		)
-		(pin "6"
-			(uuid "2532402d-5186-496a-8301-27a6e334ca2a")
-		)
-		(pin "2"
-			(uuid "7b2bba24-e5fb-485c-979f-9183cfe6a14d")
-		)
-		(pin "3"
-			(uuid "8ecc50ee-9a37-45d3-9f44-255dc2c7200b")
-		)
-		(pin "4"
-			(uuid "d2db2bc7-2d0b-4140-963f-c8a7da9c1835")
-		)
-		(pin "5"
-			(uuid "d21e13bf-2495-4eaf-9d82-a9a133655376")
 		)
 		(pin "8"
-			(uuid "9f245f65-825c-468f-956a-92c107507424")
+			(uuid "ae3baf94-7d42-4b9d-ba13-af8f76c33287")
+		)
+		(pin "5"
+			(uuid "2b6b6d0a-f3b6-48cf-ac7e-6c4df2671d5b")
+		)
+		(pin "1"
+			(uuid "2adcc49b-0314-4387-9cfd-7e19e6b0080c")
+		)
+		(pin "7"
+			(uuid "31df2571-fa37-429f-8345-102a66c8afcd")
+		)
+		(pin "2"
+			(uuid "d84e6f51-6290-4360-b771-584e6f631d12")
+		)
+		(pin "6"
+			(uuid "7160ef2d-36a7-4f74-a889-04faed2a81c6")
+		)
+		(pin "4"
+			(uuid "2c03ca29-3eb3-494d-a366-2fc3239d3e80")
+		)
+		(pin "3"
+			(uuid "29b76558-65d6-4a28-9cda-03db06305009")
 		)
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -19867,7 +20577,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fa52d3e9-c4fa-49b8-9c52-2439ce9c0849")
 		(property "Reference" "SW18"
@@ -19901,7 +20611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 290.83 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -19923,7 +20633,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19934,7 +20644,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19956,7 +20666,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 33.02 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -19994,7 +20704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc725ae5-4fcc-4001-aecc-a3e3da82acf0")
-		(property "Reference" "D11"
+		(property "Reference" "DM11"
 			(at 236.22 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20027,7 +20737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20049,7 +20759,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JSMSEMI"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20060,7 +20770,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4148WS"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20082,7 +20792,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C917117"
 			(at 233.68 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20124,7 +20834,7 @@
 		(instances
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "D11")
+					(reference "DM11")
 					(unit 1)
 				)
 			)
@@ -20139,7 +20849,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fce3b196-896c-4017-ab2e-9c786e3388f3")
 		(property "Reference" "SW13"
@@ -20173,7 +20883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20195,7 +20905,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kailh"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20206,7 +20916,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "CPG151101S11-16"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20228,7 +20938,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C5156480"
 			(at 259.08 69.85 0)
 			(hide yes)
 			(show_name no)
