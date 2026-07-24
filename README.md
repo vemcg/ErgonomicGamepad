@@ -53,7 +53,7 @@ This repo contains the schematic, PCB, and production support files for an ATmeg
 - C1-C5: `Capacitor_SMD:C_0603_1608Metric`
 - D25-D26: `LED_SMD:LED_0603_1608Metric`
 - TP1-TP7: `TestPoint:TestPoint_Pad_D1.5mm`
-- J2/J3/J4/J6: `PinHeader_1x08_P2.54mm_Vertical`
+- J2/J3/J4/J6: `Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical` (DNP - see Satellite Board Cables below)
 - J7: `PinHeader_1x02_P2.54mm_Vertical`
 - J5: `PinHeader_2x03_P2.54mm_Vertical`
 - JP1/JP2: `Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical`
@@ -109,6 +109,32 @@ point of a hotswap board is that these aren't soldered.
   to have correctly-sculpted keycaps for every position - uniform-profile
   (same shape regardless of position) or blank keycaps are the simplest
   option unless a custom set is planned.
+
+## Satellite Board Cables Needed (Not Part of PCBA)
+
+J2/J3/J4/J6 connect the two satellite switch boards to the main board (ROW1-4
++ COL1 per connector - no power needed, see Pinout Baseline). They're marked
+DNP on the JLCPCB assembly BOM since through-hole headers get hand-soldered
+after the boards arrive, same reasoning as the hotswap sockets above.
+
+- **Male headers** (on-board, hand-soldered): JST-XH 5-pin, `B5B-XH-A`
+  (matches the footprint above). Genuine JST stock from **Digi-Key** or
+  **Mouser** (search `B5B-XH-A` directly), or cheaper from **LCSC/JLCPCB**
+  (search "XH 5P" or the part number `B5B-XH-A(LF)(SN)`) - the latter is also
+  orderable through JLCPCB assembly if DNP is ever lifted. Generic
+  multi-packs from Amazon/AliExpress work fine too for prototyping. Need 4
+  (one per connector) plus spares.
+- **Female-to-female cables**: JST-XH 5-pin, both ends female, connecting
+  each main-board header to its matching satellite-board header. Target
+  length ~3-4in. Best sourced from **AliExpress** (search "JST XH 2.54 5 pin
+  cable" - widely available in 10/15/20/30cm, some sellers offer custom
+  lengths) or **Amazon** (search "JST XH 5 pin cable" - mostly RC/battery
+  sellers, lengths cluster around 15-30cm with some 10cm/~4in options). If
+  the exact length/pinout combo isn't available premade, a JST-XH crimp tool
+  (~$15-20) plus loose housings/terminals (pennies each, same vendors) makes
+  it easy to build the 2 needed cables to spec. Individual wires are
+  flexible (stranded, not ribbon) so routing/twisting around the enclosure
+  isn't a concern.
 
 ## Progress (Brief)
 
