@@ -9957,7 +9957,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
 			(at 39.37 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10369,7 +10369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
 			(at 59.69 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -18903,7 +18903,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
 			(at 39.37 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -19750,7 +19750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
 			(at 59.69 176.53 0)
 			(hide yes)
 			(show_name no)
