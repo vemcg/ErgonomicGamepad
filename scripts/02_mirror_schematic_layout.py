@@ -3,9 +3,9 @@
 footprint locking, by editing the .kicad_sch / .kicad_pcb S-expression files directly.
 
 Usage:
-    python scripts/mirror_schematic_layout.py sync [--dry-run]
-    python scripts/mirror_schematic_layout.py lock-all [--dry-run]
-    python scripts/mirror_schematic_layout.py unlock-all [--dry-run]
+    python scripts/02_mirror_schematic_layout.py sync [--dry-run]
+    python scripts/02_mirror_schematic_layout.py lock-all [--dry-run]
+    python scripts/02_mirror_schematic_layout.py unlock-all [--dry-run]
 
 sync:
     For every footprint whose reference designator matches a schematic symbol,

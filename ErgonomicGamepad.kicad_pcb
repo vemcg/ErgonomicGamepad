@@ -129,7 +129,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "021be6f9-f83b-4136-a94e-557805664388")
-		(at 155.68 118.31 90)
+		(at 208 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM11"
@@ -262,12 +262,6 @@
 		(path "/fc725ae5-4fcc-4001-aecc-a3e3da82acf0")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -452,7 +446,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -462,7 +456,7 @@
 			(uuid "e4d1ccdb-4508-4d20-b85d-24433c34e6f7")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -487,7 +481,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "0265dea8-2c42-4816-b155-6ed17fe0859f")
-		(at 188.7 72.59 90)
+		(at 228 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM13"
@@ -620,12 +614,6 @@
 		(path "/cf3df694-a83d-4dd6-988f-850292748798")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -810,7 +798,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -820,7 +808,7 @@
 			(uuid "24711094-595a-4483-a2e0-3c7c3735f270")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -845,7 +833,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "02c5614f-99d0-4fd7-89cf-aea9f95631e1")
-		(at -31.5 87.88)
+		(at 81.24 95.33)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -900,12 +888,6 @@
 		(path "/9bdf045d-a5c9-4c9d-8057-17416e23cdd6")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -955,13 +937,13 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "056cd4e8-3c9f-48b1-ade8-bac6b2830ed6")
-		(at 89.64 72.59 90)
+		(at 168 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM01"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
-			(uuid "4cad2824-a40e-4bd1-882f-72f36f9d9ab7")
+			(uuid "572deb23-2257-4c8c-a876-398cf66017e4")
 			(effects
 				(font
 					(size 1 1)
@@ -972,7 +954,7 @@
 		(property "Value" "1N4148WS"
 			(at 0.1 1.9 0)
 			(layer "F.Fab")
-			(uuid "36431ca4-7bde-416f-a2e8-74491c6a5de8")
+			(uuid "1958c7d4-bc1b-40c7-8b96-b6bfa34a8025")
 			(effects
 				(font
 					(size 1 1)
@@ -981,11 +963,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fba265bb-1f3d-4e5a-a798-ce4d8dc12255")
+			(uuid "a078a8a5-76de-4ab4-86b5-e0a040cccad8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,11 +976,11 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "361a9ace-da9c-4392-9c83-b228625cbe20")
+			(uuid "594dd829-14e0-45e4-b598-10bb1d5d1ded")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +989,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1020,7 +1002,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1033,7 +1015,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1046,7 +1028,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1059,7 +1041,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1072,7 +1054,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 0 0 0)
+			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1088,14 +1070,18 @@
 		(path "/6160b95b-057a-4760-90bd-e1002a1881e4")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.61 0.85)
+			(end 1.05 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07f9c51d-bf63-4a61-8618-7357144b1475")
+		)
 		(fp_line
 			(start -1.61 -0.85)
 			(end 1.05 -0.85)
@@ -1117,16 +1103,6 @@
 			(uuid "6a46e508-7e74-4713-938e-4b54a3215782")
 		)
 		(fp_line
-			(start -1.61 0.85)
-			(end 1.05 0.85)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "07f9c51d-bf63-4a61-8618-7357144b1475")
-		)
-		(fp_line
 			(start 1.6 -0.95)
 			(end 1.6 0.95)
 			(stroke
@@ -1135,6 +1111,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "05bc720b-b171-4fb9-927f-7d8117aeb441")
+		)
+		(fp_line
+			(start -1.6 0.95)
+			(end 1.6 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c6e8f2f5-dab0-47c3-8282-9bd21396a3a6")
 		)
 		(fp_line
 			(start -1.6 -0.95)
@@ -1157,14 +1143,34 @@
 			(uuid "599b9a4d-a7ff-45b6-acf2-af891865ecd9")
 		)
 		(fp_line
-			(start -1.6 0.95)
-			(end 1.6 0.95)
+			(start 0.9 0.7)
+			(end -0.9 0.7)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "c6e8f2f5-dab0-47c3-8282-9bd21396a3a6")
+			(layer "F.Fab")
+			(uuid "7a080fd6-b83e-44bd-902a-90812883fc34")
+		)
+		(fp_line
+			(start 0.2 0.35)
+			(end -0.3 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7990c028-9629-44e4-8c86-c42c1c3a366e")
+		)
+		(fp_line
+			(start 0.199999 0)
+			(end 0.45 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02b154c3-7971-4089-85ff-4a5bb85dae80")
 		)
 		(fp_line
 			(start 0.9 -0.7)
@@ -1177,16 +1183,6 @@
 			(uuid "2e94d1d2-ea40-4c06-9982-091f94b0f1e7")
 		)
 		(fp_line
-			(start -0.9 -0.7)
-			(end 0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "da436118-0116-44f2-91d1-76ef61e0f808")
-		)
-		(fp_line
 			(start 0.2 -0.35)
 			(end 0.2 0.35)
 			(stroke
@@ -1197,24 +1193,14 @@
 			(uuid "1959b1b7-fa3f-4f4b-bfb9-f982f6405cd6")
 		)
 		(fp_line
-			(start -0.3 -0.35)
-			(end -0.3 0.35)
+			(start -0.9 0.7)
+			(end -0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "538a3c9d-5866-4d36-abef-4ddc992191dd")
-		)
-		(fp_line
-			(start 0.2 0)
-			(end 0.45 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "02b154c3-7971-4089-85ff-4a5bb85dae80")
+			(uuid "e8912abf-b794-42fa-915c-e93c6f6ffb6d")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -1228,7 +1214,7 @@
 		)
 		(fp_line
 			(start -0.3 0)
-			(end -0.5 0)
+			(end -0.499999 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1237,34 +1223,24 @@
 			(uuid "62ac7407-be29-468f-9be5-a86262d00944")
 		)
 		(fp_line
-			(start 0.2 0.35)
-			(end -0.3 0)
+			(start -0.3 -0.349999)
+			(end -0.3 0.349999)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7990c028-9629-44e4-8c86-c42c1c3a366e")
+			(uuid "538a3c9d-5866-4d36-abef-4ddc992191dd")
 		)
 		(fp_line
-			(start 0.9 0.7)
-			(end -0.9 0.7)
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7a080fd6-b83e-44bd-902a-90812883fc34")
-		)
-		(fp_line
-			(start -0.9 0.7)
-			(end -0.9 -0.7)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e8912abf-b794-42fa-915c-e93c6f6ffb6d")
+			(uuid "da436118-0116-44f2-91d1-76ef61e0f808")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -1.85 0)
@@ -1278,7 +1254,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1288,7 +1264,7 @@
 			(uuid "6b6b9a44-3d86-4a7c-9b41-385b1e63eb63")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1310,10 +1286,116 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(layer "F.Cu")
+		(uuid "0acf154f-7184-406b-a19a-acfd1e55db8d")
+		(at 201.89 185.5 90)
+		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP9"
+			(at 0 -2.398 0)
+			(layer "F.SilkS")
+			(uuid "655cc27e-c2f1-4e50-a0f5-e00d79205376")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "94f3a278-065b-4026-a3e4-040562421232")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec96b83f-f3ee-438a-90dc-e1c1bf2752d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point - GND clip point (alligator/hook clip target), edge-mounted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b51e5ec8-b7d4-44e1-baa0-826a81b8b918")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a0cb74c5-a840-4c0e-b2e0-7fd6062b3ac3")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(attr exclude_from_bom dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "a6b06266-1bb6-47bb-b494-58e3625120d3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d13201d8-732d-4f49-84b2-4df596f43850")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "e1dc597b-40e4-49ab-95e8-bd4a82d3d44e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 3 3)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "ebd153e7-606a-4fd7-be57-011ba01d7da3")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Button_Switch_SMD:SW_SPST_B3U-3000P"
 		(layer "F.Cu")
 		(uuid "0b895caf-e3b8-4e83-b924-e6cee63a04b1")
-		(at -39.12 25.65)
+		(at 73.62 33.1)
 		(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Side-actuated Model, without Ground Terminal, without Boss")
 		(tags "Tactile Switch")
 		(property "Reference" "SWR1"
@@ -1420,12 +1502,6 @@
 		(path "/ac116b04-2bef-4b11-9cf2-d3a50ebe45c4")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1751,7 +1827,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "0db79737-1c2f-4bfe-8d8c-41b66392f60d")
-		(at 82.02 68.78)
+		(at 159.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW01"
@@ -1854,12 +1930,6 @@
 		(path "/a8e033d8-5395-4ce0-a92e-dbe67238098f")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2508,7 +2578,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "10fc474b-a0c6-4d37-a45a-3ede80ca3038")
-		(at 244.58 114.5)
+		(at 259.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW23"
@@ -2611,12 +2681,6 @@
 		(path "/36491a33-468c-400a-bff9-c26c6e2c017d")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3262,10 +3326,116 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(layer "F.Cu")
+		(uuid "1649eee8-9f16-4ba6-abae-49eff1269d15")
+		(at 201.89 170.26 90)
+		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP8"
+			(at 0 -2.398 0)
+			(layer "F.SilkS")
+			(uuid "6b082235-cb5e-4695-8034-4f04a9b602d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "b432e16f-302c-4cee-ac74-f9781cc8a485")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a113ec6-cf4e-47b3-9881-651567666472")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point - +5V clip point (alligator/hook clip target), edge-mounted"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "273b0abc-2939-42f7-8fc8-da2a85df8664")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2b1b17c8-fd5f-4254-a035-0180f9bab837")
+		(sheetname "/")
+		(sheetfile "ErgonomicGamepad.kicad_sch")
+		(attr exclude_from_bom dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "de1cd34c-fdc9-4c8d-8650-23139cb761e6")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1f3dbaf0-54e2-40b9-a5fa-c575811571a6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "7c02076d-a4fe-4499-9c9f-2d3fceda980e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 3 3)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "+5V")
+			(pinfunction "1_1")
+			(pintype "passive")
+			(uuid "18fbd62d-acd4-4e29-88d0-cb0a70183d63")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "198935c6-fb29-4d31-817d-abf4cbf9463c")
-		(at 154.41 139.9 90)
+		(at 208 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM12"
@@ -3398,12 +3568,6 @@
 		(path "/3a2d0658-3116-4b3b-91f7-77c250efc10f")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3588,7 +3752,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3598,7 +3762,7 @@
 			(uuid "b65fb643-b32b-45b2-b20f-fa48dbd11cc6")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3623,7 +3787,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "1b8611b3-2cf5-40f4-8d42-c759a672fbe2")
-		(at 187.43 139.9 90)
+		(at 228 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM16"
@@ -3756,12 +3920,6 @@
 		(path "/e252135a-b612-49cf-981d-919dd7bdda9f")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3946,7 +4104,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3956,7 +4114,7 @@
 			(uuid "e0155308-eb53-4d5e-8089-ab8da4480ea5")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -3981,7 +4139,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "1c5cfaac-fa50-4948-b95e-52e03d4d8fd1")
-		(at 148.06 68.78)
+		(at 199.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW09"
@@ -4084,12 +4242,6 @@
 		(path "/0611e965-8fa5-48c0-84f5-cb610815705d")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4738,7 +4890,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "1e3cbfac-8dbb-4186-8c82-906d445cfb48")
-		(at 122.66 118.31 90)
+		(at 188 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM07"
@@ -4871,12 +5023,6 @@
 		(path "/5c715030-094a-4038-b67f-d2201e9bed6c")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5061,7 +5207,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5071,7 +5217,7 @@
 			(uuid "e8cb7f9f-8b54-4369-8d6e-3eaac0dd0caf")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5096,7 +5242,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "24c2ec76-66b8-4591-be85-9f35dcfa8835")
-		(at 122.66 72.59 90)
+		(at 188 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM05"
@@ -5229,12 +5375,6 @@
 		(path "/5939cc0b-5e25-46e5-af36-1cd05c8c9d40")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5419,7 +5559,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5429,7 +5569,7 @@
 			(uuid "6732ce4b-4b4d-4ea4-9bc7-d8adb1020905")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5454,7 +5594,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "26b100d0-af98-421a-97cf-bb7dca1320f7")
-		(at 181.08 68.78)
+		(at 219.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW13"
@@ -5557,12 +5697,6 @@
 		(path "/fce3b196-896c-4017-ab2e-9c786e3388f3")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6211,7 +6345,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "27e5d09c-f9b5-4821-8e69-206371e6318c")
-		(at -23.88 62.48)
+		(at 88.86 69.93)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -6266,12 +6400,6 @@
 		(path "/56a157c8-9e8f-46f9-9bab-12cef782e3a3")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -6321,7 +6449,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "2c05b4bb-b813-4054-a4a1-0fda59b0c678")
-		(at 80.75 136.09)
+		(at 159.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW04"
@@ -6424,12 +6552,6 @@
 		(path "/a8420e9e-8fa1-4139-a4a4-e13241a64917")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7078,7 +7200,7 @@
 	(footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2d90f443-4c6d-461c-8de6-2b00ccbf4d4c")
-		(at -53.09 169.16)
+		(at 59.65 176.61)
 		(descr "JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J6"
@@ -7137,16 +7259,62 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98487a2d-97a2-4069-96bf-372b736c9d4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B5B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8f2f72c-b270-4ca6-81e6-976488931e2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0201e58a-0f6a-4c16-a4d6-239872bc0833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C157991"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8709ba81-c296-412e-bf63-8f5d1e51bc74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f43c4253-cb5d-422a-a03f-d2887151ece1")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7398,7 +7566,7 @@
 	(footprint "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2da1d2f1-5850-4d0f-944c-4a80b19882bc")
-		(at -86.11 30.73)
+		(at 26.63 38.18)
 		(descr "Generic Phoenix Contact connector footprint for: MCV_1,5/2-G-5.08; number of pins: 02; pin pitch: 5.08mm; Vertical || order number: 1836299 8A 320V")
 		(tags "phoenix_contact connector MCV_01x02_G_5.08mm")
 		(property "Reference" "J7"
@@ -7513,12 +7681,6 @@
 		(path "/de123a37-6245-4b6e-9c8f-74f26bfb8f71")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7926,7 +8088,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "2ea07a05-5c2f-430e-b813-2693fd17cc3f")
-		(at 148.06 91.64)
+		(at 199.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW10"
@@ -8029,12 +8191,6 @@
 		(path "/27148f3b-8f46-4b13-9eca-b37490a62438")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8683,7 +8839,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2fc4ce0e-28ac-413c-b368-4c560ae3f2f8")
-		(at -86.11 47.24)
+		(at 26.63 54.69)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C4"
@@ -8798,12 +8954,6 @@
 		(path "/a8b8676f-8871-4099-b2ce-6e9618b54639")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8893,7 +9043,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "381e43d8-5608-4c0a-b969-3dbf0717c669")
-		(at 82.02 114.5)
+		(at 159.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW03"
@@ -8996,12 +9146,6 @@
 		(path "/b1fc2795-27bc-4e8d-b8d9-2a37be2fdf78")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9650,7 +9794,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "3e9ffa93-e748-4a68-b1b6-bb7461a8422a")
-		(at 89.64 95.45 90)
+		(at 168 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM02"
@@ -9783,12 +9927,6 @@
 		(path "/987584eb-5a17-4327-a86f-202450859ea6")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9973,7 +10111,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -9983,7 +10121,7 @@
 			(uuid "6a90c180-6baa-4e38-a9f4-54c499f8f832")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -10008,7 +10146,7 @@
 	(footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "410a0ccb-056e-4b0b-8645-cb0ac838da0e")
-		(at -73.41 169.16)
+		(at 39.33 176.61)
 		(descr "JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J4"
@@ -10067,16 +10205,62 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e5d8cb5-8af5-4f98-b6e2-03f6d6907f86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B5B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eed58490-afd8-4a2f-b117-36e38caff54c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e3aac32-484e-4c2d-bda4-8bf94b5233b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C157991"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbc0e46c-d6a3-44cf-8601-9238be111010")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e98920d5-5654-4768-b884-de5419cb6e13")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10328,7 +10512,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "42eb1907-4384-42db-8af6-660f4280488d")
-		(at 181.08 91.64)
+		(at 219.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW14"
@@ -10431,12 +10615,6 @@
 		(path "/b7b2d48e-c6d3-4e00-83c9-1bdfe22afc57")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11085,7 +11263,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "44b2d2d7-27cd-4334-bb17-1882a4693466")
-		(at -31.5 48.51 180)
+		(at 81.24 55.96 180)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -11140,12 +11318,6 @@
 		(path "/ed05af88-573a-4728-9f2d-f8fa00d7902e")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -11182,7 +11354,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "/UCAP")
@@ -11195,7 +11367,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4e453579-2877-4646-8482-a956ecc9dd7c")
-		(at -40.39 72.64 -90)
+		(at 72.35 80.09 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -11310,12 +11482,6 @@
 		(path "/b008023e-e522-49e9-9911-58dad7cc6d90")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11372,7 +11538,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11381,7 +11547,7 @@
 			(uuid "a67ad768-2ce6-4858-86d5-7bf9733a7fa0")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -11405,7 +11571,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "4e717520-b52c-4edb-bdd5-c53c5aca0597")
-		(at 212.83 114.5)
+		(at 239.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW19"
@@ -11508,12 +11674,6 @@
 		(path "/cfdfbbeb-ec11-4462-8c1b-245009005d95")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12162,7 +12322,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "51526297-1b48-4228-b4eb-aa58060fda2c")
-		(at 252.2 118.31 90)
+		(at 268 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM23"
@@ -12295,12 +12455,6 @@
 		(path "/179ab270-f832-49fb-8062-dd747bcec4b8")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12485,7 +12639,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12495,7 +12649,7 @@
 			(uuid "a7c7ff02-9729-4d9c-b075-bb77164670b2")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12520,7 +12674,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "53209986-900a-4902-aa2b-815ae9a5cb79")
-		(at -89.92 51.05 90)
+		(at 22.82 58.5 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -12575,12 +12729,6 @@
 		(path "/869eb011-e6eb-4dca-8472-e75ef104ed6a")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -12617,7 +12765,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
@@ -12630,7 +12778,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "555fe42d-4ff6-48a1-ac78-ae2571cc536f")
-		(at 16.8575 168 90)
+		(at 146.01 165.18 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -12745,12 +12893,6 @@
 		(path "/eada2f74-88de-4e00-8d45-38c3efefcb26")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12807,7 +12949,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12816,7 +12958,7 @@
 			(uuid "3fa5d308-c4c0-4312-a92a-35e7c7f28696")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -12840,7 +12982,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "57df9b55-2ac8-47ba-903d-0b1497d13378")
-		(at 115.04 68.78)
+		(at 179.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW05"
@@ -12943,12 +13085,6 @@
 		(path "/4a95d191-3f8e-453b-8d22-e21bd6403810")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13597,7 +13733,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5a667e2b-ab20-4932-af6e-51ddce968098")
-		(at 16.8575 160.38 90)
+		(at 146.01 157.56 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R6"
@@ -13712,12 +13848,6 @@
 		(path "/3fe9324b-32e0-4587-9a15-5bd233897c89")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13774,7 +13904,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13783,7 +13913,7 @@
 			(uuid "56bbdec4-bee3-4a83-b8f2-9099dd8c1643")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13807,7 +13937,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5cf71c4f-5482-4ed1-98ec-9f310793ca78")
-		(at -58.17 44.7 90)
+		(at 54.57 52.15 90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "JP1"
@@ -13922,12 +14052,6 @@
 		(path "/0e5655c1-ea94-4a01-90f1-1c7096ca83fd")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14063,7 +14187,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -14074,7 +14198,7 @@
 			(uuid "173d5be3-0c13-4d40-a0ff-cf448966b784")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54)
+			(at 0 2.54 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -14100,7 +14224,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "5d9de0e9-4084-49ad-8179-9123d089e567")
-		(at -31.5 95.5 180)
+		(at 81.24 102.95 180)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -14155,12 +14279,6 @@
 		(path "/27942206-deee-44f3-ba60-0e73d516ab94")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -14197,7 +14315,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "/D+")
@@ -14210,7 +14328,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
 		(layer "F.Cu")
 		(uuid "60183962-f895-4520-8c82-f7d2bff43dcd")
-		(at 6.6 38.35 180)
+		(at 119.34 45.8 180)
 		(descr "surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x03 2.54mm double row")
 		(property "Reference" "J5"
@@ -14325,12 +14443,6 @@
 		(path "/a32e8ba9-ead3-4313-ae5d-a19febdb347e")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "6" "1" "4" "3" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14696,7 +14808,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -2.525 -2.54)
+			(at -2.525 -2.54 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MISO")
@@ -14705,7 +14817,7 @@
 			(uuid "0bac373c-3943-470b-b49c-433ad1ec662f")
 		)
 		(pad "2" smd rect
-			(at 2.525 -2.54)
+			(at 2.525 -2.54 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "+5V")
@@ -14714,7 +14826,7 @@
 			(uuid "a8fb4e64-0ada-4a02-a3f9-39e352d01dcf")
 		)
 		(pad "3" smd rect
-			(at -2.525 0)
+			(at -2.525 0 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/SCK")
@@ -14723,7 +14835,7 @@
 			(uuid "e71de8a4-4eaf-4356-a147-daf4ce250d75")
 		)
 		(pad "4" smd rect
-			(at 2.525 0)
+			(at 2.525 0 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/MOSI")
@@ -14732,7 +14844,7 @@
 			(uuid "ba5d0db7-90cc-4c75-8d03-48d8656b5bf5")
 		)
 		(pad "5" smd rect
-			(at -2.525 2.54)
+			(at -2.525 2.54 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/RESET")
@@ -14741,7 +14853,7 @@
 			(uuid "a506a5f8-8e44-4069-ab50-2c1ca24b5e7c")
 		)
 		(pad "6" smd rect
-			(at 2.525 2.54)
+			(at 2.525 2.54 180)
 			(size 3.15 1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "GND")
@@ -14765,7 +14877,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "61bc60eb-c0f8-4606-a924-adc6c71c3ccc")
-		(at 21.68 35.225)
+		(at 152.36 36.91)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -14880,12 +14992,6 @@
 		(path "/e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a7b")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14975,7 +15081,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "6299bf74-afc0-449a-bc07-572a31a80735")
-		(at 121.39 139.9 90)
+		(at 188 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM08"
@@ -15108,12 +15214,6 @@
 		(path "/c611cc12-e3cb-46e5-bd9a-20d743b521ba")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15298,7 +15398,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15308,7 +15408,7 @@
 			(uuid "351721dd-3df8-4fbe-b41a-a05bf085f59b")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15333,7 +15433,7 @@
 	(footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "68f60dac-2df6-4e6c-a7cd-df08781266ea")
-		(at -73.41 138.68)
+		(at 39.33 146.13)
 		(descr "JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
@@ -15392,16 +15492,62 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d9f3eef-b3a3-4d0f-bcf3-ee93c5009b64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B5B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b405204-1120-40e9-8932-bc05ee3a6c91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aa7ea77-52d5-4841-bc2c-c1f3820554e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C157991"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "153d5d7b-d162-4753-b6b1-3677283182b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3cf76614-aed4-40d7-9aab-e63016bc3f5a")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15653,7 +15799,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "6b4e644f-3a16-41a9-956d-7690d8b3ad75")
-		(at 188.7 118.31 90)
+		(at 228 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM15"
@@ -15786,12 +15932,6 @@
 		(path "/27c90bd1-a1c9-4dc4-be41-7edf86487bc7")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15976,7 +16116,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15986,7 +16126,7 @@
 			(uuid "4fda34fa-fa21-455b-a779-f78ce2abff7e")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16011,7 +16151,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "6bb10135-4823-4048-a344-2016a524ad2c")
-		(at 181.08 114.5)
+		(at 219.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW15"
@@ -16114,12 +16254,6 @@
 		(path "/d9ef3848-8c5a-48d3-9cbe-07dfc6e8265a")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16768,7 +16902,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6d98433e-c28e-4799-a492-14d2329f7a79")
-		(at -44.2 56.13 180)
+		(at 68.54 63.58 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C3"
@@ -16883,12 +17017,6 @@
 		(path "/bd46506a-2fee-4e81-acf9-7120269c1ac9")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16945,7 +17073,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16954,7 +17082,7 @@
 			(uuid "d07ee83f-d526-4175-b2ab-7694ce511a00")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 180)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -16978,7 +17106,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6f223148-e6e8-4803-9927-1917505f2bfc")
-		(at 28.2875 168 180)
+		(at 157.44 165.18 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "LED2"
@@ -17106,12 +17234,6 @@
 		(path "/82c4ea71-098c-43a0-a206-127469e0fe22")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17217,7 +17339,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 180)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17227,7 +17349,7 @@
 			(uuid "bdd12157-0bd0-4d09-b550-059f9df7f20d")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 180)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17252,7 +17374,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7011669c-e550-4a60-abcb-ebe963e554c1")
-		(at 42 35.225)
+		(at 172.68 36.91)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "JP2"
@@ -17367,12 +17489,6 @@
 		(path "/b6f9a1c2-0d3e-4f5a-9b6c-1d2e3f4a5b6c")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17545,7 +17661,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "745994cc-a06f-4dd5-8ea5-ec187938c462")
-		(at 82.02 91.64)
+		(at 159.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW02"
@@ -17648,12 +17764,6 @@
 		(path "/a433f17e-0b41-4241-a04b-c103d6a5d2b4")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18302,7 +18412,7 @@
 	(footprint "Package_QFP:TQFP-44_10x10mm_P0.8mm"
 		(layer "F.Cu")
 		(uuid "79287568-a06a-4283-a83c-43e1e90a4e95")
-		(at 2.79 139.95)
+		(at 115.53 147.4)
 		(descr "TQFP, 44 Pin (JEDEC MS-026 variation ACB, 1.00mm body thickness, https://www.jedec.org/document_search?search_api_views_fulltext=MS-026, https://ww1.microchip.com/downloads/en/PackagingSpec/00000049BZ.pdf#page=658)")
 		(tags "TQFP QFP Microchip_44-Lead-Plastic-Thin-Quad-Flatpack-(PT)")
 		(property "Reference" "U1"
@@ -18417,16 +18527,6 @@
 		(path "/755ea257-623d-4e8b-9297-bfd55a14ddf2")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "13" "17" "16" "42" "7" "4" "3" "6" "2" "5" "14" "34" "43" "15"
-					"23" "35" "44" "24" "8" "9" "10" "11" "28" "29" "30" "12" "31" "32"
-					"18" "19" "20" "21" "25" "22" "26" "27" "33" "1" "41" "40" "39" "38"
-					"37" "36"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19200,7 +19300,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "7cbbf81a-c2b9-4898-97a2-1aaffa4835e7")
-		(at 122.66 95.45 90)
+		(at 188 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM06"
@@ -19333,12 +19433,6 @@
 		(path "/556b43e8-6298-4608-ab5c-90b7acaaeb31")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19523,7 +19617,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19533,7 +19627,7 @@
 			(uuid "f9d5deb9-168c-469e-9f8b-637a5edf6a16")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19558,7 +19652,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "7ed1e227-5ecd-4c0d-ac5f-2661aaa3dbf0")
-		(at 88.37 139.9 90)
+		(at 168 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM04"
@@ -19691,12 +19785,6 @@
 		(path "/64de5ff0-4bde-4184-8463-c9f1db6cd28c")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19881,7 +19969,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19891,7 +19979,7 @@
 			(uuid "1d8cd22d-35c9-4ce9-a067-522327e65879")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -19916,7 +20004,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "810d71f3-6cd8-4b53-9d0c-7befbba510cf")
-		(at -40.39 65.02 -90)
+		(at 72.35 72.47 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -20031,12 +20119,6 @@
 		(path "/b3a0fa1f-4233-4548-9812-539661380cc6")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20093,7 +20175,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.775 0)
+			(at -0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20102,7 +20184,7 @@
 			(uuid "7df61913-b84f-4bda-928a-5b01d7444c4b")
 		)
 		(pad "2" smd roundrect
-			(at 0.775 0)
+			(at 0.775 0 270)
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20126,7 +20208,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "844f4ae6-6eb6-49ab-b5ea-8590502aa96b")
-		(at 244.58 91.64)
+		(at 259.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW22"
@@ -20229,12 +20311,6 @@
 		(path "/65b82eb4-0ac0-47d5-934e-bd0ccc49569e")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20883,7 +20959,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "89a64316-faed-48e0-94c8-19c68b070bec")
-		(at 252.2 95.45 90)
+		(at 268 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM22"
@@ -21016,12 +21092,6 @@
 		(path "/a7a88af0-31f6-4650-84a2-fc475b6bcd0c")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21206,7 +21276,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21216,7 +21286,7 @@
 			(uuid "133cdc81-e69c-461f-9cfc-d038227f10c3")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21241,7 +21311,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "8a1bedd4-c3f3-42bb-9c74-5516b1fa9819")
-		(at 220.45 72.59 90)
+		(at 248 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM17"
@@ -21374,12 +21444,6 @@
 		(path "/a964fee5-aac8-401f-b145-543938b5ecbf")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21564,7 +21628,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21574,7 +21638,7 @@
 			(uuid "89183bd9-69b9-4776-8564-a5a08f2d968c")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21599,7 +21663,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9090b21d-c2ac-40dd-ad47-adb7c6ac8b3e")
-		(at -40.39 95.5 90)
+		(at 72.35 102.95 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -21714,12 +21778,6 @@
 		(path "/6cad9b21-5d72-4de3-87d1-2411c2643eaf")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21776,7 +21834,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21785,7 +21843,7 @@
 			(uuid "b039a5ef-64d0-4a73-9dd9-7be21d72e800")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -21809,7 +21867,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "91cb8637-3efd-4f78-ab20-963b61474a97")
-		(at 188.7 95.45 90)
+		(at 228 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM14"
@@ -21942,12 +22000,6 @@
 		(path "/378b849d-eba2-4d12-9b40-9715ca959978")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22132,7 +22184,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22142,7 +22194,7 @@
 			(uuid "0f13a69c-35ee-4f70-9501-6b965f78ad49")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -22167,7 +22219,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "953f752c-2084-41e9-b3f0-9bd0bb1b96df")
-		(at 212.83 68.78)
+		(at 239.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW17"
@@ -22270,12 +22322,6 @@
 		(path "/47a79728-b33c-475c-87d7-6fd804357839")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22924,7 +22970,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "991b9acf-26f6-4929-b719-f2bbf3a9a649")
-		(at 211.56 136.09)
+		(at 239.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW20"
@@ -23027,12 +23073,6 @@
 		(path "/4f94bf8f-eb9a-4dcc-bacb-d1c724a236db")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23681,7 +23721,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "9b7dea92-781a-479c-aa3f-ae97d08ef1d7")
-		(at 155.68 95.45 90)
+		(at 208 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM10"
@@ -23814,12 +23854,6 @@
 		(path "/79bd69ed-0124-40a9-a334-7e939e83c334")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24004,7 +24038,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24014,7 +24048,7 @@
 			(uuid "35888c21-2bb8-4d18-a887-9f5980365b8d")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -24039,7 +24073,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "9dc968d2-3314-4f87-9e32-aa59771c2f78")
-		(at 148.06 114.5)
+		(at 199.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW11"
@@ -24142,12 +24176,6 @@
 		(path "/204044f8-6fee-4e07-b470-5916b349188f")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24796,7 +24824,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "a475b609-b53c-4ed1-a868-317338efd836")
-		(at 220.45 118.31 90)
+		(at 248 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM19"
@@ -24929,12 +24957,6 @@
 		(path "/3845bbe8-2732-4f3f-a186-fbecd3b13772")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25119,7 +25141,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25129,7 +25151,7 @@
 			(uuid "48ad5d38-a13c-47de-9f39-6e664f225787")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -25154,7 +25176,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "a5dc2728-59e9-4b2e-a611-f3e4b9cd01fe")
-		(at 146.79 136.09)
+		(at 199.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW12"
@@ -25257,12 +25279,6 @@
 		(path "/ec3e394f-e40c-45b5-90e9-d6f208c2ad9b")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25911,7 +25927,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "aaa668bb-b99e-4c2a-951a-ec2061ab74c2")
-		(at 28.2875 160.38 180)
+		(at 157.44 157.56 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED")
 		(property "Reference" "LED1"
@@ -26039,12 +26055,6 @@
 		(path "/6d01de16-ce76-4c96-bb06-aec37ced1e68")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26150,7 +26160,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.7875 0)
+			(at -0.7875 0 180)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26160,7 +26170,7 @@
 			(uuid "2a030b0d-058f-445e-a566-89070939fe9d")
 		)
 		(pad "2" smd roundrect
-			(at 0.7875 0)
+			(at 0.7875 0 180)
 			(size 0.875 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26185,7 +26195,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ab24e950-6935-4a6e-a1ec-848deb284100")
-		(at 250.93 139.9 90)
+		(at 268 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM24"
@@ -26318,12 +26328,6 @@
 		(path "/c7133803-b821-4b3b-8687-e6db12145351")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26508,7 +26512,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26518,7 +26522,7 @@
 			(uuid "de5d2d02-00f1-478d-b089-23d85ec2cf83")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -26543,7 +26547,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "ac322e81-0d23-4db8-ae1b-448bde134b7c")
-		(at 115.04 91.64)
+		(at 179.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW06"
@@ -26646,12 +26650,6 @@
 		(path "/96a7d052-5cf8-4fd2-ad81-5c1503fffee5")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27300,7 +27298,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "b1b9911a-7323-4230-bc4a-ccc3a1ca64e9")
-		(at 219.18 139.9 90)
+		(at 248 121 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM20"
@@ -27433,12 +27431,6 @@
 		(path "/5e89ba32-b109-4583-b59c-0e5615bc51b6")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27623,7 +27615,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -27633,7 +27625,7 @@
 			(uuid "1d75915c-7b27-45ba-800a-83b48a97fad3")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -27658,7 +27650,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "bab98bb9-0374-43fe-b093-d9778443ffe4")
-		(at -53.09 104.39)
+		(at 59.65 111.84)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -27773,12 +27765,6 @@
 		(path "/e493963c-9327-49b3-88d8-8db5dec9ba01")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "2" "6" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28072,7 +28058,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bba98a76-f740-4dda-b2a0-00ca85e6defd")
-		(at -70.87 47.24)
+		(at 41.87 54.69)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C5"
@@ -28187,12 +28173,6 @@
 		(path "/ccf3b73d-ee86-410c-9cbe-f132afc11b4a")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28282,7 +28262,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "bc4fbf3c-4223-4159-b5af-0cda5ecc366c")
-		(at 243.31 136.09)
+		(at 259.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW24"
@@ -28385,12 +28365,6 @@
 		(path "/d09c3f9a-6d55-406b-a3d2-2021457b59bb")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29039,7 +29013,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "bc57ff23-0c57-43fa-bbdb-cd53d01388c1")
-		(at -23.88 72.64 180)
+		(at 88.86 80.09 180)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -29094,12 +29068,6 @@
 		(path "/29a27c6a-b34b-4763-8074-807edcee27d4")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -29136,7 +29104,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "/XTAL2")
@@ -29149,7 +29117,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bd1c1718-81f6-41ff-a395-ac4cf2e3dd13")
-		(at -40.39 90.42 90)
+		(at 72.35 97.87 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -29264,12 +29232,6 @@
 		(path "/d9cdfaee-258f-4b2b-b076-0d87e72ece37")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29326,7 +29288,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29335,7 +29297,7 @@
 			(uuid "7c400e5f-f93a-4e93-a0d4-96b99683cdc8")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 90)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -29359,7 +29321,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
 		(layer "F.Cu")
 		(uuid "cba77116-90cd-4f15-834f-008a267a0948")
-		(at -60.71 63.75 90)
+		(at 52.03 71.2 90)
 		(descr "SMD pad as test Point, diameter 1.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -29414,12 +29376,6 @@
 		(path "/59cc108c-d55f-445b-93dc-19f0638b6082")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -29456,7 +29412,7 @@
 			)
 		)
 		(pad "1" smd circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.5 1.5)
 			(layers "F.Cu" "F.Mask")
 			(net "Net-(D1-K)")
@@ -29469,7 +29425,7 @@
 	(footprint "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d119038d-61ea-4b7a-a0d3-d955b4a52b34")
-		(at -53.09 138.68)
+		(at 59.65 146.13)
 		(descr "JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
@@ -29528,16 +29484,62 @@
 				)
 			)
 		)
+		(property "Manufacturer" "JST"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a60d429c-1123-4010-afe5-d509ad3cbaf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B5B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e9b3308-c074-49e2-b22b-bf8b3dc9d7b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad21802b-639a-418a-a38c-6ab26b857bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C157991"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfaf5868-64c9-49c0-b352-57eea4557dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/46396d6b-259b-4797-b298-f7f6c6a4e38f")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5")
-			)
-		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29789,7 +29791,7 @@
 	(footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 		(layer "F.Cu")
 		(uuid "d2dc2786-99fb-4613-b207-de0fef9bd847")
-		(at -30.23 68.83 -90)
+		(at 82.51 76.28 -90)
 		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 		(tags "SMD SMT Crystal")
 		(property "Reference" "Y1"
@@ -29896,12 +29898,6 @@
 		(path "/168a420a-d1d2-441e-9874-c050a5e20399")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30016,7 +30012,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at 1.25 0)
+			(at 1.25 0 270)
 			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/XTAL1")
@@ -30025,7 +30021,7 @@
 			(uuid "0b391f22-b388-4368-b412-ba965c5cda74")
 		)
 		(pad "2" smd rect
-			(at -1.25 0)
+			(at -1.25 0 270)
 			(size 1 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net "/XTAL2")
@@ -30049,7 +30045,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "d5a7db17-e630-4d1e-a2bc-70c1cf93822d")
-		(at 212.83 91.64)
+		(at 239.46 89.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW18"
@@ -30152,12 +30148,6 @@
 		(path "/fa52d3e9-c4fa-49b8-9c52-2439ce9c0849")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30806,7 +30796,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "d7d4c4af-54fb-48b3-9b7a-baa46b2cd92c")
-		(at 244.58 68.78)
+		(at 259.46 69.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW21"
@@ -30909,12 +30899,6 @@
 		(path "/210d9d45-1fd8-4634-96d7-31f9e35c630e")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31563,7 +31547,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "e4ce9f2d-efa7-4c6b-9434-d5ec03442e97")
-		(at 179.81 136.09)
+		(at 219.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW16"
@@ -31666,12 +31650,6 @@
 		(path "/7e91fcff-7445-43d8-be50-621cae3e87bf")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32320,7 +32298,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e6c00b89-05a2-4bd1-af6e-a7f4045b89c1")
-		(at -60.71 85.34 -90)
+		(at 52.03 92.79 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -32435,12 +32413,6 @@
 		(path "/104fb8df-0f8f-4fd7-9b10-3c4b45dc8aa0")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32497,7 +32469,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32506,7 +32478,7 @@
 			(uuid "3c68032a-acc4-4939-ac72-c801cf39ad9a")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32530,7 +32502,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "e971e00a-8a47-4788-a2ae-f0692619ad14")
-		(at 252.2 72.59 90)
+		(at 268 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM21"
@@ -32663,12 +32635,6 @@
 		(path "/92dc8bd3-e9b4-4869-9e9e-75578b05f787")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32853,7 +32819,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32863,7 +32829,7 @@
 			(uuid "291aa2c1-1794-4467-9715-d7e375be6df6")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -32888,7 +32854,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ec9396bd-cf3d-4027-941b-e0d983a73c01")
-		(at 89.64 118.31 90)
+		(at 168 101 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM03"
@@ -33021,12 +32987,6 @@
 		(path "/3a11599d-8764-45b1-a52b-78ddd4264f39")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33211,7 +33171,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -33221,7 +33181,7 @@
 			(uuid "afb283a4-98a5-49e8-bd12-83f20acc785d")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -33246,7 +33206,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ee1644d7-715d-4f3c-b9a0-ba3ecf00c209")
-		(at 220.45 95.45 90)
+		(at 248 81 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM18"
@@ -33379,12 +33339,6 @@
 		(path "/4715c872-eaa8-4d3b-86d7-04fb63fe6eda")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33569,7 +33523,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -33579,7 +33533,7 @@
 			(uuid "bcceb8eb-970e-4c4a-b00e-0bfdf840ca4c")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -33604,7 +33558,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 		(layer "F.Cu")
 		(uuid "f2bba3d8-b41b-42de-8abf-460bc50d6a26")
-		(at -79.76 90.42)
+		(at 32.98 97.87)
 		(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
 		(tags "usb usb-c 2.0 pd")
 		(property "Reference" "J1"
@@ -33711,14 +33665,6 @@
 		(path "/f991c9a0-18ee-4ad9-abf7-642be9736be4")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34100,7 +34046,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "f6e324a0-87f0-480c-afcf-233f1a8de582")
-		(at 113.77 136.09)
+		(at 179.46 129.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW08"
@@ -34203,12 +34149,6 @@
 		(path "/71425fd7-7c56-4e6b-8d3f-b2dae1052018")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34857,7 +34797,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f79bfb59-0a51-45e1-b5a1-ac9f075e1b00")
-		(at -39.12 35.81 -90)
+		(at 73.62 43.26 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -34972,12 +34912,6 @@
 		(path "/b70aae31-c691-4ec3-9bb1-7f6c0537cda7")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35034,7 +34968,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -35043,7 +34977,7 @@
 			(uuid "51e2b37f-f061-4922-87b4-cb9502be12fa")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -35067,7 +35001,7 @@
 	(footprint "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
 		(layer "F.Cu")
 		(uuid "f7e576b3-0a9a-4be3-967f-60c0b9076048")
-		(at 115.04 114.5)
+		(at 179.46 109.58)
 		(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW07"
@@ -35170,12 +35104,6 @@
 		(path "/f35a9dd7-1fdc-4086-8acf-96a66abd1ef2")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35824,7 +35752,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f99b58be-3060-4929-8df6-e1b6ffd50bb6")
-		(at -60.71 80.26 -90)
+		(at 52.03 87.71 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -35939,12 +35867,6 @@
 		(path "/430623d9-18a1-4c67-bf86-326ea5721ba3")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36001,7 +35923,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36010,7 +35932,7 @@
 			(uuid "d1a475c3-3a36-4328-91eb-81c638f140f7")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 270)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36034,7 +35956,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "fb6b90be-4cb2-41b3-8241-e56db2845cdc")
-		(at -58.17 67.56 -90)
+		(at 54.57 75.01 -90)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D1"
@@ -36141,12 +36063,6 @@
 		(path "/33a75057-1f68-48f5-aefe-85add9899d24")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36331,7 +36247,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 270)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36341,7 +36257,7 @@
 			(uuid "837b4cfa-9a4d-45f1-9d74-250eb1fceb2d")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 270)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36366,7 +36282,7 @@
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
 		(uuid "ff872e8f-246e-4227-9a33-46304d51ba67")
-		(at 155.68 72.59 90)
+		(at 208 61 -135)
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "DM09"
@@ -36499,12 +36415,6 @@
 		(path "/a894d004-525f-483f-a5a4-b399f7ac6fa0")
 		(sheetname "/")
 		(sheetfile "ErgonomicGamepad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36689,7 +36599,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.05 0)
+			(at -1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36699,7 +36609,7 @@
 			(uuid "90ed5377-8b4c-4b0d-8d69-d7e31aa2a7c5")
 		)
 		(pad "2" smd roundrect
-			(at 1.05 0)
+			(at 1.05 0 -135)
 			(size 0.6 0.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -36720,6 +36630,823 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	
+	
+	
+	(group "Key01"
+		(uuid "a2e472c1-d256-4d9b-b4ae-b96a50cdc759")
+		(members "056cd4e8-3c9f-48b1-ade8-bac6b2830ed6" "0db79737-1c2f-4bfe-8d8c-41b66392f60d" "abc63392-b2aa-4988-95c7-ae8d4e8c275a" "945d2840-0edf-4621-ac65-255c747c7475" "7f7540fb-7560-425a-b231-56fb13c76ffc"
+		)
+	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	(group "Key02"
+		(uuid "2240258e-5065-45af-a5ab-8fac7228f1fd")
+		(members "3e9ffa93-e748-4a68-b1b6-bb7461a8422a" "745994cc-a06f-4dd5-8ea5-ec187938c462" "b15346e7-7901-43bf-8d13-4ea0099ed3a7" "c9753239-fd6b-4c1c-b17b-ee86bf781680" "90a17d23-305b-49e5-bc64-827489128c08")
+	)
+	(group "Key03"
+		(uuid "8bdecbb8-36b9-4d8d-b03b-95759d06c59b")
+		(members "381e43d8-5608-4c0a-b969-3dbf0717c669" "ec9396bd-cf3d-4027-941b-e0d983a73c01" "38475ab4-c20e-4b97-b099-b08eada04e41" "fbc5de8c-47d0-44c2-a114-1991804d0ed1" "efb27ac2-f5e6-4d67-9014-e018e9c26bb9")
+	)
+	(group "Key04"
+		(uuid "603775d6-617a-4916-90e7-f996019805a7")
+		(members "2c05b4bb-b813-4054-a4a1-0fda59b0c678" "7ed1e227-5ecd-4c0d-ac5f-2661aaa3dbf0" "4d95a63e-18ab-440f-bcc7-ad048b524b1d" "4c298371-9422-4f40-96b5-e057390a7c8e" "3f039e84-7245-4137-8ae5-6d4eb54c4c3c")
+	)
+	(group "Key05"
+		(uuid "ec99a77e-d2fb-4ba9-aac6-e12fed97f20d")
+		(members "24c2ec76-66b8-4591-be85-9f35dcfa8835" "57df9b55-2ac8-47ba-903d-0b1497d13378" "9a2241bd-8058-4536-8be3-9491bfb66e87" "aeb27034-cfab-4800-ba12-af8b09aab174" "c4fd9277-237d-454d-91e6-e5caefb49870")
+	)
+	(group "Key06"
+		(uuid "7ffe7a00-b967-448b-add8-6b61d841bba1")
+		(members "7cbbf81a-c2b9-4898-97a2-1aaffa4835e7" "ac322e81-0d23-4db8-ae1b-448bde134b7c" "f7bc7c2d-be58-45d4-87ea-1afe02372fa4" "b2db5b6a-1ab8-477b-aaa0-e8d9e87ca4b2" "eaec0196-0b79-43d3-9ce2-3268505ccd31")
+	)
+	(group "Key07"
+		(uuid "1d853853-5842-453a-a33e-25cc3ab23582")
+		(members "1e3cbfac-8dbb-4186-8c82-906d445cfb48" "f7e576b3-0a9a-4be3-967f-60c0b9076048" "996cbbdd-5c8b-4eef-8bda-78bad89a75bb" "08d9cd5b-e75f-4010-9db0-f9ac28e78c37" "1453ad0b-8c21-4ec9-b129-074d78e6488d")
+	)
+	(group "Key08"
+		(uuid "28d0179d-6f00-41c9-83c1-406dc61a5bbe")
+		(members "6299bf74-afc0-449a-bc07-572a31a80735" "f6e324a0-87f0-480c-afcf-233f1a8de582" "b4385047-ff76-4ddf-9549-0bf8d47a1818" "e4baf787-e0a9-4100-bc77-1bd416756275" "6fe7012d-231f-4a1d-9d7d-04e6e60fd7d8")
+	)
+	(group "Key09"
+		(uuid "75abfb89-4990-41df-857f-c943003c6a50")
+		(members "1c5cfaac-fa50-4948-b95e-52e03d4d8fd1" "ff872e8f-246e-4227-9a33-46304d51ba67" "f0e4cf38-6237-4f4a-ac5d-814eb148bc77" "d65b1bc9-0a24-47cb-90b1-13dbf75ab039" "732efc81-0b93-42e2-b1c3-68cdc65945ab")
+	)
+	(group "Key10"
+		(uuid "4b7e38dc-b192-4795-984e-09f1d96d53d1")
+		(members "2ea07a05-5c2f-430e-b813-2693fd17cc3f" "9b7dea92-781a-479c-aa3f-ae97d08ef1d7" "84bcf22a-8eae-4cb5-afe0-29d105254978" "f7f2450e-fe48-4c41-b1ba-36174413a28e" "09f618ff-ee03-4da8-abf8-504de34bb998")
+	)
+	(group "Key11"
+		(uuid "f7f045ba-0480-4516-a3e3-70b77173ea72")
+		(members "021be6f9-f83b-4136-a94e-557805664388" "9dc968d2-3314-4f87-9e32-aa59771c2f78" "efb3cde8-7d73-43de-a2ca-2837172d5ddf" "4d2ebd13-788a-4cb4-af7f-7d2d8a85eec8" "ca6cf8e2-6a13-476f-8286-6921c532374c")
+	)
+	(group "Key12"
+		(uuid "2cf1644e-d63a-42dc-96c8-106133d3f14d")
+		(members "198935c6-fb29-4d31-817d-abf4cbf9463c" "a5dc2728-59e9-4b2e-a611-f3e4b9cd01fe" "c69fa0cb-2320-4fab-ad8b-647766121b7c" "1363c0d4-0f71-4c72-a843-2fab585d6fb3" "f10b52f9-59a3-48be-88f9-258c54731945")
+	)
+	(group "Key13"
+		(uuid "d7207a32-7f31-4772-b33c-074f3f6c6cb5")
+		(members "0265dea8-2c42-4816-b155-6ed17fe0859f" "26b100d0-af98-421a-97cf-bb7dca1320f7" "44e2f748-9ba6-43b2-b4c3-14f06d71d397" "650e9ca8-4410-4269-97d8-728d5e8506a4" "b5b47f53-59e6-41fd-8852-9859bb208b98")
+	)
+	(group "Key14"
+		(uuid "8b0892a4-a850-44c5-96bc-9fb5d62fa731")
+		(members "42eb1907-4384-42db-8af6-660f4280488d" "91cb8637-3efd-4f78-ab20-963b61474a97" "90900ccd-c595-4119-88c6-def8537becae" "2abc0826-3a2a-4e82-9ddc-69443f6a6fa0" "8ac4bba1-b829-4bb9-a835-6266b67420c3")
+	)
+	(group "Key15"
+		(uuid "909dde6a-4598-48e0-9b0f-18b2a086b109")
+		(members "6b4e644f-3a16-41a9-956d-7690d8b3ad75" "6bb10135-4823-4048-a344-2016a524ad2c" "c8084ced-8932-4405-baf4-10ba4e37e855" "d2e4f34e-decb-4f1d-a761-2860f70dfad4" "277defdc-39b3-442a-8ddf-7ec98a927f7c")
+	)
+	(group "Key16"
+		(uuid "247202a0-f2be-43bd-b8e0-d4c78a13cc6a")
+		(members "1b8611b3-2cf5-40f4-8d42-c759a672fbe2" "e4ce9f2d-efa7-4c6b-9434-d5ec03442e97" "433ab36f-b6c7-4efe-af29-f1e5152b3886" "d73b096e-63e9-42a5-bb3c-fd6fdd150138" "0f0a8a5b-cf48-46d9-9f88-f905682a2be9")
+	)
+	(group "Key17"
+		(uuid "847811a9-8887-4bf2-abd3-b1c00dcf4e4c")
+		(members "8a1bedd4-c3f3-42bb-9c74-5516b1fa9819" "953f752c-2084-41e9-b3f0-9bd0bb1b96df" "312b12ac-af45-494e-b921-b772942f4f31" "f6eb0624-5c94-494f-87b0-e8b3fbe43714" "94a56897-1795-44fa-aa81-5e50725e8075")
+	)
+	(group "Key18"
+		(uuid "e6e17fe8-4c45-40a0-b0c6-a7e0f64dd84b")
+		(members "d5a7db17-e630-4d1e-a2bc-70c1cf93822d" "ee1644d7-715d-4f3c-b9a0-ba3ecf00c209" "4fa37d93-a809-4920-9305-710bc8c889ba" "ae902d14-e42e-42eb-aaa8-1258445072a4" "17d2c020-4609-4e3a-91c7-dff0b7cb57ea")
+	)
+	(group "Key19"
+		(uuid "43bf4154-eb6a-4c7c-8ca4-4ddb7283dc35")
+		(members "4e717520-b52c-4edb-bdd5-c53c5aca0597" "a475b609-b53c-4ed1-a868-317338efd836" "bf0068d4-efc3-49e1-bfca-f58f85dd37e7" "13f1505f-e6db-415a-ac28-6296d2c4fec4" "3bc04f3d-d4de-4284-8332-a57a4efa5f19")
+	)
+	(group "Key20"
+		(uuid "a33420dc-5298-484e-8622-eac364e3a666")
+		(members "991b9acf-26f6-4929-b719-f2bbf3a9a649" "b1b9911a-7323-4230-bc4a-ccc3a1ca64e9" "ab87bf12-5d00-40e5-82e3-d7beab343fe8" "8231b8dd-166e-4135-815d-5733556eae2c" "633a565b-8ff5-4e9d-98f2-be0d75015d28")
+	)
+	(group "Key21"
+		(uuid "864fb6f5-fc0e-4ecd-905c-17c396b2d49e")
+		(members "d7d4c4af-54fb-48b3-9b7a-baa46b2cd92c" "e971e00a-8a47-4788-a2ae-f0692619ad14" "466a8222-b8b2-4370-a100-7408b1c77acb" "ca40057a-7f6b-4bba-a00c-9afc18417cfd" "c18ee494-d4eb-47f7-a230-830f217b4905")
+	)
+	(group "Key22"
+		(uuid "d4297e0c-dca4-43c8-83fa-108effd4d82c")
+		(members "844f4ae6-6eb6-49ab-b5ea-8590502aa96b" "89a64316-faed-48e0-94c8-19c68b070bec" "250675fa-3ccb-4856-ad71-eadde60255b5" "0c332692-a734-4df2-a886-55cce5d6b3d4" "8953eaaf-bbaa-4e46-9313-43e18d895332")
+	)
+	(group "Key23"
+		(uuid "532c1d6d-ac5d-4ae0-9f6d-1295bd00a3ba")
+		(members "10fc474b-a0c6-4d37-a45a-3ede80ca3038" "51526297-1b48-4228-b4eb-aa58060fda2c" "6e00939e-f78c-4ed0-a9b9-0e7fad776a9e" "6385c22d-a12d-4627-be9e-4795488ee4f0" "65f89446-7f4f-44b6-b329-6cfe6073ad35")
+	)
+	(group "Key24"
+		(uuid "7d2585bb-2e26-4f76-8e03-017a86e9353a")
+		(members "ab24e950-6935-4a6e-a1ec-848deb284100" "bc4fbf3c-4223-4159-b5af-0cda5ecc366c" "0c23b6e8-9457-41a1-9c3c-054a62d97770" "56597e97-5228-4757-bb03-9435d0fff6be" "76fad4d8-0edc-4963-9d7f-77797cf9899a")
+	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	(segment
+		(start 167.257538 61.742462)
+		(end 164.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM01-A)")
+		(uuid "abc63392-b2aa-4988-95c7-ae8d4e8c275a")
+	)
+	(segment
+		(start 164.757538 61.742462)
+		(end 162 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM01-A)")
+		(uuid "945d2840-0edf-4621-ac65-255c747c7475")
+	)
+	(segment
+		(start 162.08 64.58)
+		(end 162 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM01-A)")
+		(uuid "7f7540fb-7560-425a-b231-56fb13c76ffc")
+	)
+	(segment
+		(start 167.257538 81.742462)
+		(end 164.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM02-A)")
+		(uuid "b15346e7-7901-43bf-8d13-4ea0099ed3a7")
+	)
+	(segment
+		(start 164.757538 81.742462)
+		(end 162 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM02-A)")
+		(uuid "c9753239-fd6b-4c1c-b17b-ee86bf781680")
+	)
+	(segment
+		(start 162.08 84.58)
+		(end 162 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM02-A)")
+		(uuid "90a17d23-305b-49e5-bc64-827489128c08")
+	)
+	(segment
+		(start 167.257538 101.742462)
+		(end 164.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM03-A)")
+		(uuid "38475ab4-c20e-4b97-b099-b08eada04e41")
+	)
+	(segment
+		(start 164.757538 101.742462)
+		(end 162 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM03-A)")
+		(uuid "fbc5de8c-47d0-44c2-a114-1991804d0ed1")
+	)
+	(segment
+		(start 162.08 104.58)
+		(end 162 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM03-A)")
+		(uuid "efb27ac2-f5e6-4d67-9014-e018e9c26bb9")
+	)
+	(segment
+		(start 167.257538 121.742462)
+		(end 164.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM04-A)")
+		(uuid "4d95a63e-18ab-440f-bcc7-ad048b524b1d")
+	)
+	(segment
+		(start 164.757538 121.742462)
+		(end 162 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM04-A)")
+		(uuid "4c298371-9422-4f40-96b5-e057390a7c8e")
+	)
+	(segment
+		(start 162.08 124.58)
+		(end 162 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM04-A)")
+		(uuid "3f039e84-7245-4137-8ae5-6d4eb54c4c3c")
+	)
+	(segment
+		(start 187.257538 61.742462)
+		(end 184.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM05-A)")
+		(uuid "9a2241bd-8058-4536-8be3-9491bfb66e87")
+	)
+	(segment
+		(start 184.757538 61.742462)
+		(end 182 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM05-A)")
+		(uuid "aeb27034-cfab-4800-ba12-af8b09aab174")
+	)
+	(segment
+		(start 182.08 64.58)
+		(end 182 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM05-A)")
+		(uuid "c4fd9277-237d-454d-91e6-e5caefb49870")
+	)
+	(segment
+		(start 187.257538 81.742462)
+		(end 184.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM06-A)")
+		(uuid "f7bc7c2d-be58-45d4-87ea-1afe02372fa4")
+	)
+	(segment
+		(start 184.757538 81.742462)
+		(end 182 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM06-A)")
+		(uuid "b2db5b6a-1ab8-477b-aaa0-e8d9e87ca4b2")
+	)
+	(segment
+		(start 182.08 84.58)
+		(end 182 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM06-A)")
+		(uuid "eaec0196-0b79-43d3-9ce2-3268505ccd31")
+	)
+	(segment
+		(start 187.257538 101.742462)
+		(end 184.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM07-A)")
+		(uuid "996cbbdd-5c8b-4eef-8bda-78bad89a75bb")
+	)
+	(segment
+		(start 184.757538 101.742462)
+		(end 182 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM07-A)")
+		(uuid "08d9cd5b-e75f-4010-9db0-f9ac28e78c37")
+	)
+	(segment
+		(start 182.08 104.58)
+		(end 182 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM07-A)")
+		(uuid "1453ad0b-8c21-4ec9-b129-074d78e6488d")
+	)
+	(segment
+		(start 187.257538 121.742462)
+		(end 184.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM08-A)")
+		(uuid "b4385047-ff76-4ddf-9549-0bf8d47a1818")
+	)
+	(segment
+		(start 184.757538 121.742462)
+		(end 182 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM08-A)")
+		(uuid "e4baf787-e0a9-4100-bc77-1bd416756275")
+	)
+	(segment
+		(start 182.08 124.58)
+		(end 182 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM08-A)")
+		(uuid "6fe7012d-231f-4a1d-9d7d-04e6e60fd7d8")
+	)
+	(segment
+		(start 207.257538 61.742462)
+		(end 204.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM09-A)")
+		(uuid "f0e4cf38-6237-4f4a-ac5d-814eb148bc77")
+	)
+	(segment
+		(start 204.757538 61.742462)
+		(end 202 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM09-A)")
+		(uuid "d65b1bc9-0a24-47cb-90b1-13dbf75ab039")
+	)
+	(segment
+		(start 202.08 64.58)
+		(end 202 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM09-A)")
+		(uuid "732efc81-0b93-42e2-b1c3-68cdc65945ab")
+	)
+	(segment
+		(start 207.257538 81.742462)
+		(end 204.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM10-A)")
+		(uuid "84bcf22a-8eae-4cb5-afe0-29d105254978")
+	)
+	(segment
+		(start 204.757538 81.742462)
+		(end 202 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM10-A)")
+		(uuid "f7f2450e-fe48-4c41-b1ba-36174413a28e")
+	)
+	(segment
+		(start 202.08 84.58)
+		(end 202 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM10-A)")
+		(uuid "09f618ff-ee03-4da8-abf8-504de34bb998")
+	)
+	(segment
+		(start 207.257538 101.742462)
+		(end 204.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM11-A)")
+		(uuid "efb3cde8-7d73-43de-a2ca-2837172d5ddf")
+	)
+	(segment
+		(start 204.757538 101.742462)
+		(end 202 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM11-A)")
+		(uuid "4d2ebd13-788a-4cb4-af7f-7d2d8a85eec8")
+	)
+	(segment
+		(start 202.08 104.58)
+		(end 202 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM11-A)")
+		(uuid "ca6cf8e2-6a13-476f-8286-6921c532374c")
+	)
+	(segment
+		(start 207.257538 121.742462)
+		(end 204.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM12-A)")
+		(uuid "c69fa0cb-2320-4fab-ad8b-647766121b7c")
+	)
+	(segment
+		(start 204.757538 121.742462)
+		(end 202 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM12-A)")
+		(uuid "1363c0d4-0f71-4c72-a843-2fab585d6fb3")
+	)
+	(segment
+		(start 202.08 124.58)
+		(end 202 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM12-A)")
+		(uuid "f10b52f9-59a3-48be-88f9-258c54731945")
+	)
+	(segment
+		(start 227.257538 61.742462)
+		(end 224.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM13-A)")
+		(uuid "44e2f748-9ba6-43b2-b4c3-14f06d71d397")
+	)
+	(segment
+		(start 224.757538 61.742462)
+		(end 222 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM13-A)")
+		(uuid "650e9ca8-4410-4269-97d8-728d5e8506a4")
+	)
+	(segment
+		(start 222.08 64.58)
+		(end 222 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM13-A)")
+		(uuid "b5b47f53-59e6-41fd-8852-9859bb208b98")
+	)
+	(segment
+		(start 227.257538 81.742462)
+		(end 224.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM14-A)")
+		(uuid "90900ccd-c595-4119-88c6-def8537becae")
+	)
+	(segment
+		(start 224.757538 81.742462)
+		(end 222 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM14-A)")
+		(uuid "2abc0826-3a2a-4e82-9ddc-69443f6a6fa0")
+	)
+	(segment
+		(start 222.08 84.58)
+		(end 222 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM14-A)")
+		(uuid "8ac4bba1-b829-4bb9-a835-6266b67420c3")
+	)
+	(segment
+		(start 227.257538 101.742462)
+		(end 224.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM15-A)")
+		(uuid "c8084ced-8932-4405-baf4-10ba4e37e855")
+	)
+	(segment
+		(start 224.757538 101.742462)
+		(end 222 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM15-A)")
+		(uuid "d2e4f34e-decb-4f1d-a761-2860f70dfad4")
+	)
+	(segment
+		(start 222.08 104.58)
+		(end 222 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM15-A)")
+		(uuid "277defdc-39b3-442a-8ddf-7ec98a927f7c")
+	)
+	(segment
+		(start 227.257538 121.742462)
+		(end 224.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM16-A)")
+		(uuid "433ab36f-b6c7-4efe-af29-f1e5152b3886")
+	)
+	(segment
+		(start 224.757538 121.742462)
+		(end 222 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM16-A)")
+		(uuid "d73b096e-63e9-42a5-bb3c-fd6fdd150138")
+	)
+	(segment
+		(start 222.08 124.58)
+		(end 222 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM16-A)")
+		(uuid "0f0a8a5b-cf48-46d9-9f88-f905682a2be9")
+	)
+	(segment
+		(start 247.257538 61.742462)
+		(end 244.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM17-A)")
+		(uuid "312b12ac-af45-494e-b921-b772942f4f31")
+	)
+	(segment
+		(start 244.757538 61.742462)
+		(end 242 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM17-A)")
+		(uuid "f6eb0624-5c94-494f-87b0-e8b3fbe43714")
+	)
+	(segment
+		(start 242.08 64.58)
+		(end 242 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM17-A)")
+		(uuid "94a56897-1795-44fa-aa81-5e50725e8075")
+	)
+	(segment
+		(start 247.257538 81.742462)
+		(end 244.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM18-A)")
+		(uuid "4fa37d93-a809-4920-9305-710bc8c889ba")
+	)
+	(segment
+		(start 244.757538 81.742462)
+		(end 242 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM18-A)")
+		(uuid "ae902d14-e42e-42eb-aaa8-1258445072a4")
+	)
+	(segment
+		(start 242.08 84.58)
+		(end 242 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM18-A)")
+		(uuid "17d2c020-4609-4e3a-91c7-dff0b7cb57ea")
+	)
+	(segment
+		(start 247.257538 101.742462)
+		(end 244.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM19-A)")
+		(uuid "bf0068d4-efc3-49e1-bfca-f58f85dd37e7")
+	)
+	(segment
+		(start 244.757538 101.742462)
+		(end 242 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM19-A)")
+		(uuid "13f1505f-e6db-415a-ac28-6296d2c4fec4")
+	)
+	(segment
+		(start 242.08 104.58)
+		(end 242 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM19-A)")
+		(uuid "3bc04f3d-d4de-4284-8332-a57a4efa5f19")
+	)
+	(segment
+		(start 247.257538 121.742462)
+		(end 244.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM20-A)")
+		(uuid "ab87bf12-5d00-40e5-82e3-d7beab343fe8")
+	)
+	(segment
+		(start 244.757538 121.742462)
+		(end 242 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM20-A)")
+		(uuid "8231b8dd-166e-4135-815d-5733556eae2c")
+	)
+	(segment
+		(start 242.08 124.58)
+		(end 242 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM20-A)")
+		(uuid "633a565b-8ff5-4e9d-98f2-be0d75015d28")
+	)
+	(segment
+		(start 267.257538 61.742462)
+		(end 264.757538 61.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM21-A)")
+		(uuid "466a8222-b8b2-4370-a100-7408b1c77acb")
+	)
+	(segment
+		(start 264.757538 61.742462)
+		(end 262 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM21-A)")
+		(uuid "ca40057a-7f6b-4bba-a00c-9afc18417cfd")
+	)
+	(segment
+		(start 262.08 64.58)
+		(end 262 64.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM21-A)")
+		(uuid "c18ee494-d4eb-47f7-a230-830f217b4905")
+	)
+	(segment
+		(start 267.257538 81.742462)
+		(end 264.757538 81.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM22-A)")
+		(uuid "250675fa-3ccb-4856-ad71-eadde60255b5")
+	)
+	(segment
+		(start 264.757538 81.742462)
+		(end 262 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM22-A)")
+		(uuid "0c332692-a734-4df2-a886-55cce5d6b3d4")
+	)
+	(segment
+		(start 262.08 84.58)
+		(end 262 84.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM22-A)")
+		(uuid "8953eaaf-bbaa-4e46-9313-43e18d895332")
+	)
+	(segment
+		(start 267.257538 101.742462)
+		(end 264.757538 101.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM23-A)")
+		(uuid "6e00939e-f78c-4ed0-a9b9-0e7fad776a9e")
+	)
+	(segment
+		(start 264.757538 101.742462)
+		(end 262 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM23-A)")
+		(uuid "6385c22d-a12d-4627-be9e-4795488ee4f0")
+	)
+	(segment
+		(start 262.08 104.58)
+		(end 262 104.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM23-A)")
+		(uuid "65f89446-7f4f-44b6-b329-6cfe6073ad35")
+	)
+	(segment
+		(start 267.257538 121.742462)
+		(end 264.757538 121.742462)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM24-A)")
+		(uuid "0c23b6e8-9457-41a1-9c3c-054a62d97770")
+	)
+	(segment
+		(start 264.757538 121.742462)
+		(end 262 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM24-A)")
+		(uuid "56597e97-5228-4757-bb03-9435d0fff6be")
+	)
+	(segment
+		(start 262.08 124.58)
+		(end 262 124.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(DM24-A)")
+		(uuid "76fad4d8-0edc-4963-9d7f-77797cf9899a")
 	)
 	(embedded_fonts no)
 )

@@ -68,6 +68,20 @@ D+/D-); no SuperSpeed/Alt-Mode pins are used.
   being back-fed if J7 external power is connected while a USB cable is also
   plugged in.
 
+## Debug / Test Points
+
+- **TP1-TP7**: internal signal debug points (power-select node, GND
+  reference, USB D+/D-, crystal XTAL1/XTAL2, USB regulator cap node) using
+  the small `TestPoint_Pad_D1.5mm` footprint - sized for a fine meter probe
+  or hook, not a full-size clip.
+- **TP8 (+5V) / TP9 (GND)**: dedicated power-rail clip points, intended to
+  be placed at the board edge for easy alligator-clip access during bring-up
+  and testing. These use the larger `TestPoint_THTPad_D3.0mm_Drill1.5mm`
+  footprint (a real drilled through-hole pad, not just a flat SMD pad) so an
+  actual clip has something to bite onto. Kept separate from TP2 (which
+  stays with the internal signal-debug cluster near the MCU) since GND is a
+  single net and a second access point elsewhere costs nothing electrically.
+
 ## Footprint Baseline (Current)
 
 - SW1-SW24: `Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u`
@@ -76,6 +90,7 @@ D+/D-); no SuperSpeed/Alt-Mode pins are used.
 - C1-C5: `Capacitor_SMD:C_0603_1608Metric`
 - D25-D26: `LED_SMD:LED_0603_1608Metric`
 - TP1-TP7: `TestPoint:TestPoint_Pad_D1.5mm`
+- TP8/TP9: `TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm` (edge-mounted power/ground clip points - see Debug / Test Points above)
 - J2/J3/J4/J6: `Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical` (DNP - see Satellite Board Cables below)
 - J7: `PinHeader_1x02_P2.54mm_Vertical`
 - J5: `PinHeader_2x03_P2.54mm_Vertical`
