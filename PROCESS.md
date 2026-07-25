@@ -24,33 +24,32 @@ Verification:
 
 - [X] Confirm matrix goal: 4x6 (24 keys).
 - [X] Confirm switch/socket strategy (hot-swap MX).
-- [ ] Confirm USB-C connector part and orientation strategy.
-- [ ] Confirm power path strategy and required protection parts.
+- [X] Confirm USB-C connector part and orientation strategy.
+- [X] Confirm power path strategy and required protection parts.
 - [ ] Confirm mounting-hole plan and any enclosure constraints.
-- [ ] Confirm debug/programming connector strategy (ISP).
+- [X] Confirm debug/programming connector strategy (ISP).
 
 USB-C connector part + orientation strategy details:
-- [ ] Pick the exact connector MPN first (mid-mount vs top-mount, horizontal vs vertical, SMT-only vs hybrid with through-hole shell tabs).
-- [ ] Confirm your use case is USB 2.0 device-only (power + D+/D-), not full USB-C feature set.
-- [ ] Decide plug orientation behavior:
-- [ ] Fully reversible: tie A6 to B6 for D+, and A7 to B7 for D- at the connector footprint.
-- [ ] Single-sided routing strategy: intentionally use one side pair only and document that this is non-standard and orientation-limited.
-- [ ] Confirm CC implementation for device mode (UFP): place 5.1k pull-down resistors from CC1 and CC2 to GND.
-- [ ] Verify shield/shell connection plan (direct GND or GND through RC/ferrite policy per your EMI goal) and keep it consistent with board grounding strategy.
+- [X] Pick the exact connector MPN first (mid-mount vs top-mount, horizontal vs vertical, SMT-only vs hybrid with through-hole shell tabs).
+- [X] Confirm your use case is USB 2.0 device-only (power + D+/D-), not full USB-C feature set.
+- [X] Decide plug orientation behavior:
+- [X] Fully reversible: tie A6 to B6 for D+, and A7 to B7 for D- at the connector footprint.
+- [X] Confirm CC implementation for device mode (UFP): place 5.1k pull-down resistors from CC1 and CC2 to GND.
+- [X] Verify shield/shell connection plan (direct GND or GND through RC/ferrite policy per your EMI goal) and keep it consistent with board grounding strategy.
 - [ ] Confirm mechanical robustness: shell-anchor pad dimensions, courtyard/keepout, and cable insertion stress path.
 - [ ] Confirm footprint pin numbering and front/back orientation against the datasheet drawing before routing.
 - [ ] Confirm nearby ESD protection placement for D+/D- and VBUS (close to connector, short return path to GND).
 
 Verification for USB-C decision:
 - [ ] Schematic symbol pins and footprint pins are cross-checked against connector datasheet pin map.
-- [ ] Chosen orientation strategy is documented in README so future revisions do not accidentally change behavior.
+- [X] Chosen orientation strategy is documented in README so future revisions do not accidentally change behavior.
 
 Recommended default for this project (unless a later constraint overrides it):
-- [ ] Use a USB-C receptacle with hybrid retention (SMT pins + through-hole shell tabs) for stronger cable-insertion durability.
-- [ ] Implement fully reversible USB 2.0 routing at the connector (A6/B6 joined for D+, A7/B7 joined for D-).
-- [ ] Use UFP CC pulldowns: 5.1k from CC1 to GND and 5.1k from CC2 to GND.
-- [ ] Add USB ESD protection array near connector for D+, D-, and VBUS.
-- [ ] Tie shield/shell to GND through your chosen policy and keep that policy documented consistently in schematic notes.
+- [X] Use a USB-C receptacle with hybrid retention (SMT pins + through-hole shell tabs) for stronger cable-insertion durability.
+- [X] Implement fully reversible USB 2.0 routing at the connector (A6/B6 joined for D+, A7/B7 joined for D-).
+- [X] Use UFP CC pulldowns: 5.1k from CC1 to GND and 5.1k from CC2 to GND.
+- [X] Add USB ESD protection array near connector for D+, D-, and VBUS.
+- [X] Tie shield/shell to GND through your chosen policy and keep that policy documented consistently in schematic notes.
 
 Final USB-C signoff checklist (release gate):
 - [ ] Hard-edge decision locked: USB-C connector (J1) and side reset switch (SWR1) are both placed on north board edge.
@@ -69,15 +68,15 @@ Verification:
 
 ## 2) Part Selection and Sourcing
 
-- [ ] Choose MPN for each symbol.
-- [ ] Prefer JLC/LCSC in-stock parts for assembled items.
-- [ ] Fill LCSC + MPN + Manufacturer in `jlcpcb/production_files/jlc_sourcing_bom_template.csv`.
-- [ ] Queue unresolved parts in `jlcpcb/production_files/jlc_stock_check_queue.csv`.
-- [ ] Mark DNP and hand-assembly items explicitly.
+- [X] Choose MPN for each symbol.
+- [X] Prefer JLC/LCSC in-stock parts for assembled items.
+- [X] Fill LCSC + MPN + Manufacturer in `jlcpcb/production_files/jlc_sourcing_bom_template.csv`.
+- [X] Track pre-order stock/sourcing risk in `jlcpcb/production_files/verify_stock_before_ordering.csv`.
+- [X] Mark DNP and hand-assembly items explicitly.
 
 Verification:
-- [ ] No critical schematic component is missing a sourcing plan.
-- [ ] Every JLC-assembled line has a valid LCSC number or documented alternate.
+- [X] No critical schematic component is missing a sourcing plan.
+- [X] Every JLC-assembled line has a valid LCSC number or documented alternate.
 
 ## 3) Footprints and Mechanical Validity
 

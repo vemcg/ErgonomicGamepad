@@ -24,7 +24,7 @@ This repo contains the schematic, PCB, and production support files for an ATmeg
 - `ErgonomicGamepad.kicad_pcb` - PCB layout
 - `ErgonomicGamepad.kicad_pro` - KiCad project
 - `jlcpcb/production_files/jlc_sourcing_bom_template.csv` - Main sourcing/BOM table
-- `jlcpcb/production_files/jlc_stock_check_queue.csv` - JLC stock-check queue
+- `jlcpcb/production_files/verify_stock_before_ordering.csv` - Pre-order stock/sourcing risk checklist (MCU lead time, hand-sourced sockets/connectors/switches)
 - `jlcpcb/gerber/` - Manufacturing output folder
 
 ## Pinout Baseline
@@ -44,6 +44,29 @@ This repo contains the schematic, PCB, and production support files for an ATmeg
 | MOSI | PB2 |
 | MISO | PB3 |
 | RESET | J5 pin 5 -> U1 ~RESET |
+
+## USB-C Implementation (Resolved)
+
+J1 is an HRO `TYPE-C-31-M-12` receptacle - hybrid retention (SMT signal/power
+pins plus through-hole shell tabs) for stronger cable-insertion durability
+than an SMT-only part. This is a USB 2.0 device-only implementation (power +
+D+/D-); no SuperSpeed/Alt-Mode pins are used.
+
+- **Orientation**: fully reversible. Both D+ pads (A6 and B6) are tied
+  together at the connector, and both D- pads (A7 and B7) are tied together,
+  so the plug works in either orientation.
+- **Signal path**: connector D+/D- -> U2 (`USBLC6-2SC6` ESD protection array)
+  -> series resistors R1/R2 (20R) -> U1 D-/D+ pins, with TP3/TP4 tapping the
+  MCU-side D-/D+ nets for debug access.
+- **CC (device-mode/UFP)**: CC1 and CC2 each pull down to GND through a 5.1k
+  resistor (R4, R5) - the standard passive UFP presentation, no CC logic IC.
+- **Shield/GND**: J1's shield pin (`SH`) ties directly to GND (no RC/ferrite
+  isolation).
+- **Power path**: VBUS feeds +5V through D1 (`1N5819WS` Schottky) gated by
+  JP1 (power-path select jumper - see Jumper Shunts below); J7 (external
+  2-pin power connector) feeds +5V directly. The Schottky prevents VBUS from
+  being back-fed if J7 external power is connected while a USB cable is also
+  plugged in.
 
 ## Footprint Baseline (Current)
 
@@ -144,6 +167,7 @@ Done:
 - Schematic and PCB baseline are synced.
 - ISP signal mapping corrected and documented.
 - JLC sourcing workflow files are in place.
+- USB-C orientation, CC, ESD, shield, and power-path decisions locked and documented.
 
 Not done yet:
 - Component placement refinement.
