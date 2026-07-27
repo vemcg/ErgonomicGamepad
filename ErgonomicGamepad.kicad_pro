@@ -648,13 +648,21 @@
         "uuid": "c260e742-1838-4e17-a552-9a0d399dd921"
       }
     ],
-    "used_designators": "",
+    "used_designators": "DM1-8,J2,J4,SW1-8",
     "variants": []
   },
   "sheets": [
     [
       "c260e742-1838-4e17-a552-9a0d399dd921",
       "Root"
+    ],
+    [
+      "06da17ab-1096-46de-83ad-13ec88c7b4d4",
+      "ErgonomicGamepad"
+    ],
+    [
+      "3c1a1c66-a2d5-422d-a483-3afe73f8ccb2",
+      "ErgonomicGamepadThumb"
     ]
   ],
   "text_variables": {},

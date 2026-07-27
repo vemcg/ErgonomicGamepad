@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "c260e742-1838-4e17-a552-9a0d399dd921")
-	(paper "USLegal")
+	(paper "USLegal" portrait)
 	(title_block
 		(title "EgonomicGamepad")
 		(date "2026-06-07")
@@ -5211,7 +5211,7 @@
 		(uuid "ad728fee-c6d6-4f89-b262-ab43a198e042")
 	)
 	(junction
-		(at 165.1 165.1)
+		(at 196.85 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb5436e5-71b5-4cb9-aeac-a60b9cf6c52b")
@@ -5229,7 +5229,7 @@
 		(uuid "d161ade9-8c01-465d-8a02-8b0452553ef9")
 	)
 	(junction
-		(at 113.03 195.58)
+		(at 144.78 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3d13e48-c863-4bda-bb10-69bc481401c3")
@@ -5253,15 +5253,15 @@
 		(uuid "f22dc53d-8850-4d15-a33d-b10d38c2ae00")
 	)
 	(no_connect
-		(at 130.81 127)
+		(at 162.56 91.44)
 		(uuid "016f531d-1b33-4d5c-aeae-2eb533956e25")
 	)
 	(no_connect
-		(at 130.81 134.62)
+		(at 162.56 99.06)
 		(uuid "0e1902fa-8b25-4ae3-8d2a-27b0bf146f7f")
 	)
 	(no_connect
-		(at 130.81 124.46)
+		(at 162.56 88.9)
 		(uuid "1d3c717b-55e2-4123-812d-e1b5ed0a2feb")
 	)
 	(no_connect
@@ -5273,35 +5273,35 @@
 		(uuid "78578cf2-faa4-4677-a99f-0349366e8818")
 	)
 	(no_connect
-		(at 130.81 180.34)
+		(at 162.56 144.78)
 		(uuid "7d876a2f-0fc4-4940-a554-2ab9cf254dcd")
 	)
 	(no_connect
-		(at 130.81 132.08)
+		(at 162.56 96.52)
 		(uuid "9e5604f1-286d-4c0a-a4c9-fbcbc072ba50")
 	)
 	(no_connect
-		(at 130.81 119.38)
+		(at 162.56 83.82)
 		(uuid "a2aef191-ca66-4e73-8b55-aa5036c7ea60")
 	)
 	(no_connect
-		(at 130.81 154.94)
+		(at 162.56 119.38)
 		(uuid "b6b0a634-8dd7-4a22-85d5-27cfb0b15c65")
 	)
 	(no_connect
-		(at 130.81 182.88)
+		(at 162.56 147.32)
 		(uuid "b9edcc20-b272-40ca-b413-fce8a321ddea")
 	)
 	(no_connect
-		(at 130.81 121.92)
+		(at 162.56 86.36)
 		(uuid "e50f3a3b-d387-450d-a12e-12d0ef29eb3d")
 	)
 	(no_connect
-		(at 130.81 157.48)
+		(at 162.56 121.92)
 		(uuid "e693abc8-3459-4aa8-8311-bd09839a4073")
 	)
 	(no_connect
-		(at 130.81 109.22)
+		(at 162.56 73.66)
 		(uuid "f321d4d7-6423-4c03-980c-3535a13fe6ed")
 	)
 	(wire
@@ -5336,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 77.47) (xy 266.7 78.74)
+			(xy 97.79 208.28) (xy 97.79 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5346,17 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 144.78) (xy 199.39 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0563f005-afcf-4558-9937-8855cfd92dad")
-	)
-	(wire
-		(pts
-			(xy 266.7 100.33) (xy 266.7 101.6)
+			(xy 97.79 231.14) (xy 97.79 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 144.78) (xy 297.18 146.05)
+			(xy 128.27 275.59) (xy 128.27 276.86)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5396,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 144.78) (xy 328.93 146.05)
+			(xy 160.02 275.59) (xy 160.02 276.86)
 		)
 		(stroke
 			(width 0)
@@ -5416,33 +5406,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 100.33) (xy 233.68 101.6)
+			(xy 64.77 231.14) (xy 64.77 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11e42923-115e-4296-9e38-ce21310f8c54")
-	)
-	(wire
-		(pts
-			(xy 200.66 123.19) (xy 200.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "134f9724-6d3d-4077-be4e-d93bcd8ade7c")
-	)
-	(wire
-		(pts
-			(xy 200.66 100.33) (xy 200.66 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15d75d46-8fe9-4213-97a2-d16e0fd4989b")
 	)
 	(wire
 		(pts
@@ -5466,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 157.48) (xy 153.67 157.48)
+			(xy 181.61 121.92) (xy 185.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5476,7 +5446,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 137.16) (xy 313.69 137.16)
+			(xy 143.51 267.97) (xy 144.78 267.97)
 		)
 		(stroke
 			(width 0)
@@ -5486,7 +5456,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 77.47) (xy 298.45 78.74)
+			(xy 129.54 208.28) (xy 129.54 209.55)
 		)
 		(stroke
 			(width 0)
@@ -5506,16 +5476,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 69.85) (xy 185.42 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2462da80-0455-4d4c-a6f2-e8e774be06d8")
-	)
-	(wire
-		(pts
 			(xy 85.09 102.87) (xy 81.28 102.87)
 		)
 		(stroke
@@ -5526,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 195.58) (xy 113.03 195.58)
+			(xy 147.32 160.02) (xy 144.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5536,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 137.16) (xy 281.94 137.16)
+			(xy 111.76 267.97) (xy 113.03 267.97)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 92.71) (xy 218.44 92.71)
+			(xy 48.26 223.52) (xy 49.53 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 69.85) (xy 251.46 69.85)
+			(xy 81.28 200.66) (xy 82.55 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +5526,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 165.1) (xy 142.24 165.1)
+			(xy 162.56 129.54) (xy 173.99 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5596,17 +5556,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 115.57) (xy 185.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e3f43a8-9e09-40c0-9509-0e53de6439a1")
-	)
-	(wire
-		(pts
-			(xy 161.29 165.1) (xy 165.1 165.1)
+			(xy 193.04 129.54) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 92.71) (xy 283.21 92.71)
+			(xy 113.03 223.52) (xy 114.3 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +5596,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 123.19) (xy 330.2 124.46)
+			(xy 161.29 254) (xy 161.29 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 123.19) (xy 266.7 124.46)
+			(xy 97.79 254) (xy 97.79 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5676,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 92.71) (xy 251.46 92.71)
+			(xy 81.28 223.52) (xy 82.55 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5706,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 144.78) (xy 232.41 146.05)
+			(xy 63.5 275.59) (xy 63.5 276.86)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +5666,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 69.85) (xy 314.96 69.85)
+			(xy 144.78 200.66) (xy 146.05 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5736,17 +5686,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c67fd5-9985-493a-8b0a-e8ec8d1b3e66")
-	)
-	(wire
-		(pts
-			(xy 113.03 195.58) (xy 113.03 196.85)
+			(xy 144.78 160.02) (xy 144.78 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 144.78) (xy 265.43 146.05)
+			(xy 96.52 275.59) (xy 96.52 276.86)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +5736,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 193.04) (xy 113.03 195.58)
+			(xy 144.78 157.48) (xy 144.78 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +5786,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 157.48) (xy 165.1 165.1)
+			(xy 196.85 121.92) (xy 196.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5796,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 92.71) (xy 314.96 92.71)
+			(xy 144.78 223.52) (xy 146.05 223.52)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +5806,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 123.19) (xy 298.45 124.46)
+			(xy 129.54 254) (xy 129.54 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5896,7 +5836,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 69.85) (xy 283.21 69.85)
+			(xy 113.03 200.66) (xy 114.3 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5906,7 +5846,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 137.16) (xy 250.19 137.16)
+			(xy 80.01 267.97) (xy 81.28 267.97)
 		)
 		(stroke
 			(width 0)
@@ -5936,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 100.33) (xy 298.45 101.6)
+			(xy 129.54 231.14) (xy 129.54 232.41)
 		)
 		(stroke
 			(width 0)
@@ -5946,7 +5886,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 157.48) (xy 165.1 157.48)
+			(xy 193.04 121.92) (xy 196.85 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5976,7 +5916,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 69.85) (xy 218.44 69.85)
+			(xy 48.26 200.66) (xy 49.53 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5986,7 +5926,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 123.19) (xy 233.68 124.46)
+			(xy 64.77 254) (xy 64.77 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5996,17 +5936,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b185dfd0-a3b4-490f-9814-8625a266870b")
-	)
-	(wire
-		(pts
-			(xy 330.2 100.33) (xy 330.2 101.6)
+			(xy 161.29 231.14) (xy 161.29 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6056,33 +5986,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 77.47) (xy 233.68 78.74)
+			(xy 64.77 208.28) (xy 64.77 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b937e361-dac3-4bea-844b-1a40605aa427")
-	)
-	(wire
-		(pts
-			(xy 167.64 123.19) (xy 167.64 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba004025-74ee-44e3-a89b-992e2fdb05cd")
-	)
-	(wire
-		(pts
-			(xy 200.66 77.47) (xy 200.66 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbe63056-580e-458e-88b4-9044897f32f0")
 	)
 	(wire
 		(pts
@@ -6096,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 115.57) (xy 218.44 115.57)
+			(xy 48.26 246.38) (xy 49.53 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6126,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 115.57) (xy 314.96 115.57)
+			(xy 144.78 246.38) (xy 146.05 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6136,7 +6046,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 115.57) (xy 251.46 115.57)
+			(xy 81.28 246.38) (xy 82.55 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6156,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 165.1) (xy 153.67 165.1)
+			(xy 181.61 129.54) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6166,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 193.04) (xy 115.57 195.58)
+			(xy 147.32 157.48) (xy 147.32 160.02)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +6096,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 165.1) (xy 165.1 166.37)
+			(xy 196.85 129.54) (xy 196.85 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6196,17 +6106,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 144.78) (xy 166.37 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deced178-f9e4-4160-8877-e71edd4092d0")
-	)
-	(wire
-		(pts
-			(xy 281.94 115.57) (xy 283.21 115.57)
+			(xy 113.03 246.38) (xy 114.3 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6226,17 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 92.71) (xy 185.42 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f79f7f-2ebe-49a1-ad8a-d02f8507b938")
-	)
-	(wire
-		(pts
-			(xy 330.2 77.47) (xy 330.2 78.74)
+			(xy 161.29 208.28) (xy 161.29 209.55)
 		)
 		(stroke
 			(width 0)
@@ -6296,7 +6186,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 137.16) (xy 217.17 137.16)
+			(xy 46.99 267.97) (xy 48.26 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6306,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 157.48) (xy 140.97 157.48)
+			(xy 173.99 121.92) (xy 172.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6326,16 +6216,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 137.16) (xy 184.15 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd88fbfc-d0d5-48b4-815d-5639a713624d")
-	)
-	(wire
-		(pts
 			(xy 48.26 102.87) (xy 50.8 102.87)
 		)
 		(stroke
@@ -6345,7 +6225,7 @@
 		(uuid "fdb1ac3a-fdb7-49a5-95f4-eed563882f17")
 	)
 	(label "ROW1"
-		(at 313.69 69.85 180)
+		(at 144.78 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6355,7 +6235,7 @@
 		(uuid "00e97041-b3e9-43ab-a652-145af518a237")
 	)
 	(label "XTAL2"
-		(at 100.33 119.38 180)
+		(at 132.08 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6365,7 +6245,7 @@
 		(uuid "0172ea75-82c2-4720-8ecd-0419f5dd4143")
 	)
 	(label "COL4"
-		(at 265.43 146.05 180)
+		(at 96.52 276.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,7 +6255,7 @@
 		(uuid "02d7d15e-85eb-4b9d-9075-30c2779770c9")
 	)
 	(label "COL6"
-		(at 130.81 139.7 0)
+		(at 162.56 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6395,7 +6275,7 @@
 		(uuid "09309c8f-8b4b-475f-b250-3f8e87f710ef")
 	)
 	(label "COL3"
-		(at 233.68 78.74 180)
+		(at 64.77 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6405,17 +6285,17 @@
 		(uuid "14d9f6c3-2ce5-4775-b189-14f1b87b8b23")
 	)
 	(label "COL1"
-		(at 54.61 151.13 180)
+		(at 26.67 307.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "19666b30-f75e-4595-9100-06041e0cc12e")
 	)
 	(label "COL4"
-		(at 266.7 101.6 180)
+		(at 97.79 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6425,7 +6305,7 @@
 		(uuid "1ae373b1-4e74-4d51-8c65-18770e2471a7")
 	)
 	(label "COL4"
-		(at 266.7 78.74 180)
+		(at 97.79 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6434,43 +6314,13 @@
 		)
 		(uuid "1b0d6382-caa7-4fb2-a776-aae22acde111")
 	)
-	(label "COL1"
-		(at 34.29 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1bdfa0df-9b39-4e8a-91a9-7ba067658a8b")
-	)
-	(label "COL2"
-		(at 199.39 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c1a600e-a4d5-40ba-9eec-2f54832b2af9")
-	)
 	(label "ROW1"
-		(at 34.29 171.45 180)
+		(at 72.39 320.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
-		)
-		(uuid "1d46b1a0-f95d-461e-a64f-a3ce9950590a")
-	)
-	(label "ROW1"
-		(at 54.61 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1e21625e-57dc-4b75-8daf-653e8836d14c")
 	)
@@ -6495,7 +6345,7 @@
 		(uuid "29e924c2-1c78-49ff-9b59-3f46b9c6b86b")
 	)
 	(label "COL5"
-		(at 297.18 146.05 180)
+		(at 128.27 276.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6505,7 +6355,7 @@
 		(uuid "2a1dadd3-a6b8-4bdb-90fa-58ca5dc31b4c")
 	)
 	(label "COL5"
-		(at 298.45 124.46 180)
+		(at 129.54 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6515,7 +6365,7 @@
 		(uuid "2a44884c-2aeb-4fd0-ad92-01ae5279f3ea")
 	)
 	(label "ROW4"
-		(at 248.92 137.16 180)
+		(at 80.01 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6525,7 +6375,7 @@
 		(uuid "2be2ef59-711e-4680-9804-1ce893a7681e")
 	)
 	(label "D+"
-		(at 100.33 134.62 180)
+		(at 132.08 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6545,7 +6395,7 @@
 		(uuid "333fcc7f-7ad0-481d-907d-476535d7cf4d")
 	)
 	(label "COL1"
-		(at 130.81 152.4 0)
+		(at 162.56 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6554,18 +6404,8 @@
 		)
 		(uuid "3c1e9d47-f225-4596-89ec-b5bdb2535114")
 	)
-	(label "COL2"
-		(at 200.66 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ddbeafd-9f79-4c9c-a98e-645d4fff2167")
-	)
 	(label "D-"
-		(at 100.33 137.16 180)
+		(at 132.08 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6575,7 +6415,7 @@
 		(uuid "42e1590a-1dc8-4155-84cc-da1bd8a74a8b")
 	)
 	(label "ROW4"
-		(at 280.67 137.16 180)
+		(at 111.76 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6585,7 +6425,7 @@
 		(uuid "4cd0dcad-b717-4598-bf04-0e5681688bcd")
 	)
 	(label "ROW1"
-		(at 250.19 69.85 180)
+		(at 81.28 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6594,18 +6434,8 @@
 		)
 		(uuid "4cf352f8-2f84-4682-9293-7eac5c6b6180")
 	)
-	(label "ROW1"
-		(at 34.29 140.97 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4e394a86-693d-4ca1-8e09-0279eb6383f5")
-	)
 	(label "COL3"
-		(at 232.41 146.05 180)
+		(at 63.5 276.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6614,18 +6444,8 @@
 		)
 		(uuid "54a46a06-bab5-4dd0-b5f6-f9b60577be69")
 	)
-	(label "COL2"
-		(at 200.66 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58e0f422-ede5-4590-8177-70ef6efc24f5")
-	)
 	(label "ROW2"
-		(at 313.69 92.71 180)
+		(at 144.78 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6635,7 +6455,7 @@
 		(uuid "5c2972ed-edcd-4b17-81dc-2c0e03d1bb24")
 	)
 	(label "COL6"
-		(at 328.93 146.05 0)
+		(at 160.02 276.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6644,18 +6464,8 @@
 		)
 		(uuid "5c4d47cf-100d-4c48-af2e-2522dc76e1a0")
 	)
-	(label "COL1"
-		(at 167.64 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c8c8b3c-d392-44e4-a5f8-2b9564c6ad5d")
-	)
 	(label "ROW1"
-		(at 130.81 170.18 0)
+		(at 162.56 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6664,18 +6474,8 @@
 		)
 		(uuid "5e085d05-24f7-4966-86ef-4f0d4cd0317d")
 	)
-	(label "ROW4"
-		(at 34.29 148.59 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60acec63-f558-49af-90de-d69d413daa34")
-	)
 	(label "COL4"
-		(at 130.81 144.78 0)
+		(at 162.56 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6695,27 +6495,17 @@
 		(uuid "6193a1ae-463a-414f-b196-e9b48efd9bac")
 	)
 	(label "ROW3"
-		(at 54.61 146.05 180)
+		(at 26.67 312.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6374f448-44e0-49ca-8c53-14d173ccae52")
 	)
-	(label "COL1"
-		(at 34.29 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "63df7f53-4482-40dc-8627-be719572e723")
-	)
 	(label "ROW1"
-		(at 281.94 69.85 180)
+		(at 113.03 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6724,18 +6514,8 @@
 		)
 		(uuid "65076dfa-c9ba-4331-8a13-537e51763efb")
 	)
-	(label "ROW4"
-		(at 34.29 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6592e8c2-d625-468c-adf3-1e8984ef1937")
-	)
 	(label "COL3"
-		(at 233.68 101.6 180)
+		(at 64.77 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6745,7 +6525,7 @@
 		(uuid "68f15e7b-08e6-44ca-b391-c784956c4127")
 	)
 	(label "COL5"
-		(at 298.45 78.74 180)
+		(at 129.54 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6755,17 +6535,17 @@
 		(uuid "6957f638-9228-4868-88af-7892561f9c8c")
 	)
 	(label "ROW4"
-		(at 54.61 148.59 180)
+		(at 26.67 309.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "702609e3-4a72-4bd9-8727-f6846785cef4")
 	)
 	(label "COL3"
-		(at 233.68 124.46 180)
+		(at 64.77 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6775,34 +6555,14 @@
 		(uuid "721151d4-0f74-4642-a508-24ec41f695c5")
 	)
 	(label "ROW1"
-		(at 54.61 140.97 180)
+		(at 26.67 317.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "729aa7ee-66f7-4f88-ad42-f1ef9f7817ab")
-	)
-	(label "COL1"
-		(at 167.64 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8181f905-780d-4d4b-b7db-e282b4e4ea1f")
-	)
-	(label "ROW2"
-		(at 152.4 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "834bd66c-52a5-43d2-be61-58dd4c303eff")
 	)
 	(label "RESET"
 		(at 106.68 43.18 180)
@@ -6815,7 +6575,7 @@
 		(uuid "855cd85f-7408-4d19-a429-610a9b88fecf")
 	)
 	(label "SCK"
-		(at 130.81 111.76 0)
+		(at 162.56 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6825,7 +6585,7 @@
 		(uuid "878c9fe5-a22a-468b-9c1d-4e0a9f816a4a")
 	)
 	(label "ROW2"
-		(at 130.81 172.72 0)
+		(at 162.56 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6835,7 +6595,7 @@
 		(uuid "8886f0d7-08c3-41f4-8bb7-401b92fa98df")
 	)
 	(label "ROW4"
-		(at 215.9 137.16 180)
+		(at 46.99 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6845,7 +6605,7 @@
 		(uuid "88cd3054-9802-4bad-a7d4-f9b984e40f47")
 	)
 	(label "XTAL1"
-		(at 100.33 114.3 180)
+		(at 132.08 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6855,7 +6615,7 @@
 		(uuid "919a9f3d-80cb-4fd2-b01f-e4fe1b8aa24b")
 	)
 	(label "ROW3"
-		(at 281.94 115.57 180)
+		(at 113.03 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6864,28 +6624,18 @@
 		)
 		(uuid "9514b6d5-f134-420e-952e-8dfab5a9c520")
 	)
-	(label "COL1"
-		(at 166.37 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9559fcbf-e5a4-4943-8a9b-64cfd16035f5")
-	)
 	(label "ROW3"
-		(at 54.61 176.53 180)
+		(at 67.31 320.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9aedb9aa-74a7-4bfa-a34a-e122c0d8658e")
 	)
 	(label "COL6"
-		(at 330.2 78.74 180)
+		(at 161.29 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6895,7 +6645,7 @@
 		(uuid "9c330620-a73d-4f59-b259-767abb7306d5")
 	)
 	(label "COL5"
-		(at 298.45 101.6 180)
+		(at 129.54 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6924,18 +6674,8 @@
 		)
 		(uuid "a676888b-e56b-420b-83db-2d76a872449a")
 	)
-	(label "ROW1"
-		(at 184.15 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a88e34f0-ecfc-488f-8960-5d0b209ba334")
-	)
 	(label "COL3"
-		(at 130.81 147.32 0)
+		(at 162.56 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6944,18 +6684,8 @@
 		)
 		(uuid "a925ef41-4caf-41c7-ac9a-9f2c9babceb1")
 	)
-	(label "ROW4"
-		(at 182.88 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9f5e48f-9ea1-4388-8e78-5f196115cfdc")
-	)
 	(label "RESET"
-		(at 100.33 109.22 180)
+		(at 132.08 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6965,27 +6695,17 @@
 		(uuid "aa11bb22-cc33-4dd4-8e55-9f66aa77bb88")
 	)
 	(label "COL1"
-		(at 54.61 181.61 180)
+		(at 62.23 320.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ad97a095-694b-42cf-a82b-c26c42067107")
 	)
-	(label "ROW4"
-		(at 151.13 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ae740aaa-922a-4c02-9fc9-1ca94a5ba027")
-	)
 	(label "MOSI"
-		(at 130.81 114.3 0)
+		(at 162.56 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6993,16 +6713,6 @@
 			(justify left bottom)
 		)
 		(uuid "b180e33a-f38d-45f9-b6be-85f754591244")
-	)
-	(label "ROW1"
-		(at 152.4 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b29e2751-91f4-4f5f-9246-cf1526e6f3e8")
 	)
 	(label "HWB"
 		(at 152.4 40.64 270)
@@ -7015,7 +6725,7 @@
 		(uuid "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e")
 	)
 	(label "ROW4"
-		(at 130.81 177.8 0)
+		(at 162.56 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7025,17 +6735,17 @@
 		(uuid "b37dec4f-c6b2-4d5c-af18-ca60e6dbee2c")
 	)
 	(label "ROW2"
-		(at 54.61 173.99 180)
+		(at 69.85 320.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "b4c75bf6-5885-40a9-b5dd-dbc6cf49413c")
 	)
 	(label "ROW3"
-		(at 313.69 115.57 180)
+		(at 144.78 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7045,7 +6755,7 @@
 		(uuid "b62daf02-3aaf-4324-b4b6-7315b49ab956")
 	)
 	(label "UCAP"
-		(at 100.33 142.24 180)
+		(at 132.08 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7055,7 +6765,7 @@
 		(uuid "b6bb91e6-4685-4298-9c80-41c8d7b98f45")
 	)
 	(label "COL6"
-		(at 330.2 124.46 180)
+		(at 161.29 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7075,27 +6785,17 @@
 		(uuid "bc882b1c-c87a-4757-bef9-e3575080de22")
 	)
 	(label "ROW2"
-		(at 54.61 143.51 180)
+		(at 26.67 314.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bf95d2c1-fcdc-4d13-b8c4-70fd35b6db7a")
 	)
-	(label "ROW3"
-		(at 34.29 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0d65d12-a3ea-4d9c-9cb4-aba0ab39c9d2")
-	)
 	(label "ROW2"
-		(at 281.94 92.71 180)
+		(at 113.03 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7105,7 +6805,7 @@
 		(uuid "c314bda4-f580-4f02-b11e-0b70ec67a982")
 	)
 	(label "COL2"
-		(at 130.81 149.86 0)
+		(at 162.56 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7113,26 +6813,6 @@
 			(justify left bottom)
 		)
 		(uuid "c56aa21f-9b43-41ed-8411-ba3cee6c3252")
-	)
-	(label "ROW2"
-		(at 34.29 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c908c883-a804-4150-886a-dc758a73c0ac")
-	)
-	(label "ROW2"
-		(at 184.15 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c98be082-3fff-4c1d-a4d4-2a9f4113750d")
 	)
 	(label "UCAP"
 		(at 91.44 55.88 0)
@@ -7144,28 +6824,8 @@
 		)
 		(uuid "ccac2e8b-9a6a-40ca-941a-0fffbf00f6a5")
 	)
-	(label "COL1"
-		(at 167.64 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d14d38f2-a411-4c63-a3dc-e264f5f5b357")
-	)
-	(label "ROW3"
-		(at 152.4 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3b2e8be-652e-418e-87aa-bc8f21608a33")
-	)
 	(label "ROW1"
-		(at 217.17 69.85 180)
+		(at 48.26 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7175,7 +6835,7 @@
 		(uuid "d9cff7c4-2287-40ba-9b5b-3e8edc803ec2")
 	)
 	(label "COL6"
-		(at 330.2 101.6 180)
+		(at 161.29 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7185,7 +6845,7 @@
 		(uuid "dc0d1af3-2767-4f6d-b835-2957df41a58b")
 	)
 	(label "ROW4"
-		(at 312.42 137.16 180)
+		(at 143.51 267.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7195,7 +6855,7 @@
 		(uuid "dd090b9f-1eb2-4b26-a31a-9767361481c0")
 	)
 	(label "ROW3"
-		(at 130.81 175.26 0)
+		(at 162.56 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7205,17 +6865,7 @@
 		(uuid "e0734a08-a470-44b1-8fe9-a86539cbbf53")
 	)
 	(label "ROW3"
-		(at 34.29 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e5cef2e9-a569-4913-8a9f-35681702ee4e")
-	)
-	(label "ROW3"
-		(at 250.19 115.57 180)
+		(at 81.28 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7235,7 +6885,7 @@
 		(uuid "ec235684-4cc4-4e21-8fa9-cf3ba243e52f")
 	)
 	(label "ROW2"
-		(at 250.19 92.71 180)
+		(at 81.28 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,28 +6904,8 @@
 		)
 		(uuid "ece229d3-0526-4dee-afa0-6701a464a642")
 	)
-	(label "COL2"
-		(at 200.66 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee21335b-cfdb-4c80-ac63-8b86ed0667c8")
-	)
-	(label "ROW3"
-		(at 184.15 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee324efd-78fb-47cf-9b37-959f4c00cd1c")
-	)
 	(label "COL5"
-		(at 130.81 142.24 0)
+		(at 162.56 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7285,7 +6915,7 @@
 		(uuid "ee4daf85-d508-4706-8793-e9c371af1db8")
 	)
 	(label "COL4"
-		(at 266.7 124.46 180)
+		(at 97.79 255.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7295,7 +6925,7 @@
 		(uuid "efc4b42b-d6fb-42d6-9e27-7874b60a110c")
 	)
 	(label "HWB"
-		(at 130.81 162.56 0)
+		(at 162.56 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7305,12 +6935,12 @@
 		(uuid "f0a1b2c3-d4e5-4f6a-7b8c-9d0e1f2a3b4c")
 	)
 	(label "ROW4"
-		(at 54.61 179.07 180)
+		(at 64.77 320.04 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f3f0a5ec-cc2e-4cf2-84ba-b41790bf4d64")
 	)
@@ -7325,7 +6955,7 @@
 		(uuid "fb0f78fe-c78b-4ec3-bb79-4407402ebbf5")
 	)
 	(label "MISO"
-		(at 130.81 116.84 0)
+		(at 162.56 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7335,17 +6965,7 @@
 		(uuid "fb3822ce-ac40-48ee-bc00-ff8809d580fb")
 	)
 	(label "ROW2"
-		(at 34.29 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbac2b0d-6f9e-405c-ade1-04b4b255c443")
-	)
-	(label "ROW2"
-		(at 217.17 92.71 180)
+		(at 48.26 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7355,7 +6975,7 @@
 		(uuid "fda363b5-4656-4371-a52d-581b41b295b2")
 	)
 	(label "ROW3"
-		(at 217.17 115.57 180)
+		(at 48.26 246.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7366,7 +6986,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 226.06 69.85 0)
+		(at 57.15 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7377,7 +6997,7 @@
 		(fields_autoplaced yes)
 		(uuid "0611e965-8fa5-48c0-84f5-cb610815705d")
 		(property "Reference" "SW09"
-			(at 226.06 62.23 0)
+			(at 57.15 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7387,7 +7007,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 226.06 64.77 0)
+			(at 57.15 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7397,7 +7017,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7408,7 +7028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7419,7 +7039,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7050,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7061,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7072,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7463,7 +7083,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 226.06 69.85 0)
+			(at 57.15 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,7 +7560,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 330.2 119.38 90)
+		(at 161.29 250.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7951,7 +7571,7 @@
 		(fields_autoplaced yes)
 		(uuid "179ab270-f832-49fb-8062-dd747bcec4b8")
 		(property "Reference" "DM23"
-			(at 332.74 118.1099 90)
+			(at 163.83 248.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7962,7 +7582,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 332.74 120.6499 90)
+			(at 163.83 251.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7973,7 +7593,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 330.2 119.38 0)
+			(at 161.29 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7984,7 +7604,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 330.2 119.38 0)
+			(at 161.29 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7995,7 +7615,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 330.2 119.38 0)
+			(at 161.29 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8006,7 +7626,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 330.2 119.38 0)
+			(at 161.29 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8017,7 +7637,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 119.38 0)
+			(at 161.29 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8028,7 +7648,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 330.2 119.38 90)
+			(at 161.29 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +7659,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 330.2 119.38 90)
+			(at 161.29 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +7670,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 330.2 119.38 90)
+			(at 161.29 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +7681,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 330.2 119.38 90)
+			(at 161.29 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +7786,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 115.57 101.6 0)
+		(at 147.32 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8176,7 +7796,7 @@
 		(dnp no)
 		(uuid "1ba40118-57df-465e-ba2c-cab3c1421fe8")
 		(property "Reference" "#PWR09"
-			(at 115.57 105.41 0)
+			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8187,7 +7807,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 115.316 98.044 0)
+			(at 147.066 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8197,7 +7817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 101.6 0)
+			(at 147.32 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8208,7 +7828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 101.6 0)
+			(at 147.32 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8219,7 +7839,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 115.57 101.6 0)
+			(at 147.32 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8243,7 +7863,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 226.06 115.57 0)
+		(at 57.15 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8254,7 +7874,7 @@
 		(fields_autoplaced yes)
 		(uuid "204044f8-6fee-4e07-b470-5916b349188f")
 		(property "Reference" "SW11"
-			(at 226.06 107.95 0)
+			(at 57.15 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8264,7 +7884,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 226.06 110.49 0)
+			(at 57.15 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8274,7 +7894,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8285,7 +7905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +7916,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +7927,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,7 +7938,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +7949,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,7 +7960,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 226.06 115.57 0)
+			(at 57.15 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,7 +7987,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 322.58 69.85 0)
+		(at 153.67 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8378,7 +7998,7 @@
 		(fields_autoplaced yes)
 		(uuid "210d9d45-1fd8-4634-96d7-31f9e35c630e")
 		(property "Reference" "SW21"
-			(at 322.58 62.23 0)
+			(at 153.67 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8388,7 +8008,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 322.58 64.77 0)
+			(at 153.67 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8398,7 +8018,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,7 +8029,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8420,7 +8040,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8431,7 +8051,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,7 +8062,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8073,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8464,7 +8084,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 322.58 69.85 0)
+			(at 153.67 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8189,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 226.06 92.71 0)
+		(at 57.15 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8580,7 +8200,7 @@
 		(fields_autoplaced yes)
 		(uuid "27148f3b-8f46-4b13-9eca-b37490a62438")
 		(property "Reference" "SW10"
-			(at 226.06 85.09 0)
+			(at 57.15 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8590,7 +8210,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 226.06 87.63 0)
+			(at 57.15 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8600,7 +8220,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8231,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8622,7 +8242,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8633,7 +8253,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8644,7 +8264,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +8275,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8666,7 +8286,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 226.06 92.71 0)
+			(at 57.15 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8771,7 +8391,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 266.7 119.38 90)
+		(at 97.79 250.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8782,7 +8402,7 @@
 		(fields_autoplaced yes)
 		(uuid "27c90bd1-a1c9-4dc4-be41-7edf86487bc7")
 		(property "Reference" "DM15"
-			(at 269.24 118.1099 90)
+			(at 100.33 248.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8793,7 +8413,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 269.24 120.6499 90)
+			(at 100.33 251.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8804,7 +8424,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 266.7 119.38 0)
+			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8815,7 +8435,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 266.7 119.38 0)
+			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8826,7 +8446,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 266.7 119.38 0)
+			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8837,7 +8457,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 266.7 119.38 0)
+			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8848,7 +8468,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 119.38 0)
+			(at 97.79 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8859,7 +8479,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 266.7 119.38 90)
+			(at 97.79 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8870,7 +8490,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 266.7 119.38 90)
+			(at 97.79 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +8501,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 266.7 119.38 90)
+			(at 97.79 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8892,7 +8512,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 266.7 119.38 90)
+			(at 97.79 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +8896,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 322.58 115.57 0)
+		(at 153.67 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9287,7 +8907,7 @@
 		(fields_autoplaced yes)
 		(uuid "36491a33-468c-400a-bff9-c26c6e2c017d")
 		(property "Reference" "SW23"
-			(at 322.58 107.95 0)
+			(at 153.67 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9297,7 +8917,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 322.58 110.49 0)
+			(at 153.67 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9307,7 +8927,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9318,7 +8938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,7 +8949,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +8960,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +8971,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9362,7 +8982,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9373,7 +8993,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 322.58 115.57 0)
+			(at 153.67 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9400,7 +9020,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 266.7 96.52 90)
+		(at 97.79 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9411,7 +9031,7 @@
 		(fields_autoplaced yes)
 		(uuid "378b849d-eba2-4d12-9b40-9715ca959978")
 		(property "Reference" "DM14"
-			(at 269.24 95.2499 90)
+			(at 100.33 226.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9422,7 +9042,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 269.24 97.7899 90)
+			(at 100.33 228.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9433,7 +9053,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 266.7 96.52 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9444,7 +9064,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 266.7 96.52 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9455,7 +9075,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 266.7 96.52 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9466,7 +9086,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 266.7 96.52 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9097,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 96.52 0)
+			(at 97.79 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9488,7 +9108,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 266.7 96.52 90)
+			(at 97.79 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9499,7 +9119,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 266.7 96.52 90)
+			(at 97.79 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9130,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 266.7 96.52 90)
+			(at 97.79 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +9141,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 266.7 96.52 90)
+			(at 97.79 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9548,7 +9168,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 298.45 119.38 90)
+		(at 129.54 250.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9559,7 +9179,7 @@
 		(fields_autoplaced yes)
 		(uuid "3845bbe8-2732-4f3f-a186-fbecd3b13772")
 		(property "Reference" "DM19"
-			(at 300.99 118.1099 90)
+			(at 132.08 248.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9570,7 +9190,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 300.99 120.6499 90)
+			(at 132.08 251.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9581,7 +9201,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 298.45 119.38 0)
+			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9592,7 +9212,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 298.45 119.38 0)
+			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9223,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 298.45 119.38 0)
+			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9614,7 +9234,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 298.45 119.38 0)
+			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9625,7 +9245,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 119.38 0)
+			(at 129.54 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9636,7 +9256,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 298.45 119.38 90)
+			(at 129.54 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9647,7 +9267,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 298.45 119.38 90)
+			(at 129.54 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9658,7 +9278,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 298.45 119.38 90)
+			(at 129.54 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +9289,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 298.45 119.38 90)
+			(at 129.54 250.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,155 +9316,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 167.64 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a11599d-8764-45b1-a52b-78ddd4264f39")
-		(property "Reference" "DM03"
-			(at 170.18 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 170.18 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 167.64 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 167.64 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 167.64 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 167.64 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "75547067-c31e-463b-910b-9d652974edba")
-		)
-		(pin "2"
-			(uuid "52736b40-d6dd-449b-a45b-c064ee2e4760")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 232.41 140.97 90)
+		(at 63.5 271.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9855,7 +9327,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a2d0658-3116-4b3b-91f7-77c250efc10f")
 		(property "Reference" "DM12"
-			(at 234.95 139.6999 90)
+			(at 66.04 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9866,7 +9338,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 234.95 142.2399 90)
+			(at 66.04 273.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9877,7 +9349,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 232.41 140.97 0)
+			(at 63.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9360,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 232.41 140.97 0)
+			(at 63.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9371,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 232.41 140.97 0)
+			(at 63.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +9382,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 232.41 140.97 0)
+			(at 63.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +9393,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 140.97 0)
+			(at 63.5 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +9404,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 232.41 140.97 90)
+			(at 63.5 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,7 +9415,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 232.41 140.97 90)
+			(at 63.5 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,7 +9426,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 232.41 140.97 90)
+			(at 63.5 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9965,7 +9437,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 232.41 140.97 90)
+			(at 63.5 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9991,141 +9463,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 39.37 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "3cf76614-aed4-40d7-9aab-e63016bc3f5a")
-		(property "Reference" "J2"
-			(at 43.18 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 45.72 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "B5B-XH-A(LF)(SN)"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C157991"
-			(at 39.37 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "ea177301-00a0-480d-b495-28a2469e8ac7")
-		)
-		(pin "1"
-			(uuid "ebb231f0-5260-4e02-9a8f-8d13b6fec71b")
-		)
-		(pin "2"
-			(uuid "10e98cfc-7ca9-41ad-a377-05bf1d8d7689")
-		)
-		(pin "4"
-			(uuid "9805edae-15ba-40c6-8b78-08c46a1527a0")
-		)
-		(pin "3"
-			(uuid "94b723c7-79f7-4958-b9e2-886c13973bef")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 113.03 196.85 0)
+		(at 144.78 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10135,7 +9474,7 @@
 		(dnp no)
 		(uuid "3d2f6fda-78fe-4371-81eb-975bbaa82ccb")
 		(property "Reference" "#PWR03"
-			(at 113.03 203.2 0)
+			(at 144.78 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10146,7 +9485,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 200.406 0)
+			(at 144.78 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10156,7 +9495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 196.85 0)
+			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10167,7 +9506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 196.85 0)
+			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10178,7 +9517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 196.85 0)
+			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10202,7 +9541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 157.48 90)
+		(at 177.8 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10212,7 +9551,7 @@
 		(dnp no)
 		(uuid "3fe9324b-32e0-4587-9a15-5bd233897c89")
 		(property "Reference" "R6"
-			(at 143.764 155.448 90)
+			(at 175.514 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10222,7 +9561,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 148.59 155.448 90)
+			(at 180.34 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10232,7 +9571,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.05 159.258 90)
+			(at 177.8 123.698 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10243,7 +9582,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C22548.pdf"
-			(at 146.05 157.48 0)
+			(at 177.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,7 +9593,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 157.48 0)
+			(at 177.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10265,7 +9604,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 146.05 157.48 90)
+			(at 177.8 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10276,7 +9615,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 146.05 157.48 90)
+			(at 177.8 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +9626,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 146.05 157.48 90)
+			(at 177.8 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10298,7 +9637,7 @@
 			)
 		)
 		(property "LCSC" "C22548"
-			(at 146.05 157.48 90)
+			(at 177.8 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10448,7 +9787,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 59.69 146.05 0)
+		(at 21.59 312.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10459,7 +9798,7 @@
 		(fields_autoplaced yes)
 		(uuid "46396d6b-259b-4797-b298-f7f6c6a4e38f")
 		(property "Reference" "J3"
-			(at 63.5 147.32 90)
+			(at 17.78 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10469,7 +9808,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 66.04 147.32 90)
+			(at 15.24 311.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10479,7 +9818,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10490,7 +9829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10501,7 +9840,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +9851,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +9862,7 @@
 			)
 		)
 		(property "MPN" "B5B-XH-A(LF)(SN)"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10534,7 +9873,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10545,7 +9884,7 @@
 			)
 		)
 		(property "LCSC" "C157991"
-			(at 59.69 146.05 0)
+			(at 21.59 312.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +9920,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 298.45 96.52 90)
+		(at 129.54 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10592,7 +9931,7 @@
 		(fields_autoplaced yes)
 		(uuid "4715c872-eaa8-4d3b-86d7-04fb63fe6eda")
 		(property "Reference" "DM18"
-			(at 300.99 95.2499 90)
+			(at 132.08 226.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10603,7 +9942,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 300.99 97.7899 90)
+			(at 132.08 228.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10614,7 +9953,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 298.45 96.52 0)
+			(at 129.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,7 +9964,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 298.45 96.52 0)
+			(at 129.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10636,7 +9975,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 298.45 96.52 0)
+			(at 129.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +9986,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 298.45 96.52 0)
+			(at 129.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10658,7 +9997,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 96.52 0)
+			(at 129.54 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10669,7 +10008,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 298.45 96.52 90)
+			(at 129.54 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10680,7 +10019,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 298.45 96.52 90)
+			(at 129.54 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10691,7 +10030,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 298.45 96.52 90)
+			(at 129.54 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10041,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 298.45 96.52 90)
+			(at 129.54 227.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10729,7 +10068,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 290.83 69.85 0)
+		(at 121.92 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10740,7 +10079,7 @@
 		(fields_autoplaced yes)
 		(uuid "47a79728-b33c-475c-87d7-6fd804357839")
 		(property "Reference" "SW17"
-			(at 290.83 62.23 0)
+			(at 121.92 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10750,7 +10089,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 290.83 64.77 0)
+			(at 121.92 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10760,7 +10099,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +10121,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,7 +10132,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10804,7 +10143,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10815,7 +10154,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10826,7 +10165,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 290.83 69.85 0)
+			(at 121.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10853,131 +10192,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 193.04 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4a95d191-3f8e-453b-8d22-e21bd6403810")
-		(property "Reference" "SW05"
-			(at 193.04 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 193.04 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 193.04 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0aa5f831-b6b0-4f27-a0dc-2b655f855a85")
-		)
-		(pin "1"
-			(uuid "5b528a97-954a-499e-b940-82475da68ab7")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 289.56 137.16 0)
+		(at 120.65 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10988,7 +10203,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f94bf8f-eb9a-4dcc-bacb-d1c724a236db")
 		(property "Reference" "SW20"
-			(at 289.56 129.54 0)
+			(at 120.65 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10998,7 +10213,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 289.56 132.08 0)
+			(at 120.65 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11008,7 +10223,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11019,7 +10234,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11030,7 +10245,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11041,7 +10256,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +10267,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +10278,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +10289,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 289.56 137.16 0)
+			(at 120.65 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,7 +10316,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 140.97 157.48 90)
+		(at 172.72 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11112,7 +10327,7 @@
 		(fields_autoplaced yes)
 		(uuid "539122a0-d2fd-4ab5-be07-9bcb5dd163c5")
 		(property "Reference" "#PWR024"
-			(at 144.78 157.48 0)
+			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11123,7 +10338,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 137.16 157.4799 90)
+			(at 168.91 121.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11134,7 +10349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 157.48 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11145,7 +10360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 157.48 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11156,7 +10371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 157.48 0)
+			(at 172.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11173,154 +10388,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 200.66 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "556b43e8-6298-4608-ab5c-90b7acaaeb31")
-		(property "Reference" "DM06"
-			(at 203.2 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 203.2 97.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 200.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 200.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 200.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 200.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 200.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 200.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 200.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 200.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "373723de-5f66-4c5c-b505-12064f51d417")
-		)
-		(pin "2"
-			(uuid "b6d5f045-a71d-445b-8c59-058092b2ea49")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM06")
 					(unit 1)
 				)
 			)
@@ -11483,154 +10550,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 200.66 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5939cc0b-5e25-46e5-af36-1cd05c8c9d40")
-		(property "Reference" "DM05"
-			(at 203.2 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 203.2 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 200.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 200.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 200.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 200.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 200.66 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 200.66 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 200.66 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 200.66 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a407cf10-800e-4889-b539-8e0f104c6b35")
-		)
-		(pin "2"
-			(uuid "bc328a1d-2f08-4feb-b372-f7edfa0f3a89")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 52.07 71.12 90)
 		(unit 1)
@@ -11708,7 +10627,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 124.46 90)
+		(at 132.08 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11719,7 +10638,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c56cae9-47d3-4c02-9ec3-c5822a569a35")
 		(property "Reference" "#PWR011"
-			(at 104.14 124.46 0)
+			(at 135.89 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11730,7 +10649,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 121.92 90)
+			(at 130.81 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11740,7 +10659,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 124.46 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +10670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 124.46 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11762,7 +10681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 124.46 0)
+			(at 132.08 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11786,155 +10705,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 200.66 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c715030-094a-4038-b67f-d2201e9bed6c")
-		(property "Reference" "DM07"
-			(at 203.2 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 203.2 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 200.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 200.66 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 200.66 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 200.66 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 200.66 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bef3d0f6-972c-4751-b8b1-8b60479ef923")
-		)
-		(pin "2"
-			(uuid "6855c182-291f-4726-a8ad-e50dbe9b6042")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 297.18 140.97 90)
+		(at 128.27 271.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11945,7 +10716,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e89ba32-b109-4583-b59c-0e5615bc51b6")
 		(property "Reference" "DM20"
-			(at 299.72 139.6999 90)
+			(at 130.81 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11956,7 +10727,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 299.72 142.2399 90)
+			(at 130.81 273.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11967,7 +10738,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 297.18 140.97 0)
+			(at 128.27 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11978,7 +10749,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 297.18 140.97 0)
+			(at 128.27 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,7 +10760,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 297.18 140.97 0)
+			(at 128.27 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12000,7 +10771,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 297.18 140.97 0)
+			(at 128.27 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12011,7 +10782,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 297.18 140.97 0)
+			(at 128.27 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +10793,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 297.18 140.97 90)
+			(at 128.27 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +10804,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 297.18 140.97 90)
+			(at 128.27 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12044,7 +10815,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 297.18 140.97 90)
+			(at 128.27 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12055,7 +10826,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 297.18 140.97 90)
+			(at 128.27 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12081,304 +10852,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 167.64 73.66 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6160b95b-057a-4760-90bd-e1002a1881e4")
-		(property "Reference" "DM01"
-			(at 170.18 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 170.18 74.9299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 167.64 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 167.64 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 167.64 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 167.64 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 167.64 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 167.64 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 167.64 73.66 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddf88115-6625-449b-b0fc-3f73f0e28fcb")
-		)
-		(pin "2"
-			(uuid "594693b7-f3e3-4ed5-9548-c219881db35e")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 166.37 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64de5ff0-4bde-4184-8463-c9f1db6cd28c")
-		(property "Reference" "DM04"
-			(at 168.91 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 168.91 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 166.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 166.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 166.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 166.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 166.37 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 166.37 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 166.37 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 166.37 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 166.37 140.97 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbe28752-06b9-43f3-a96f-2576ffc05623")
-		)
-		(pin "2"
-			(uuid "c36f61bd-34f8-402c-88d3-dd0333369e0d")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 322.58 92.71 0)
+		(at 153.67 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12389,7 +10864,7 @@
 		(fields_autoplaced yes)
 		(uuid "65b82eb4-0ac0-47d5-934e-bd0ccc49569e")
 		(property "Reference" "SW22"
-			(at 322.58 85.09 0)
+			(at 153.67 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12399,7 +10874,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 322.58 87.63 0)
+			(at 153.67 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12409,7 +10884,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12420,7 +10895,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12431,7 +10906,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12442,7 +10917,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12453,7 +10928,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12464,7 +10939,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12475,7 +10950,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 322.58 92.71 0)
+			(at 153.67 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12625,7 +11100,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 157.48 157.48 180)
+		(at 189.23 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12635,7 +11110,7 @@
 		(dnp no)
 		(uuid "6d01de16-ce76-4c96-bb06-aec37ced1e68")
 		(property "Reference" "LED1"
-			(at 157.988 152.4 0)
+			(at 189.738 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12645,7 +11120,7 @@
 			)
 		)
 		(property "Value" "LED Pwr"
-			(at 160.02 154.178 0)
+			(at 191.77 118.618 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12655,7 +11130,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,7 +11141,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C19273151.pdf"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +11152,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12688,7 +11163,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12699,7 +11174,7 @@
 			)
 		)
 		(property "Manufacturer" "YONGYUTAI"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12710,7 +11185,7 @@
 			)
 		)
 		(property "MPN" "YLED0603G"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +11196,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +11207,7 @@
 			)
 		)
 		(property "LCSC" "C19273151"
-			(at 157.48 157.48 0)
+			(at 189.23 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12758,132 +11233,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 191.77 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "71425fd7-7c56-4e6b-8d3f-b2dae1052018")
-		(property "Reference" "SW08"
-			(at 191.77 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 191.77 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 191.77 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1c514786-958f-4e0f-ba25-0b9de7348926")
-		)
-		(pin "1"
-			(uuid "974f8933-2440-4ef4-b2d2-1ba3084d5034")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega32U4-A")
-		(at 115.57 147.32 0)
+		(at 147.32 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12893,7 +11244,7 @@
 		(dnp no)
 		(uuid "755ea257-623d-4e8b-9297-bfd55a14ddf2")
 		(property "Reference" "U1"
-			(at 117.856 192.024 0)
+			(at 149.606 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12904,7 +11255,7 @@
 			)
 		)
 		(property "Value" "ATmega32U4-A"
-			(at 117.856 194.31 0)
+			(at 149.606 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12915,7 +11266,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12927,7 +11278,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C44854.pdf"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12938,7 +11289,7 @@
 			)
 		)
 		(property "Description" "16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12949,7 +11300,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12960,7 +11311,7 @@
 			)
 		)
 		(property "MPN" "ATMEGA32U4-AU"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12971,7 +11322,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12982,7 +11333,7 @@
 			)
 		)
 		(property "LCSC" "C44854"
-			(at 115.57 147.32 0)
+			(at 147.32 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13212,7 +11563,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 233.68 96.52 90)
+		(at 64.77 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13223,7 +11574,7 @@
 		(fields_autoplaced yes)
 		(uuid "79bd69ed-0124-40a9-a334-7e939e83c334")
 		(property "Reference" "DM10"
-			(at 236.22 95.2499 90)
+			(at 67.31 226.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13234,7 +11585,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 236.22 97.7899 90)
+			(at 67.31 228.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13245,7 +11596,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13256,7 +11607,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13267,7 +11618,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,7 +11629,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13289,7 +11640,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13300,7 +11651,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13311,7 +11662,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13322,7 +11673,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13333,7 +11684,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 96.52 0)
+			(at 64.77 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13360,7 +11711,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 257.81 137.16 0)
+		(at 88.9 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13371,7 +11722,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e91fcff-7445-43d8-be50-621cae3e87bf")
 		(property "Reference" "SW16"
-			(at 257.81 129.54 0)
+			(at 88.9 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13381,7 +11732,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 257.81 132.08 0)
+			(at 88.9 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13391,7 +11742,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13402,7 +11753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13413,7 +11764,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13424,7 +11775,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13435,7 +11786,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,7 +11797,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13457,7 +11808,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 257.81 137.16 0)
+			(at 88.9 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13639,7 +11990,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 157.48 165.1 180)
+		(at 189.23 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13649,7 +12000,7 @@
 		(dnp no)
 		(uuid "82c4ea71-098c-43a0-a206-127469e0fe22")
 		(property "Reference" "LED2"
-			(at 157.988 160.02 0)
+			(at 189.738 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13659,7 +12010,7 @@
 			)
 		)
 		(property "Value" "LED Dbg"
-			(at 160.02 161.798 0)
+			(at 191.77 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13669,7 +12020,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13680,7 +12031,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2286.pdf"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13691,7 +12042,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13702,7 +12053,7 @@
 			)
 		)
 		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13713,7 +12064,7 @@
 			)
 		)
 		(property "MPN" "KT-0603R"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13724,7 +12075,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13735,7 +12086,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13746,7 +12097,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 157.48 165.1 0)
+			(at 189.23 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13773,7 +12124,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 166.37 0)
+		(at 196.85 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13784,7 +12135,7 @@
 		(fields_autoplaced yes)
 		(uuid "86501e83-4382-4199-88f2-4f7b3bae8370")
 		(property "Reference" "#PWR023"
-			(at 165.1 172.72 0)
+			(at 196.85 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13795,7 +12146,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 171.45 0)
+			(at 196.85 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13805,7 +12156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 166.37 0)
+			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13816,7 +12167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 166.37 0)
+			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13827,7 +12178,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 166.37 0)
+			(at 196.85 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13927,7 +12278,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 330.2 73.66 90)
+		(at 161.29 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13938,7 +12289,7 @@
 		(fields_autoplaced yes)
 		(uuid "92dc8bd3-e9b4-4869-9e9e-75578b05f787")
 		(property "Reference" "DM21"
-			(at 332.74 72.3899 90)
+			(at 163.83 203.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13949,7 +12300,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 332.74 74.9299 90)
+			(at 163.83 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13960,7 +12311,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13971,7 +12322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13982,7 +12333,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13993,7 +12344,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14004,7 +12355,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14015,7 +12366,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14026,7 +12377,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14037,7 +12388,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14048,7 +12399,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 73.66 0)
+			(at 161.29 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14068,278 +12419,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "DM21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 193.04 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "96a7d052-5cf8-4fd2-ad81-5c1503fffee5")
-		(property "Reference" "SW06"
-			(at 193.04 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 193.04 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 193.04 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c223a948-a80b-40f4-9be3-8e5ba2d20f4c")
-		)
-		(pin "1"
-			(uuid "39461af9-3062-4dc3-92b2-dbd2483bdfac")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 167.64 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "987584eb-5a17-4327-a86f-202450859ea6")
-		(property "Reference" "DM02"
-			(at 170.18 95.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 170.18 97.7899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e32a60c-5c8f-4d98-bc25-bbc71d4454f9")
-		)
-		(pin "2"
-			(uuid "4e004c22-16d1-4735-84c3-8c4b5dcf55d2")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM02")
 					(unit 1)
 				)
 			)
@@ -14791,132 +12870,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 160.02 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a433f17e-0b41-4241-a04b-c103d6a5d2b4")
-		(property "Reference" "SW02"
-			(at 160.02 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 160.02 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 160.02 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c2664de6-1646-4094-9b9f-94219015343a")
-		)
-		(pin "1"
-			(uuid "64564b4e-1a4b-434a-b324-5e0d812e71ac")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 330.2 96.52 90)
+		(at 161.29 227.33 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14927,7 +12882,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7a88af0-31f6-4650-84a2-fc475b6bcd0c")
 		(property "Reference" "DM22"
-			(at 332.74 95.2499 90)
+			(at 163.83 226.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14938,7 +12893,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 332.74 97.7899 90)
+			(at 163.83 228.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14949,7 +12904,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 330.2 96.52 0)
+			(at 161.29 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14960,7 +12915,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 330.2 96.52 0)
+			(at 161.29 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14971,7 +12926,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 330.2 96.52 0)
+			(at 161.29 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14982,7 +12937,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 30.2 96.52 0)
+			(at -138.71 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14993,7 +12948,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 30.2 96.52 0)
+			(at -138.71 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15004,7 +12959,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 30.2 96.52 0)
+			(at -138.71 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15015,7 +12970,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 30.2 96.52 0)
+			(at -138.71 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15026,7 +12981,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 330.2 96.52 0)
+			(at 161.29 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15037,7 +12992,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 96.52 0)
+			(at 161.29 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15063,132 +13018,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 158.75 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a8420e9e-8fa1-4139-a4a4-e13241a64917")
-		(property "Reference" "SW04"
-			(at 158.75 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 158.75 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1d91c708-3af7-45be-93f9-231fac458ee6")
-		)
-		(pin "1"
-			(uuid "79b046d5-a175-47da-9590-2a3cb7688cb5")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 233.68 73.66 90)
+		(at 64.77 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15199,7 +13030,7 @@
 		(fields_autoplaced yes)
 		(uuid "a894d004-525f-483f-a5a4-b399f7ac6fa0")
 		(property "Reference" "DM09"
-			(at 236.22 72.3899 90)
+			(at 67.31 203.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15210,7 +13041,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 236.22 74.9299 90)
+			(at 67.31 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15221,7 +13052,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15232,7 +13063,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15243,7 +13074,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15254,7 +13085,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15265,7 +13096,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15276,7 +13107,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15287,7 +13118,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15298,7 +13129,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15309,7 +13140,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 73.66 0)
+			(at 64.77 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15460,132 +13291,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 160.02 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a8e033d8-5395-4ce0-a92e-dbe67238098f")
-		(property "Reference" "SW01"
-			(at 160.02 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 160.02 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 160.02 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a57316fd-779e-4266-8778-8577b567b281")
-		)
-		(pin "1"
-			(uuid "00f08936-dd87-433c-a322-3cb063e4fba2")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
-		(at 298.45 73.66 90)
+		(at 129.54 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15596,7 +13303,7 @@
 		(fields_autoplaced yes)
 		(uuid "a964fee5-aac8-401f-b145-543938b5ecbf")
 		(property "Reference" "DM17"
-			(at 300.99 72.3899 90)
+			(at 132.08 203.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15607,7 +13314,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 300.99 74.9299 90)
+			(at 132.08 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15618,7 +13325,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15629,7 +13336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15640,7 +13347,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15651,7 +13358,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15662,7 +13369,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15673,7 +13380,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15684,7 +13391,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15695,7 +13402,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15706,7 +13413,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 298.45 73.66 0)
+			(at 129.54 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15856,7 +13563,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 118.11 101.6 0)
+		(at 149.86 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15866,7 +13573,7 @@
 		(dnp no)
 		(uuid "ae5a3595-1b75-4b0a-a99e-616e23ad3cb8")
 		(property "Reference" "#PWR010"
-			(at 118.11 105.41 0)
+			(at 149.86 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15877,7 +13584,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 119.888 98.044 0)
+			(at 151.638 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15887,7 +13594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 101.6 0)
+			(at 149.86 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15898,7 +13605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 101.6 0)
+			(at 149.86 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15909,7 +13616,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 118.11 101.6 0)
+			(at 149.86 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16208,130 +13915,6 @@
 			(project "ErgonomicGamepad"
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 160.02 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "b1fc2795-27bc-4e8d-b8d9-2a37be2fdf78")
-		(property "Reference" "SW03"
-			(at 160.02 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 160.02 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 160.02 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "31935318-d13e-4a7b-9ae8-d6d5837e8cb1")
-		)
-		(pin "1"
-			(uuid "fabece3b-dbd1-46ab-bff8-138afce6c55f")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW03")
 					(unit 1)
 				)
 			)
@@ -16865,7 +14448,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 259.08 92.71 0)
+		(at 90.17 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16876,7 +14459,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7b2d48e-c6d3-4e00-83c9-1bdfe22afc57")
 		(property "Reference" "SW14"
-			(at 259.08 85.09 0)
+			(at 90.17 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16886,7 +14469,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 259.08 87.63 0)
+			(at 90.17 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16896,7 +14479,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16907,7 +14490,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16918,7 +14501,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16929,7 +14512,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16940,7 +14523,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16951,7 +14534,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16962,7 +14545,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 259.08 92.71 0)
+			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16989,7 +14572,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 113.03 101.6 0)
+		(at 144.78 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16999,7 +14582,7 @@
 		(dnp no)
 		(uuid "b93319f9-6561-43e9-97b7-f4dcace0e66a")
 		(property "Reference" "#PWR08"
-			(at 113.03 105.41 0)
+			(at 144.78 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17010,7 +14593,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 110.998 98.044 0)
+			(at 142.748 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17020,7 +14603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 101.6 0)
+			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17031,7 +14614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 101.6 0)
+			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17042,7 +14625,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 101.6 0)
+			(at 144.78 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17345,155 +14928,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 199.39 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c611cc12-e3cb-46e5-bd9a-20d743b521ba")
-		(property "Reference" "DM08"
-			(at 201.93 139.6999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 201.93 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JSMSEMI"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "1N4148WS"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C917117"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 199.39 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "673ba772-f91b-4b40-9acb-3e1b428ab520")
-		)
-		(pin "2"
-			(uuid "b63f6407-c556-4d3f-bc4c-f1fd552bdc3c")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "DM08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 328.93 140.97 90)
+		(at 160.02 271.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17504,7 +14939,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7133803-b821-4b3b-8687-e6db12145351")
 		(property "Reference" "DM24"
-			(at 331.47 139.6999 90)
+			(at 162.56 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17515,7 +14950,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 331.47 142.2399 90)
+			(at 162.56 273.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17526,7 +14961,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17537,7 +14972,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17548,7 +14983,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17559,7 +14994,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17570,7 +15005,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17581,7 +15016,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17592,7 +15027,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17603,7 +15038,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17614,7 +15049,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 328.93 140.97 0)
+			(at 160.02 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17766,7 +15201,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 266.7 73.66 90)
+		(at 97.79 204.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17777,7 +15212,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf3df694-a83d-4dd6-988f-850292748798")
 		(property "Reference" "DM13"
-			(at 269.24 72.3899 90)
+			(at 100.33 203.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17788,7 +15223,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 269.24 74.9299 90)
+			(at 100.33 205.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17799,7 +15234,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17810,7 +15245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17821,7 +15256,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17832,7 +15267,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17843,7 +15278,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17854,7 +15289,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17865,7 +15300,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17876,7 +15311,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17887,7 +15322,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 73.66 0)
+			(at 97.79 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17914,7 +15349,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 290.83 115.57 0)
+		(at 121.92 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17925,7 +15360,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfdfbbeb-ec11-4462-8c1b-245009005d95")
 		(property "Reference" "SW19"
-			(at 290.83 107.95 0)
+			(at 121.92 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17935,7 +15370,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 290.83 110.49 0)
+			(at 121.92 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17945,7 +15380,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17956,7 +15391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17967,7 +15402,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17978,7 +15413,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17989,7 +15424,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18000,7 +15435,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18011,7 +15446,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 290.83 115.57 0)
+			(at 121.92 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18038,7 +15473,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 321.31 137.16 0)
+		(at 152.4 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18049,7 +15484,7 @@
 		(fields_autoplaced yes)
 		(uuid "d09c3f9a-6d55-406b-a3d2-2021457b59bb")
 		(property "Reference" "SW24"
-			(at 321.31 129.54 0)
+			(at 152.4 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18059,7 +15494,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 321.31 132.08 0)
+			(at 152.4 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18069,7 +15504,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18080,7 +15515,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18091,7 +15526,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18102,7 +15537,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18113,7 +15548,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18124,7 +15559,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18135,7 +15570,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 321.31 137.16 0)
+			(at 152.4 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18439,7 +15874,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 259.08 115.57 0)
+		(at 90.17 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18450,7 +15885,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9ef3848-8c5a-48d3-9cbe-07dfc6e8265a")
 		(property "Reference" "SW15"
-			(at 259.08 107.95 0)
+			(at 90.17 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18460,7 +15895,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 259.08 110.49 0)
+			(at 90.17 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18470,7 +15905,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18481,7 +15916,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18492,7 +15927,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18503,7 +15938,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18514,7 +15949,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18525,7 +15960,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18536,7 +15971,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 259.08 115.57 0)
+			(at 90.17 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18766,7 +16201,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 265.43 140.97 90)
+		(at 96.52 271.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18777,7 +16212,7 @@
 		(fields_autoplaced yes)
 		(uuid "e252135a-b612-49cf-981d-919dd7bdda9f")
 		(property "Reference" "DM16"
-			(at 267.97 139.6999 90)
+			(at 99.06 270.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18788,7 +16223,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 267.97 142.2399 90)
+			(at 99.06 273.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18799,7 +16234,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18810,7 +16245,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18821,7 +16256,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18832,7 +16267,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18843,7 +16278,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18854,7 +16289,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18865,7 +16300,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18876,7 +16311,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18887,7 +16322,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 265.43 140.97 0)
+			(at 96.52 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19255,139 +16690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 39.37 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e98920d5-5654-4768-b884-de5419cb6e13")
-		(property "Reference" "J4"
-			(at 43.18 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 45.72 177.8 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JST"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "B5B-XH-A(LF)(SN)"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C157991"
-			(at 39.37 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "6f641c13-86a7-4a5a-abb1-6e8adb89ebc4")
-		)
-		(pin "1"
-			(uuid "a08c5ddf-2157-416e-b79a-90b36b15b33e")
-		)
-		(pin "2"
-			(uuid "6eda19d7-f30d-4376-8fbd-07e1ac0d1e67")
-		)
-		(pin "4"
-			(uuid "e593fb45-e14b-4763-9fb0-1aab8ed88232")
-		)
-		(pin "3"
-			(uuid "af54a0f3-1644-4853-b817-8f4685a959cc")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 26.67 58.42 0)
 		(unit 1)
@@ -19466,7 +16768,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 165.1 90)
+		(at 177.8 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19476,7 +16778,7 @@
 		(dnp no)
 		(uuid "eada2f74-88de-4e00-8d45-38c3efefcb26")
 		(property "Reference" "R7"
-			(at 143.764 163.068 90)
+			(at 175.514 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19486,7 +16788,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 148.082 163.068 90)
+			(at 179.832 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19496,7 +16798,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.05 166.878 90)
+			(at 177.8 131.318 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19507,7 +16809,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C105881.pdf"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19518,7 +16820,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19529,7 +16831,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19540,7 +16842,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07330RL"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19551,7 +16853,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19562,7 +16864,7 @@
 			)
 		)
 		(property "LCSC" "C105881"
-			(at 146.05 165.1 0)
+			(at 177.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19589,7 +16891,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 224.79 137.16 0)
+		(at 55.88 267.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19600,7 +16902,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec3e394f-e40c-45b5-90e9-d6f208c2ad9b")
 		(property "Reference" "SW12"
-			(at 224.79 129.54 0)
+			(at 55.88 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19610,7 +16912,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 224.79 132.08 0)
+			(at 55.88 262.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19620,7 +16922,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19631,7 +16933,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19642,7 +16944,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19653,7 +16955,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19664,7 +16966,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19675,7 +16977,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19686,7 +16988,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 224.79 137.16 0)
+			(at 55.88 267.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19945,7 +17247,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 100.33 129.54 90)
+		(at 132.08 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19956,7 +17258,7 @@
 		(fields_autoplaced yes)
 		(uuid "f33a780c-f921-4dbe-8a9e-5389e13f6960")
 		(property "Reference" "#PWR012"
-			(at 104.14 129.54 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19967,7 +17269,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 127 90)
+			(at 130.81 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19977,7 +17279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 129.54 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19988,7 +17290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 129.54 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19999,7 +17301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 100.33 129.54 0)
+			(at 132.08 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20022,132 +17324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 193.04 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f35a9dd7-1fdc-4086-8acf-96a66abd1ef2")
-		(property "Reference" "SW07"
-			(at 193.04 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 193.04 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Kailh"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CPG151101S11-16"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5156480"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1e5469b5-6d5c-45bb-81e9-46f6e5f58451")
-		)
-		(pin "1"
-			(uuid "79382fc6-1000-4de2-a836-bc8cba37d57e")
-		)
-		(instances
-			(project "ErgonomicGamepad"
-				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
-					(reference "SW07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 59.69 176.53 0)
+		(at 67.31 325.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20158,7 +17336,7 @@
 		(fields_autoplaced yes)
 		(uuid "f43c4253-cb5d-422a-a03f-d2887151ece1")
 		(property "Reference" "J6"
-			(at 63.5 177.8 90)
+			(at 66.04 328.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20168,7 +17346,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 66.04 177.8 90)
+			(at 66.04 331.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20178,7 +17356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20189,7 +17367,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C157991.pdf"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20200,7 +17378,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20211,7 +17389,7 @@
 			)
 		)
 		(property "Manufacturer" "JST"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20222,7 +17400,7 @@
 			)
 		)
 		(property "MPN" "B5B-XH-A(LF)(SN)"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20233,7 +17411,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20244,7 +17422,7 @@
 			)
 		)
 		(property "LCSC" "C157991"
-			(at 59.69 176.53 0)
+			(at 67.31 325.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20449,7 +17627,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 290.83 92.71 0)
+		(at 121.92 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20460,7 +17638,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa52d3e9-c4fa-49b8-9c52-2439ce9c0849")
 		(property "Reference" "SW18"
-			(at 290.83 85.09 0)
+			(at 121.92 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20470,7 +17648,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 290.83 87.63 0)
+			(at 121.92 218.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20480,7 +17658,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 290.83 92.71 0)
+			(at 121.92 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20491,7 +17669,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 290.83 92.71 0)
+			(at 121.92 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20502,7 +17680,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 290.83 92.71 0)
+			(at 121.92 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20513,7 +17691,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 33.02 97.79 0)
+			(at -135.89 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20524,7 +17702,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 33.02 97.79 0)
+			(at -135.89 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20535,7 +17713,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 33.02 97.79 0)
+			(at -135.89 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20546,7 +17724,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 33.02 97.79 0)
+			(at -135.89 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20573,7 +17751,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 233.68 119.38 90)
+		(at 64.77 250.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20584,7 +17762,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc725ae5-4fcc-4001-aecc-a3e3da82acf0")
 		(property "Reference" "DM11"
-			(at 236.22 118.1099 90)
+			(at 67.31 248.9199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20595,7 +17773,7 @@
 			)
 		)
 		(property "Value" "1N4148WS"
-			(at 236.22 120.6499 90)
+			(at 67.31 251.4599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20606,7 +17784,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20617,7 +17795,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C917117.pdf"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20628,7 +17806,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20639,7 +17817,7 @@
 			)
 		)
 		(property "Manufacturer" "JSMSEMI"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20650,7 +17828,7 @@
 			)
 		)
 		(property "MPN" "1N4148WS"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20661,7 +17839,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20672,7 +17850,7 @@
 			)
 		)
 		(property "LCSC" "C917117"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20683,7 +17861,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20694,7 +17872,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 119.38 0)
+			(at 64.77 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20721,7 +17899,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
-		(at 259.08 69.85 0)
+		(at 90.17 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20732,7 +17910,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce3b196-896c-4017-ab2e-9c786e3388f3")
 		(property "Reference" "SW13"
-			(at 259.08 62.23 0)
+			(at 90.17 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20742,7 +17920,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 259.08 64.77 0)
+			(at 90.17 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20752,7 +17930,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20763,7 +17941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5156480.pdf"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20774,7 +17952,7 @@
 			)
 		)
 		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20785,7 +17963,7 @@
 			)
 		)
 		(property "Manufacturer" "Kailh"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20796,7 +17974,7 @@
 			)
 		)
 		(property "MPN" "CPG151101S11-16"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20807,7 +17985,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20818,7 +17996,7 @@
 			)
 		)
 		(property "LCSC" "C5156480"
-			(at 259.08 69.85 0)
+			(at 90.17 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20918,6 +18096,98 @@
 				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
 					(reference "#PWR07")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 14.605 321.945)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06da17ab-1096-46de-83ad-13ec88c7b4d4")
+		(property "Sheetname" "ErgonomicGamepad"
+			(at 14.605 321.2334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ErgonomicGamepadPinkie.kicad_sch"
+			(at 14.605 326.3396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.705 335.28)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3c1a1c66-a2d5-422d-a483-3afe73f8ccb2")
+		(property "Sheetname" "ErgonomicGamepadThumb"
+			(at 52.705 334.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ErgonomicGamepadThumb.kicad_sch"
+			(at 52.705 339.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ErgonomicGamepad"
+				(path "/c260e742-1838-4e17-a552-9a0d399dd921"
+					(page "3")
 				)
 			)
 		)
