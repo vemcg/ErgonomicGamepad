@@ -28,7 +28,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SCH_PATH = ROOT / "ErgonomicGamepad.kicad_sch"
+SCH_PATHS = sorted(ROOT.glob("*.kicad_sch"))
 PCB_PATH = ROOT / "ErgonomicGamepad.kicad_pcb"
 
 AT_RE = re.compile(r"\(at\s+(-?[\d.]+)\s+(-?[\d.]+)(?:\s+(-?[\d.]+))?\s*\)")
@@ -79,19 +79,22 @@ def iter_blocks(text: str, open_pattern: str):
         yield start, find_matching_paren(text, start)
 
 
-def parse_schematic_positions(sch_text: str) -> dict:
-    """Map reference designator -> (x_str, y_str, angle_str) from placed schematic symbols."""
+def parse_schematic_positions(sch_texts: list) -> dict:
+    """Map reference designator -> (x_str, y_str, angle_str) from placed schematic symbols,
+    across every sheet in the hierarchy. Reference designators are unique project-wide, so
+    positions from all sheets are merged into a single lookup."""
     positions = {}
-    for start, end in iter_blocks(sch_text, r"\(symbol\s+\(lib_id"):
-        block = sch_text[start:end + 1]
-        at_m = AT_RE.search(block)
-        ref_m = REFERENCE_RE.search(block)
-        if not at_m or not ref_m:
-            continue
-        ref = ref_m.group(1)
-        if ref in positions:
-            continue  # first occurrence wins (multi-unit symbols)
-        positions[ref] = (at_m.group(1), at_m.group(2), at_m.group(3) or "0")
+    for sch_text in sch_texts:
+        for start, end in iter_blocks(sch_text, r"\(symbol\s+\(lib_id"):
+            block = sch_text[start:end + 1]
+            at_m = AT_RE.search(block)
+            ref_m = REFERENCE_RE.search(block)
+            if not at_m or not ref_m:
+                continue
+            ref = ref_m.group(1)
+            if ref in positions:
+                continue  # first occurrence wins (multi-unit symbols)
+            positions[ref] = (at_m.group(1), at_m.group(2), at_m.group(3) or "0")
     return positions
 
 
@@ -142,10 +145,10 @@ def apply_edits(text: str, edits: list) -> str:
 
 
 def cmd_sync(args):
-    sch_text = read_text(SCH_PATH)
+    sch_texts = [read_text(p) for p in SCH_PATHS]
     pcb_text = read_text(PCB_PATH)
 
-    sch_positions = parse_schematic_positions(sch_text)
+    sch_positions = parse_schematic_positions(sch_texts)
     routed_nets = find_routed_nets(pcb_text)
     footprints = parse_footprints(pcb_text)
 
